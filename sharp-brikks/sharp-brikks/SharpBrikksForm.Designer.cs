@@ -1,6 +1,6 @@
 ﻿namespace sharpbrikks
 {
-    partial class SharpBrikksMainForm
+    partial class SharpBrikksForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SharpBrikksMainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SharpBrikksForm));
             this.ResetBoardButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.RollDiceButton = new System.Windows.Forms.Button();
@@ -913,7 +913,6 @@
             // brikksPictureBox83
             // 
             this.brikksPictureBox83.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox83.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox83.BackgroundImage")));
             this.brikksPictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox83.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox83.Image")));
             this.brikksPictureBox83.IsFixed = false;
@@ -929,7 +928,6 @@
             // brikksPictureBox84
             // 
             this.brikksPictureBox84.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox84.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox84.BackgroundImage")));
             this.brikksPictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox84.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox84.Image")));
             this.brikksPictureBox84.IsFixed = false;
@@ -945,7 +943,6 @@
             // brikksPictureBox85
             // 
             this.brikksPictureBox85.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox85.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox85.BackgroundImage")));
             this.brikksPictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox85.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox85.Image")));
             this.brikksPictureBox85.IsFixed = false;
@@ -961,7 +958,6 @@
             // brikksPictureBox86
             // 
             this.brikksPictureBox86.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox86.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox86.BackgroundImage")));
             this.brikksPictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox86.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox86.Image")));
             this.brikksPictureBox86.IsFixed = false;
@@ -977,7 +973,6 @@
             // brikksPictureBox75
             // 
             this.brikksPictureBox75.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox75.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox75.BackgroundImage")));
             this.brikksPictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox75.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox75.Image")));
             this.brikksPictureBox75.IsFixed = false;
@@ -993,7 +988,6 @@
             // brikksPictureBox77
             // 
             this.brikksPictureBox77.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox77.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox77.BackgroundImage")));
             this.brikksPictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox77.Image")));
             this.brikksPictureBox77.IsFixed = false;
@@ -1009,7 +1003,6 @@
             // brikksPictureBox80
             // 
             this.brikksPictureBox80.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox80.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox80.BackgroundImage")));
             this.brikksPictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox80.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox80.Image")));
             this.brikksPictureBox80.IsFixed = false;
@@ -1025,7 +1018,6 @@
             // brikksPictureBox82
             // 
             this.brikksPictureBox82.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox82.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox82.BackgroundImage")));
             this.brikksPictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox82.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox82.Image")));
             this.brikksPictureBox82.IsFixed = false;
@@ -1041,7 +1033,6 @@
             // brikksPictureBox68
             // 
             this.brikksPictureBox68.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox68.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox68.BackgroundImage")));
             this.brikksPictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox68.Image")));
             this.brikksPictureBox68.IsFixed = false;
@@ -1057,7 +1048,6 @@
             // brikksPictureBox71
             // 
             this.brikksPictureBox71.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox71.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox71.BackgroundImage")));
             this.brikksPictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox71.Image")));
             this.brikksPictureBox71.IsFixed = false;
@@ -1073,7 +1063,6 @@
             // brikksPictureBox72
             // 
             this.brikksPictureBox72.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox72.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox72.BackgroundImage")));
             this.brikksPictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox72.Image")));
             this.brikksPictureBox72.IsFixed = false;
@@ -1089,7 +1078,6 @@
             // brikksPictureBox74
             // 
             this.brikksPictureBox74.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox74.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox74.BackgroundImage")));
             this.brikksPictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox74.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox74.Image")));
             this.brikksPictureBox74.IsFixed = false;
@@ -1105,7 +1093,6 @@
             // brikksPictureBox59
             // 
             this.brikksPictureBox59.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox59.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox59.BackgroundImage")));
             this.brikksPictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox59.Image")));
             this.brikksPictureBox59.IsFixed = false;
@@ -1121,7 +1108,6 @@
             // brikksPictureBox62
             // 
             this.brikksPictureBox62.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox62.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox62.BackgroundImage")));
             this.brikksPictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox62.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox62.Image")));
             this.brikksPictureBox62.IsFixed = false;
@@ -1137,7 +1123,6 @@
             // brikksPictureBox65
             // 
             this.brikksPictureBox65.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox65.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox65.BackgroundImage")));
             this.brikksPictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox65.Image")));
             this.brikksPictureBox65.IsFixed = false;
@@ -1153,7 +1138,6 @@
             // brikksPictureBox67
             // 
             this.brikksPictureBox67.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox67.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox67.BackgroundImage")));
             this.brikksPictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox67.Image")));
             this.brikksPictureBox67.IsFixed = false;
@@ -1169,7 +1153,6 @@
             // brikksPictureBox54
             // 
             this.brikksPictureBox54.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox54.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox54.BackgroundImage")));
             this.brikksPictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox54.Image")));
             this.brikksPictureBox54.IsFixed = false;
@@ -1185,7 +1168,6 @@
             // brikksPictureBox56
             // 
             this.brikksPictureBox56.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox56.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox56.BackgroundImage")));
             this.brikksPictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox56.Image")));
             this.brikksPictureBox56.IsFixed = false;
@@ -1201,7 +1183,6 @@
             // brikksPictureBox57
             // 
             this.brikksPictureBox57.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox57.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox57.BackgroundImage")));
             this.brikksPictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox57.Image")));
             this.brikksPictureBox57.IsFixed = false;
@@ -1217,7 +1198,6 @@
             // brikksPictureBox58
             // 
             this.brikksPictureBox58.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox58.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox58.BackgroundImage")));
             this.brikksPictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox58.Image")));
             this.brikksPictureBox58.IsFixed = false;
@@ -1233,7 +1213,6 @@
             // brikksPictureBox47
             // 
             this.brikksPictureBox47.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox47.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox47.BackgroundImage")));
             this.brikksPictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox47.Image")));
             this.brikksPictureBox47.IsFixed = false;
@@ -1249,7 +1228,6 @@
             // brikksPictureBox50
             // 
             this.brikksPictureBox50.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox50.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox50.BackgroundImage")));
             this.brikksPictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox50.Image")));
             this.brikksPictureBox50.IsFixed = false;
@@ -1265,7 +1243,6 @@
             // brikksPictureBox51
             // 
             this.brikksPictureBox51.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox51.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox51.BackgroundImage")));
             this.brikksPictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox51.Image")));
             this.brikksPictureBox51.IsFixed = false;
@@ -1281,7 +1258,6 @@
             // brikksPictureBox53
             // 
             this.brikksPictureBox53.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox53.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox53.BackgroundImage")));
             this.brikksPictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox53.Image")));
             this.brikksPictureBox53.IsFixed = false;
@@ -1331,7 +1307,6 @@
             // brikksPictureBox99
             // 
             this.brikksPictureBox99.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox99.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox99.BackgroundImage")));
             this.brikksPictureBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox99.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox99.Image")));
             this.brikksPictureBox99.IsFixed = false;
@@ -1347,7 +1322,6 @@
             // brikksPictureBox100
             // 
             this.brikksPictureBox100.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox100.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox100.BackgroundImage")));
             this.brikksPictureBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox100.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox100.Image")));
             this.brikksPictureBox100.IsFixed = false;
@@ -1363,7 +1337,6 @@
             // brikksPictureBox101
             // 
             this.brikksPictureBox101.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox101.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox101.BackgroundImage")));
             this.brikksPictureBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox101.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox101.Image")));
             this.brikksPictureBox101.IsFixed = false;
@@ -1379,7 +1352,6 @@
             // brikksPictureBox102
             // 
             this.brikksPictureBox102.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox102.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox102.BackgroundImage")));
             this.brikksPictureBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox102.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox102.Image")));
             this.brikksPictureBox102.IsFixed = false;
@@ -1395,7 +1367,6 @@
             // brikksPictureBox103
             // 
             this.brikksPictureBox103.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox103.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox103.BackgroundImage")));
             this.brikksPictureBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox103.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox103.Image")));
             this.brikksPictureBox103.IsFixed = false;
@@ -1411,7 +1382,6 @@
             // brikksPictureBox104
             // 
             this.brikksPictureBox104.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox104.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox104.BackgroundImage")));
             this.brikksPictureBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox104.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox104.Image")));
             this.brikksPictureBox104.IsFixed = false;
@@ -1427,7 +1397,6 @@
             // brikksPictureBox105
             // 
             this.brikksPictureBox105.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox105.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox105.BackgroundImage")));
             this.brikksPictureBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox105.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox105.Image")));
             this.brikksPictureBox105.IsFixed = false;
@@ -1443,7 +1412,6 @@
             // brikksPictureBox106
             // 
             this.brikksPictureBox106.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox106.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox106.BackgroundImage")));
             this.brikksPictureBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox106.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox106.Image")));
             this.brikksPictureBox106.IsFixed = false;
@@ -1459,7 +1427,6 @@
             // brikksPictureBox107
             // 
             this.brikksPictureBox107.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox107.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox107.BackgroundImage")));
             this.brikksPictureBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox107.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox107.Image")));
             this.brikksPictureBox107.IsFixed = false;
@@ -1475,7 +1442,6 @@
             // brikksPictureBox108
             // 
             this.brikksPictureBox108.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox108.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox108.BackgroundImage")));
             this.brikksPictureBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox108.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox108.Image")));
             this.brikksPictureBox108.IsFixed = false;
@@ -1491,7 +1457,6 @@
             // brikksPictureBox109
             // 
             this.brikksPictureBox109.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox109.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox109.BackgroundImage")));
             this.brikksPictureBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox109.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox109.Image")));
             this.brikksPictureBox109.IsFixed = false;
@@ -1507,7 +1472,6 @@
             // brikksPictureBox110
             // 
             this.brikksPictureBox110.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox110.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox110.BackgroundImage")));
             this.brikksPictureBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox110.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox110.Image")));
             this.brikksPictureBox110.IsFixed = false;
@@ -1523,7 +1487,6 @@
             // brikksPictureBox111
             // 
             this.brikksPictureBox111.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox111.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox111.BackgroundImage")));
             this.brikksPictureBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox111.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox111.Image")));
             this.brikksPictureBox111.IsFixed = false;
@@ -1539,7 +1502,6 @@
             // brikksPictureBox112
             // 
             this.brikksPictureBox112.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox112.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox112.BackgroundImage")));
             this.brikksPictureBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox112.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox112.Image")));
             this.brikksPictureBox112.IsFixed = false;
@@ -1555,7 +1517,6 @@
             // brikksPictureBox113
             // 
             this.brikksPictureBox113.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox113.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox113.BackgroundImage")));
             this.brikksPictureBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox113.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox113.Image")));
             this.brikksPictureBox113.IsFixed = false;
@@ -1571,7 +1532,6 @@
             // brikksPictureBox114
             // 
             this.brikksPictureBox114.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox114.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox114.BackgroundImage")));
             this.brikksPictureBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox114.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox114.Image")));
             this.brikksPictureBox114.IsFixed = false;
@@ -1587,7 +1547,6 @@
             // brikksPictureBox119
             // 
             this.brikksPictureBox119.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox119.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox119.BackgroundImage")));
             this.brikksPictureBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox119.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox119.Image")));
             this.brikksPictureBox119.IsFixed = false;
@@ -1603,7 +1562,6 @@
             // brikksPictureBox120
             // 
             this.brikksPictureBox120.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox120.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox120.BackgroundImage")));
             this.brikksPictureBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox120.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox120.Image")));
             this.brikksPictureBox120.IsFixed = false;
@@ -1619,7 +1577,6 @@
             // brikksPictureBox121
             // 
             this.brikksPictureBox121.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox121.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox121.BackgroundImage")));
             this.brikksPictureBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox121.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox121.Image")));
             this.brikksPictureBox121.IsFixed = false;
@@ -1635,7 +1592,6 @@
             // brikksPictureBox125
             // 
             this.brikksPictureBox125.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox125.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox125.BackgroundImage")));
             this.brikksPictureBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox125.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox125.Image")));
             this.brikksPictureBox125.IsFixed = false;
@@ -1651,7 +1607,6 @@
             // brikksPictureBox126
             // 
             this.brikksPictureBox126.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox126.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox126.BackgroundImage")));
             this.brikksPictureBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox126.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox126.Image")));
             this.brikksPictureBox126.IsFixed = false;
@@ -1667,7 +1622,6 @@
             // brikksPictureBox128
             // 
             this.brikksPictureBox128.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox128.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox128.BackgroundImage")));
             this.brikksPictureBox128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox128.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox128.Image")));
             this.brikksPictureBox128.IsFixed = false;
@@ -1683,7 +1637,6 @@
             // brikksPictureBox130
             // 
             this.brikksPictureBox130.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox130.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox130.BackgroundImage")));
             this.brikksPictureBox130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox130.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox130.Image")));
             this.brikksPictureBox130.IsFixed = false;
@@ -1699,7 +1652,6 @@
             // brikksPictureBox131
             // 
             this.brikksPictureBox131.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox131.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox131.BackgroundImage")));
             this.brikksPictureBox131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox131.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox131.Image")));
             this.brikksPictureBox131.IsFixed = false;
@@ -1749,7 +1701,6 @@
             // brikksPictureBox133
             // 
             this.brikksPictureBox133.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox133.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox133.BackgroundImage")));
             this.brikksPictureBox133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox133.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox133.Image")));
             this.brikksPictureBox133.IsFixed = false;
@@ -1765,7 +1716,6 @@
             // brikksPictureBox134
             // 
             this.brikksPictureBox134.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox134.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox134.BackgroundImage")));
             this.brikksPictureBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox134.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox134.Image")));
             this.brikksPictureBox134.IsFixed = false;
@@ -1781,7 +1731,6 @@
             // brikksPictureBox135
             // 
             this.brikksPictureBox135.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox135.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox135.BackgroundImage")));
             this.brikksPictureBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox135.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox135.Image")));
             this.brikksPictureBox135.IsFixed = false;
@@ -1797,7 +1746,6 @@
             // brikksPictureBox136
             // 
             this.brikksPictureBox136.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox136.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox136.BackgroundImage")));
             this.brikksPictureBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox136.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox136.Image")));
             this.brikksPictureBox136.IsFixed = false;
@@ -1813,7 +1761,6 @@
             // brikksPictureBox137
             // 
             this.brikksPictureBox137.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox137.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox137.BackgroundImage")));
             this.brikksPictureBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox137.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox137.Image")));
             this.brikksPictureBox137.IsFixed = false;
@@ -1829,7 +1776,6 @@
             // brikksPictureBox142
             // 
             this.brikksPictureBox142.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox142.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox142.BackgroundImage")));
             this.brikksPictureBox142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox142.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox142.Image")));
             this.brikksPictureBox142.IsFixed = false;
@@ -1845,7 +1791,6 @@
             // brikksPictureBox143
             // 
             this.brikksPictureBox143.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox143.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox143.BackgroundImage")));
             this.brikksPictureBox143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox143.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox143.Image")));
             this.brikksPictureBox143.IsFixed = false;
@@ -1861,7 +1806,6 @@
             // brikksPictureBox144
             // 
             this.brikksPictureBox144.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox144.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox144.BackgroundImage")));
             this.brikksPictureBox144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox144.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox144.Image")));
             this.brikksPictureBox144.IsFixed = false;
@@ -1877,7 +1821,6 @@
             // brikksPictureBox145
             // 
             this.brikksPictureBox145.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox145.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox145.BackgroundImage")));
             this.brikksPictureBox145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox145.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox145.Image")));
             this.brikksPictureBox145.IsFixed = false;
@@ -1893,7 +1836,6 @@
             // brikksPictureBox148
             // 
             this.brikksPictureBox148.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox148.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox148.BackgroundImage")));
             this.brikksPictureBox148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox148.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox148.Image")));
             this.brikksPictureBox148.IsFixed = false;
@@ -1909,7 +1851,6 @@
             // brikksPictureBox149
             // 
             this.brikksPictureBox149.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox149.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox149.BackgroundImage")));
             this.brikksPictureBox149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox149.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox149.Image")));
             this.brikksPictureBox149.IsFixed = false;
@@ -1925,7 +1866,6 @@
             // brikksPictureBox153
             // 
             this.brikksPictureBox153.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox153.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox153.BackgroundImage")));
             this.brikksPictureBox153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox153.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox153.Image")));
             this.brikksPictureBox153.IsFixed = false;
@@ -1941,7 +1881,6 @@
             // brikksPictureBox154
             // 
             this.brikksPictureBox154.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox154.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox154.BackgroundImage")));
             this.brikksPictureBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox154.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox154.Image")));
             this.brikksPictureBox154.IsFixed = false;
@@ -1957,7 +1896,6 @@
             // brikksPictureBox156
             // 
             this.brikksPictureBox156.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox156.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox156.BackgroundImage")));
             this.brikksPictureBox156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox156.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox156.Image")));
             this.brikksPictureBox156.IsFixed = false;
@@ -1973,7 +1911,6 @@
             // brikksPictureBox157
             // 
             this.brikksPictureBox157.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox157.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox157.BackgroundImage")));
             this.brikksPictureBox157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox157.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox157.Image")));
             this.brikksPictureBox157.IsFixed = false;
@@ -1989,7 +1926,6 @@
             // brikksPictureBox160
             // 
             this.brikksPictureBox160.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox160.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox160.BackgroundImage")));
             this.brikksPictureBox160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox160.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox160.Image")));
             this.brikksPictureBox160.IsFixed = false;
@@ -2005,7 +1941,6 @@
             // brikksPictureBox161
             // 
             this.brikksPictureBox161.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox161.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox161.BackgroundImage")));
             this.brikksPictureBox161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox161.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox161.Image")));
             this.brikksPictureBox161.IsFixed = false;
@@ -2021,7 +1956,6 @@
             // brikksPictureBox162
             // 
             this.brikksPictureBox162.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox162.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox162.BackgroundImage")));
             this.brikksPictureBox162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox162.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox162.Image")));
             this.brikksPictureBox162.IsFixed = false;
@@ -2037,7 +1971,6 @@
             // brikksPictureBox163
             // 
             this.brikksPictureBox163.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox163.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox163.BackgroundImage")));
             this.brikksPictureBox163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox163.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox163.Image")));
             this.brikksPictureBox163.IsFixed = false;
@@ -2053,7 +1986,6 @@
             // brikksPictureBox164
             // 
             this.brikksPictureBox164.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox164.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox164.BackgroundImage")));
             this.brikksPictureBox164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox164.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox164.Image")));
             this.brikksPictureBox164.IsFixed = false;
@@ -2069,7 +2001,6 @@
             // brikksPictureBox165
             // 
             this.brikksPictureBox165.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox165.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox165.BackgroundImage")));
             this.brikksPictureBox165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox165.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox165.Image")));
             this.brikksPictureBox165.IsFixed = false;
@@ -2085,7 +2016,6 @@
             // brikksPictureBox170
             // 
             this.brikksPictureBox170.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox170.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox170.BackgroundImage")));
             this.brikksPictureBox170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox170.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox170.Image")));
             this.brikksPictureBox170.IsFixed = false;
@@ -2101,7 +2031,6 @@
             // brikksPictureBox171
             // 
             this.brikksPictureBox171.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox171.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox171.BackgroundImage")));
             this.brikksPictureBox171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox171.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox171.Image")));
             this.brikksPictureBox171.IsFixed = false;
@@ -2117,7 +2046,6 @@
             // brikksPictureBox172
             // 
             this.brikksPictureBox172.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox172.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox172.BackgroundImage")));
             this.brikksPictureBox172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox172.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox172.Image")));
             this.brikksPictureBox172.IsFixed = false;
@@ -2167,7 +2095,6 @@
             // brikksPictureBox173
             // 
             this.brikksPictureBox173.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox173.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox173.BackgroundImage")));
             this.brikksPictureBox173.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox173.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox173.Image")));
             this.brikksPictureBox173.IsFixed = false;
@@ -2183,7 +2110,6 @@
             // brikksPictureBox174
             // 
             this.brikksPictureBox174.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox174.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox174.BackgroundImage")));
             this.brikksPictureBox174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox174.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox174.Image")));
             this.brikksPictureBox174.IsFixed = false;
@@ -2199,7 +2125,6 @@
             // brikksPictureBox175
             // 
             this.brikksPictureBox175.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox175.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox175.BackgroundImage")));
             this.brikksPictureBox175.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox175.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox175.Image")));
             this.brikksPictureBox175.IsFixed = false;
@@ -2215,7 +2140,6 @@
             // brikksPictureBox176
             // 
             this.brikksPictureBox176.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox176.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox176.BackgroundImage")));
             this.brikksPictureBox176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox176.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox176.Image")));
             this.brikksPictureBox176.IsFixed = false;
@@ -2231,7 +2155,6 @@
             // brikksPictureBox177
             // 
             this.brikksPictureBox177.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox177.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox177.BackgroundImage")));
             this.brikksPictureBox177.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox177.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox177.Image")));
             this.brikksPictureBox177.IsFixed = false;
@@ -2247,7 +2170,6 @@
             // brikksPictureBox178
             // 
             this.brikksPictureBox178.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox178.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox178.BackgroundImage")));
             this.brikksPictureBox178.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox178.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox178.Image")));
             this.brikksPictureBox178.IsFixed = false;
@@ -2263,7 +2185,6 @@
             // brikksPictureBox179
             // 
             this.brikksPictureBox179.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox179.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox179.BackgroundImage")));
             this.brikksPictureBox179.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox179.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox179.Image")));
             this.brikksPictureBox179.IsFixed = false;
@@ -2279,7 +2200,6 @@
             // brikksPictureBox180
             // 
             this.brikksPictureBox180.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox180.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox180.BackgroundImage")));
             this.brikksPictureBox180.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox180.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox180.Image")));
             this.brikksPictureBox180.IsFixed = false;
@@ -2295,7 +2215,6 @@
             // brikksPictureBox181
             // 
             this.brikksPictureBox181.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox181.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox181.BackgroundImage")));
             this.brikksPictureBox181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox181.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox181.Image")));
             this.brikksPictureBox181.IsFixed = false;
@@ -2311,7 +2230,6 @@
             // brikksPictureBox182
             // 
             this.brikksPictureBox182.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox182.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox182.BackgroundImage")));
             this.brikksPictureBox182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox182.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox182.Image")));
             this.brikksPictureBox182.IsFixed = false;
@@ -2327,7 +2245,6 @@
             // brikksPictureBox183
             // 
             this.brikksPictureBox183.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox183.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox183.BackgroundImage")));
             this.brikksPictureBox183.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox183.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox183.Image")));
             this.brikksPictureBox183.IsFixed = false;
@@ -2343,7 +2260,6 @@
             // brikksPictureBox184
             // 
             this.brikksPictureBox184.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox184.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox184.BackgroundImage")));
             this.brikksPictureBox184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox184.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox184.Image")));
             this.brikksPictureBox184.IsFixed = false;
@@ -2359,7 +2275,6 @@
             // brikksPictureBox185
             // 
             this.brikksPictureBox185.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox185.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox185.BackgroundImage")));
             this.brikksPictureBox185.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox185.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox185.Image")));
             this.brikksPictureBox185.IsFixed = false;
@@ -2375,7 +2290,6 @@
             // brikksPictureBox186
             // 
             this.brikksPictureBox186.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox186.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox186.BackgroundImage")));
             this.brikksPictureBox186.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox186.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox186.Image")));
             this.brikksPictureBox186.IsFixed = false;
@@ -2391,7 +2305,6 @@
             // brikksPictureBox187
             // 
             this.brikksPictureBox187.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox187.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox187.BackgroundImage")));
             this.brikksPictureBox187.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox187.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox187.Image")));
             this.brikksPictureBox187.IsFixed = false;
@@ -2407,7 +2320,6 @@
             // brikksPictureBox188
             // 
             this.brikksPictureBox188.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox188.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox188.BackgroundImage")));
             this.brikksPictureBox188.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox188.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox188.Image")));
             this.brikksPictureBox188.IsFixed = false;
@@ -2423,7 +2335,6 @@
             // brikksPictureBox189
             // 
             this.brikksPictureBox189.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox189.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox189.BackgroundImage")));
             this.brikksPictureBox189.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox189.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox189.Image")));
             this.brikksPictureBox189.IsFixed = false;
@@ -2439,7 +2350,6 @@
             // brikksPictureBox190
             // 
             this.brikksPictureBox190.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox190.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox190.BackgroundImage")));
             this.brikksPictureBox190.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox190.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox190.Image")));
             this.brikksPictureBox190.IsFixed = false;
@@ -2455,7 +2365,6 @@
             // brikksPictureBox191
             // 
             this.brikksPictureBox191.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox191.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox191.BackgroundImage")));
             this.brikksPictureBox191.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox191.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox191.Image")));
             this.brikksPictureBox191.IsFixed = false;
@@ -2471,7 +2380,6 @@
             // brikksPictureBox192
             // 
             this.brikksPictureBox192.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox192.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox192.BackgroundImage")));
             this.brikksPictureBox192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox192.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox192.Image")));
             this.brikksPictureBox192.IsFixed = false;
@@ -2487,7 +2395,6 @@
             // brikksPictureBox193
             // 
             this.brikksPictureBox193.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox193.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox193.BackgroundImage")));
             this.brikksPictureBox193.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox193.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox193.Image")));
             this.brikksPictureBox193.IsFixed = false;
@@ -2503,7 +2410,6 @@
             // brikksPictureBox194
             // 
             this.brikksPictureBox194.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox194.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox194.BackgroundImage")));
             this.brikksPictureBox194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox194.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox194.Image")));
             this.brikksPictureBox194.IsFixed = false;
@@ -2519,7 +2425,6 @@
             // brikksPictureBox195
             // 
             this.brikksPictureBox195.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox195.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox195.BackgroundImage")));
             this.brikksPictureBox195.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox195.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox195.Image")));
             this.brikksPictureBox195.IsFixed = false;
@@ -2535,7 +2440,6 @@
             // brikksPictureBox196
             // 
             this.brikksPictureBox196.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox196.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox196.BackgroundImage")));
             this.brikksPictureBox196.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox196.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox196.Image")));
             this.brikksPictureBox196.IsFixed = false;
@@ -2709,7 +2613,6 @@
             // 
             // brikksPictureBox98
             // 
-            this.brikksPictureBox98.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox98.BackgroundImage")));
             this.brikksPictureBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox98.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox98.IsFixed = false;
@@ -2724,7 +2627,6 @@
             // 
             // brikksPictureBox78
             // 
-            this.brikksPictureBox78.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox78.BackgroundImage")));
             this.brikksPictureBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox78.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox78.IsFixed = false;
@@ -2739,7 +2641,6 @@
             // 
             // brikksPictureBox79
             // 
-            this.brikksPictureBox79.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox79.BackgroundImage")));
             this.brikksPictureBox79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox79.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox79.IsFixed = false;
@@ -2754,7 +2655,6 @@
             // 
             // brikksPictureBox81
             // 
-            this.brikksPictureBox81.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox81.BackgroundImage")));
             this.brikksPictureBox81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox81.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox81.IsFixed = false;
@@ -2769,7 +2669,6 @@
             // 
             // brikksPictureBox70
             // 
-            this.brikksPictureBox70.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox70.BackgroundImage")));
             this.brikksPictureBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox70.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox70.IsFixed = false;
@@ -2784,7 +2683,6 @@
             // 
             // brikksPictureBox73
             // 
-            this.brikksPictureBox73.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox73.BackgroundImage")));
             this.brikksPictureBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox73.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox73.IsFixed = false;
@@ -2799,7 +2697,6 @@
             // 
             // brikksPictureBox76
             // 
-            this.brikksPictureBox76.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox76.BackgroundImage")));
             this.brikksPictureBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox76.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox76.IsFixed = false;
@@ -2814,7 +2711,6 @@
             // 
             // brikksPictureBox66
             // 
-            this.brikksPictureBox66.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox66.BackgroundImage")));
             this.brikksPictureBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox66.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox66.IsFixed = false;
@@ -2829,7 +2725,6 @@
             // 
             // brikksPictureBox69
             // 
-            this.brikksPictureBox69.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox69.BackgroundImage")));
             this.brikksPictureBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox69.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox69.IsFixed = false;
@@ -2844,7 +2739,6 @@
             // 
             // brikksPictureBox61
             // 
-            this.brikksPictureBox61.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox61.BackgroundImage")));
             this.brikksPictureBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox61.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox61.IsFixed = false;
@@ -2859,7 +2753,6 @@
             // 
             // brikksPictureBox63
             // 
-            this.brikksPictureBox63.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox63.BackgroundImage")));
             this.brikksPictureBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox63.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox63.IsFixed = false;
@@ -2874,7 +2767,6 @@
             // 
             // brikksPictureBox64
             // 
-            this.brikksPictureBox64.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox64.BackgroundImage")));
             this.brikksPictureBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox64.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox64.IsFixed = false;
@@ -2889,7 +2781,6 @@
             // 
             // brikksPictureBox55
             // 
-            this.brikksPictureBox55.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox55.BackgroundImage")));
             this.brikksPictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox55.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox55.IsFixed = false;
@@ -2904,7 +2795,6 @@
             // 
             // brikksPictureBox60
             // 
-            this.brikksPictureBox60.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox60.BackgroundImage")));
             this.brikksPictureBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox60.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox60.IsFixed = false;
@@ -2919,7 +2809,6 @@
             // 
             // brikksPictureBox52
             // 
-            this.brikksPictureBox52.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox52.BackgroundImage")));
             this.brikksPictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox52.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox52.IsFixed = false;
@@ -2934,7 +2823,6 @@
             // 
             // brikksPictureBox23
             // 
-            this.brikksPictureBox23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox23.BackgroundImage")));
             this.brikksPictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox23.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox23.IsFixed = false;
@@ -2949,7 +2837,6 @@
             // 
             // brikksPictureBox48
             // 
-            this.brikksPictureBox48.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox48.BackgroundImage")));
             this.brikksPictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox48.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox48.IsFixed = false;
@@ -2964,7 +2851,6 @@
             // 
             // brikksPictureBox49
             // 
-            this.brikksPictureBox49.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox49.BackgroundImage")));
             this.brikksPictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox49.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox49.IsFixed = false;
@@ -2979,7 +2865,6 @@
             // 
             // brikksPictureBox1
             // 
-            this.brikksPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox1.BackgroundImage")));
             this.brikksPictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox1.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox1.IsFixed = false;
@@ -2994,7 +2879,6 @@
             // 
             // brikksPictureBox2
             // 
-            this.brikksPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox2.BackgroundImage")));
             this.brikksPictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox2.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox2.IsFixed = false;
@@ -3009,7 +2893,6 @@
             // 
             // brikksPictureBox17
             // 
-            this.brikksPictureBox17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox17.BackgroundImage")));
             this.brikksPictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox17.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox17.IsFixed = false;
@@ -3024,7 +2907,6 @@
             // 
             // brikksPictureBox97
             // 
-            this.brikksPictureBox97.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox97.BackgroundImage")));
             this.brikksPictureBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox97.Image = global::sharpbrikks.Properties.Resources.ball_glow_small_bonus;
             this.brikksPictureBox97.IsFixed = false;
@@ -3039,7 +2921,6 @@
             // 
             // brikksPictureBox96
             // 
-            this.brikksPictureBox96.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox96.BackgroundImage")));
             this.brikksPictureBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox96.Image = global::sharpbrikks.Properties.Resources.ball_glow_small;
             this.brikksPictureBox96.IsFixed = false;
@@ -3056,7 +2937,6 @@
             // 
             this.brikksPictureBox95.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox95.BackgroundImage")));
             this.brikksPictureBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox95.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox95.Image")));
             this.brikksPictureBox95.IsFixed = false;
             this.brikksPictureBox95.IsMarked = false;
             this.brikksPictureBox95.Location = new System.Drawing.Point(849, 12);
@@ -3071,7 +2951,6 @@
             // 
             this.brikksPictureBox94.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox94.BackgroundImage")));
             this.brikksPictureBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox94.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox94.Image")));
             this.brikksPictureBox94.IsFixed = false;
             this.brikksPictureBox94.IsMarked = false;
             this.brikksPictureBox94.Location = new System.Drawing.Point(809, 12);
@@ -3086,7 +2965,6 @@
             // 
             this.brikksPictureBox93.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox93.BackgroundImage")));
             this.brikksPictureBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox93.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox93.Image")));
             this.brikksPictureBox93.IsFixed = false;
             this.brikksPictureBox93.IsMarked = false;
             this.brikksPictureBox93.Location = new System.Drawing.Point(889, 12);
@@ -3101,7 +2979,6 @@
             // 
             this.brikksPictureBox92.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox92.BackgroundImage")));
             this.brikksPictureBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox92.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox92.Image")));
             this.brikksPictureBox92.IsFixed = false;
             this.brikksPictureBox92.IsMarked = false;
             this.brikksPictureBox92.Location = new System.Drawing.Point(769, 12);
@@ -3114,9 +2991,8 @@
             // 
             // brikksPictureBox89
             // 
-            this.brikksPictureBox89.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox89.BackgroundImage")));
             this.brikksPictureBox89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox89.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox89.Image")));
+            this.brikksPictureBox89.Image = global::sharpbrikks.Properties.Resources.ball_glow_earned_small;
             this.brikksPictureBox89.IsFixed = false;
             this.brikksPictureBox89.IsMarked = false;
             this.brikksPictureBox89.Location = new System.Drawing.Point(729, 12);
@@ -3130,7 +3006,6 @@
             // brikksPictureBox43
             // 
             this.brikksPictureBox43.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox43.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox43.BackgroundImage")));
             this.brikksPictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox43.Enabled = false;
             this.brikksPictureBox43.IsFixed = false;
@@ -3146,7 +3021,6 @@
             // brikksPictureBox44
             // 
             this.brikksPictureBox44.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox44.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox44.BackgroundImage")));
             this.brikksPictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox44.Enabled = false;
             this.brikksPictureBox44.IsFixed = false;
@@ -3162,7 +3036,6 @@
             // brikksPictureBox45
             // 
             this.brikksPictureBox45.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox45.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox45.BackgroundImage")));
             this.brikksPictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox45.Enabled = false;
             this.brikksPictureBox45.IsFixed = false;
@@ -3178,7 +3051,6 @@
             // brikksPictureBox46
             // 
             this.brikksPictureBox46.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox46.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox46.BackgroundImage")));
             this.brikksPictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox46.Enabled = false;
             this.brikksPictureBox46.IsFixed = false;
@@ -3194,7 +3066,6 @@
             // brikksPictureBox36
             // 
             this.brikksPictureBox36.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox36.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox36.BackgroundImage")));
             this.brikksPictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox36.Enabled = false;
             this.brikksPictureBox36.IsFixed = false;
@@ -3210,7 +3081,6 @@
             // brikksPictureBox39
             // 
             this.brikksPictureBox39.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox39.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox39.BackgroundImage")));
             this.brikksPictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox39.Enabled = false;
             this.brikksPictureBox39.IsFixed = false;
@@ -3226,7 +3096,6 @@
             // brikksPictureBox40
             // 
             this.brikksPictureBox40.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox40.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox40.BackgroundImage")));
             this.brikksPictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox40.Enabled = false;
             this.brikksPictureBox40.IsFixed = false;
@@ -3242,7 +3111,6 @@
             // brikksPictureBox42
             // 
             this.brikksPictureBox42.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox42.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox42.BackgroundImage")));
             this.brikksPictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox42.Enabled = false;
             this.brikksPictureBox42.IsFixed = false;
@@ -3258,7 +3126,6 @@
             // brikksPictureBox29
             // 
             this.brikksPictureBox29.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox29.BackgroundImage")));
             this.brikksPictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox29.Enabled = false;
             this.brikksPictureBox29.IsFixed = false;
@@ -3274,7 +3141,6 @@
             // brikksPictureBox31
             // 
             this.brikksPictureBox31.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox31.BackgroundImage")));
             this.brikksPictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox31.Enabled = false;
             this.brikksPictureBox31.IsFixed = false;
@@ -3290,7 +3156,6 @@
             // brikksPictureBox34
             // 
             this.brikksPictureBox34.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox34.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox34.BackgroundImage")));
             this.brikksPictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox34.Enabled = false;
             this.brikksPictureBox34.IsFixed = false;
@@ -3306,7 +3171,6 @@
             // brikksPictureBox35
             // 
             this.brikksPictureBox35.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox35.BackgroundImage")));
             this.brikksPictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox35.Enabled = false;
             this.brikksPictureBox35.IsFixed = false;
@@ -3322,7 +3186,6 @@
             // brikksPictureBox25
             // 
             this.brikksPictureBox25.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox25.BackgroundImage")));
             this.brikksPictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox25.Enabled = false;
             this.brikksPictureBox25.IsFixed = false;
@@ -3338,7 +3201,6 @@
             // brikksPictureBox26
             // 
             this.brikksPictureBox26.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox26.BackgroundImage")));
             this.brikksPictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox26.Enabled = false;
             this.brikksPictureBox26.IsFixed = false;
@@ -3354,7 +3216,6 @@
             // brikksPictureBox27
             // 
             this.brikksPictureBox27.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox27.BackgroundImage")));
             this.brikksPictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox27.Enabled = false;
             this.brikksPictureBox27.IsFixed = false;
@@ -3370,7 +3231,6 @@
             // brikksPictureBox28
             // 
             this.brikksPictureBox28.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox28.BackgroundImage")));
             this.brikksPictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox28.Enabled = false;
             this.brikksPictureBox28.IsFixed = false;
@@ -3386,7 +3246,6 @@
             // brikksPictureBox24
             // 
             this.brikksPictureBox24.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox24.BackgroundImage")));
             this.brikksPictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox24.Enabled = false;
             this.brikksPictureBox24.IsFixed = false;
@@ -3402,7 +3261,6 @@
             // brikksPictureBox13
             // 
             this.brikksPictureBox13.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox13.BackgroundImage")));
             this.brikksPictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox13.Enabled = false;
             this.brikksPictureBox13.IsFixed = false;
@@ -3418,7 +3276,6 @@
             // brikksPictureBox11
             // 
             this.brikksPictureBox11.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox11.BackgroundImage")));
             this.brikksPictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox11.Enabled = false;
             this.brikksPictureBox11.IsFixed = false;
@@ -3434,7 +3291,6 @@
             // brikksPictureBox10
             // 
             this.brikksPictureBox10.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox10.BackgroundImage")));
             this.brikksPictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox10.Enabled = false;
             this.brikksPictureBox10.IsFixed = false;
@@ -3450,7 +3306,6 @@
             // brikksPictureBox18
             // 
             this.brikksPictureBox18.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox18.BackgroundImage")));
             this.brikksPictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox18.Enabled = false;
             this.brikksPictureBox18.IsFixed = false;
@@ -3466,7 +3321,6 @@
             // brikksPictureBox19
             // 
             this.brikksPictureBox19.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox19.BackgroundImage")));
             this.brikksPictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox19.Enabled = false;
             this.brikksPictureBox19.IsFixed = false;
@@ -3482,7 +3336,6 @@
             // brikksPictureBox20
             // 
             this.brikksPictureBox20.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox20.BackgroundImage")));
             this.brikksPictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox20.Enabled = false;
             this.brikksPictureBox20.IsFixed = false;
@@ -3498,7 +3351,6 @@
             // brikksPictureBox21
             // 
             this.brikksPictureBox21.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox21.BackgroundImage")));
             this.brikksPictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox21.Enabled = false;
             this.brikksPictureBox21.IsFixed = false;
@@ -3514,7 +3366,6 @@
             // brikksPictureBox3
             // 
             this.brikksPictureBox3.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox3.BackgroundImage")));
             this.brikksPictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox3.Enabled = false;
             this.brikksPictureBox3.IsFixed = false;
@@ -3530,7 +3381,6 @@
             // brikksPictureBox5
             // 
             this.brikksPictureBox5.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox5.BackgroundImage")));
             this.brikksPictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox5.Enabled = false;
             this.brikksPictureBox5.IsFixed = false;
@@ -3546,7 +3396,6 @@
             // brikksPictureBox6
             // 
             this.brikksPictureBox6.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox6.BackgroundImage")));
             this.brikksPictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox6.Enabled = false;
             this.brikksPictureBox6.IsFixed = false;
@@ -3562,7 +3411,6 @@
             // brikksPictureBox14
             // 
             this.brikksPictureBox14.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox14.BackgroundImage")));
             this.brikksPictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox14.Enabled = false;
             this.brikksPictureBox14.IsFixed = false;
@@ -3578,7 +3426,6 @@
             // brikksPictureBox32
             // 
             this.brikksPictureBox32.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox32.BackgroundImage")));
             this.brikksPictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox32.Enabled = false;
             this.brikksPictureBox32.IsFixed = false;
@@ -3594,7 +3441,6 @@
             // brikksPictureBox33
             // 
             this.brikksPictureBox33.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox33.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox33.BackgroundImage")));
             this.brikksPictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox33.Enabled = false;
             this.brikksPictureBox33.IsFixed = false;
@@ -3610,7 +3456,6 @@
             // brikksPictureBox129
             // 
             this.brikksPictureBox129.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox129.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox129.BackgroundImage")));
             this.brikksPictureBox129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox129.Enabled = false;
             this.brikksPictureBox129.IsFixed = false;
@@ -3626,7 +3471,6 @@
             // brikksPictureBox132
             // 
             this.brikksPictureBox132.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox132.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox132.BackgroundImage")));
             this.brikksPictureBox132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox132.Enabled = false;
             this.brikksPictureBox132.IsFixed = false;
@@ -3642,7 +3486,6 @@
             // brikksPictureBox138
             // 
             this.brikksPictureBox138.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox138.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox138.BackgroundImage")));
             this.brikksPictureBox138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox138.Enabled = false;
             this.brikksPictureBox138.IsFixed = false;
@@ -3658,7 +3501,6 @@
             // brikksPictureBox139
             // 
             this.brikksPictureBox139.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox139.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox139.BackgroundImage")));
             this.brikksPictureBox139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox139.Enabled = false;
             this.brikksPictureBox139.IsFixed = false;
@@ -3674,7 +3516,6 @@
             // brikksPictureBox140
             // 
             this.brikksPictureBox140.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox140.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox140.BackgroundImage")));
             this.brikksPictureBox140.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox140.Enabled = false;
             this.brikksPictureBox140.IsFixed = false;
@@ -3690,7 +3531,6 @@
             // brikksPictureBox141
             // 
             this.brikksPictureBox141.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox141.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox141.BackgroundImage")));
             this.brikksPictureBox141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox141.Enabled = false;
             this.brikksPictureBox141.IsFixed = false;
@@ -3706,7 +3546,6 @@
             // brikksPictureBox146
             // 
             this.brikksPictureBox146.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox146.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox146.BackgroundImage")));
             this.brikksPictureBox146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox146.Enabled = false;
             this.brikksPictureBox146.IsFixed = false;
@@ -3722,7 +3561,6 @@
             // brikksPictureBox147
             // 
             this.brikksPictureBox147.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox147.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox147.BackgroundImage")));
             this.brikksPictureBox147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox147.Enabled = false;
             this.brikksPictureBox147.IsFixed = false;
@@ -3738,7 +3576,6 @@
             // brikksPictureBox150
             // 
             this.brikksPictureBox150.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox150.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox150.BackgroundImage")));
             this.brikksPictureBox150.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox150.Enabled = false;
             this.brikksPictureBox150.IsFixed = false;
@@ -3754,7 +3591,6 @@
             // brikksPictureBox151
             // 
             this.brikksPictureBox151.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox151.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox151.BackgroundImage")));
             this.brikksPictureBox151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox151.Enabled = false;
             this.brikksPictureBox151.IsFixed = false;
@@ -3770,7 +3606,6 @@
             // brikksPictureBox152
             // 
             this.brikksPictureBox152.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox152.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox152.BackgroundImage")));
             this.brikksPictureBox152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox152.Enabled = false;
             this.brikksPictureBox152.IsFixed = false;
@@ -3786,7 +3621,6 @@
             // brikksPictureBox155
             // 
             this.brikksPictureBox155.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox155.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox155.BackgroundImage")));
             this.brikksPictureBox155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox155.Enabled = false;
             this.brikksPictureBox155.IsFixed = false;
@@ -3802,7 +3636,6 @@
             // brikksPictureBox158
             // 
             this.brikksPictureBox158.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox158.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox158.BackgroundImage")));
             this.brikksPictureBox158.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox158.Enabled = false;
             this.brikksPictureBox158.IsFixed = false;
@@ -3818,7 +3651,6 @@
             // brikksPictureBox159
             // 
             this.brikksPictureBox159.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox159.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox159.BackgroundImage")));
             this.brikksPictureBox159.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox159.Enabled = false;
             this.brikksPictureBox159.IsFixed = false;
@@ -3834,7 +3666,6 @@
             // brikksPictureBox166
             // 
             this.brikksPictureBox166.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox166.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox166.BackgroundImage")));
             this.brikksPictureBox166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox166.Enabled = false;
             this.brikksPictureBox166.IsFixed = false;
@@ -3850,7 +3681,6 @@
             // brikksPictureBox167
             // 
             this.brikksPictureBox167.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox167.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox167.BackgroundImage")));
             this.brikksPictureBox167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox167.Enabled = false;
             this.brikksPictureBox167.IsFixed = false;
@@ -3866,7 +3696,6 @@
             // brikksPictureBox168
             // 
             this.brikksPictureBox168.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox168.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox168.BackgroundImage")));
             this.brikksPictureBox168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox168.Enabled = false;
             this.brikksPictureBox168.IsFixed = false;
@@ -3882,7 +3711,6 @@
             // brikksPictureBox169
             // 
             this.brikksPictureBox169.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox169.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox169.BackgroundImage")));
             this.brikksPictureBox169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox169.Enabled = false;
             this.brikksPictureBox169.IsFixed = false;
@@ -3898,7 +3726,6 @@
             // brikksPictureBox87
             // 
             this.brikksPictureBox87.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox87.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox87.BackgroundImage")));
             this.brikksPictureBox87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox87.Enabled = false;
             this.brikksPictureBox87.IsFixed = false;
@@ -3914,7 +3741,6 @@
             // brikksPictureBox88
             // 
             this.brikksPictureBox88.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox88.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox88.BackgroundImage")));
             this.brikksPictureBox88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox88.Enabled = false;
             this.brikksPictureBox88.IsFixed = false;
@@ -3930,7 +3756,6 @@
             // brikksPictureBox90
             // 
             this.brikksPictureBox90.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox90.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox90.BackgroundImage")));
             this.brikksPictureBox90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox90.Enabled = false;
             this.brikksPictureBox90.IsFixed = false;
@@ -3946,7 +3771,6 @@
             // brikksPictureBox91
             // 
             this.brikksPictureBox91.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox91.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox91.BackgroundImage")));
             this.brikksPictureBox91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox91.Enabled = false;
             this.brikksPictureBox91.IsFixed = false;
@@ -3962,7 +3786,6 @@
             // brikksPictureBox115
             // 
             this.brikksPictureBox115.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox115.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox115.BackgroundImage")));
             this.brikksPictureBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox115.Enabled = false;
             this.brikksPictureBox115.IsFixed = false;
@@ -3978,7 +3801,6 @@
             // brikksPictureBox116
             // 
             this.brikksPictureBox116.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox116.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox116.BackgroundImage")));
             this.brikksPictureBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox116.Enabled = false;
             this.brikksPictureBox116.IsFixed = false;
@@ -3994,7 +3816,6 @@
             // brikksPictureBox117
             // 
             this.brikksPictureBox117.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox117.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox117.BackgroundImage")));
             this.brikksPictureBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox117.Enabled = false;
             this.brikksPictureBox117.IsFixed = false;
@@ -4010,7 +3831,6 @@
             // brikksPictureBox118
             // 
             this.brikksPictureBox118.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox118.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox118.BackgroundImage")));
             this.brikksPictureBox118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox118.Enabled = false;
             this.brikksPictureBox118.IsFixed = false;
@@ -4026,7 +3846,6 @@
             // brikksPictureBox122
             // 
             this.brikksPictureBox122.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox122.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox122.BackgroundImage")));
             this.brikksPictureBox122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox122.Enabled = false;
             this.brikksPictureBox122.IsFixed = false;
@@ -4042,7 +3861,6 @@
             // brikksPictureBox123
             // 
             this.brikksPictureBox123.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox123.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox123.BackgroundImage")));
             this.brikksPictureBox123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox123.Enabled = false;
             this.brikksPictureBox123.IsFixed = false;
@@ -4058,7 +3876,6 @@
             // brikksPictureBox124
             // 
             this.brikksPictureBox124.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox124.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox124.BackgroundImage")));
             this.brikksPictureBox124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox124.Enabled = false;
             this.brikksPictureBox124.IsFixed = false;
@@ -4074,7 +3891,6 @@
             // brikksPictureBox127
             // 
             this.brikksPictureBox127.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox127.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox127.BackgroundImage")));
             this.brikksPictureBox127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox127.Enabled = false;
             this.brikksPictureBox127.IsFixed = false;
@@ -4090,7 +3906,6 @@
             // brikksPictureBox41
             // 
             this.brikksPictureBox41.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox41.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox41.BackgroundImage")));
             this.brikksPictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox41.Enabled = false;
             this.brikksPictureBox41.IsFixed = false;
@@ -4106,7 +3921,6 @@
             // brikksPictureBox37
             // 
             this.brikksPictureBox37.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox37.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox37.BackgroundImage")));
             this.brikksPictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox37.Enabled = false;
             this.brikksPictureBox37.IsFixed = false;
@@ -4122,7 +3936,6 @@
             // brikksPictureBox38
             // 
             this.brikksPictureBox38.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox38.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox38.BackgroundImage")));
             this.brikksPictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox38.Enabled = false;
             this.brikksPictureBox38.IsFixed = false;
@@ -4138,7 +3951,6 @@
             // brikksPictureBox30
             // 
             this.brikksPictureBox30.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox30.BackgroundImage")));
             this.brikksPictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox30.Enabled = false;
             this.brikksPictureBox30.IsFixed = false;
@@ -4154,7 +3966,6 @@
             // brikksPictureBox22
             // 
             this.brikksPictureBox22.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox22.BackgroundImage")));
             this.brikksPictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox22.Enabled = false;
             this.brikksPictureBox22.IsFixed = false;
@@ -4170,7 +3981,6 @@
             // brikksPictureBox15
             // 
             this.brikksPictureBox15.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox15.BackgroundImage")));
             this.brikksPictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox15.Enabled = false;
             this.brikksPictureBox15.IsFixed = false;
@@ -4186,7 +3996,6 @@
             // brikksPictureBox16
             // 
             this.brikksPictureBox16.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox16.BackgroundImage")));
             this.brikksPictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox16.Enabled = false;
             this.brikksPictureBox16.IsFixed = false;
@@ -4202,7 +4011,6 @@
             // brikksPictureBox12
             // 
             this.brikksPictureBox12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox12.BackgroundImage")));
             this.brikksPictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox12.Enabled = false;
             this.brikksPictureBox12.IsFixed = false;
@@ -4218,7 +4026,6 @@
             // brikksPictureBox7
             // 
             this.brikksPictureBox7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox7.BackgroundImage")));
             this.brikksPictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox7.Enabled = false;
             this.brikksPictureBox7.IsFixed = false;
@@ -4234,7 +4041,6 @@
             // brikksPictureBox8
             // 
             this.brikksPictureBox8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox8.BackgroundImage")));
             this.brikksPictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox8.Enabled = false;
             this.brikksPictureBox8.IsFixed = false;
@@ -4250,7 +4056,6 @@
             // brikksPictureBox9
             // 
             this.brikksPictureBox9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox9.BackgroundImage")));
             this.brikksPictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox9.Enabled = false;
             this.brikksPictureBox9.IsFixed = false;
@@ -4266,7 +4071,6 @@
             // brikksPictureBox4
             // 
             this.brikksPictureBox4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox4.BackgroundImage")));
             this.brikksPictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.brikksPictureBox4.Enabled = false;
             this.brikksPictureBox4.IsFixed = false;
@@ -4684,7 +4488,7 @@
             this.Block__2_4.IsMarked = false;
             this.Block__2_4.Location = new System.Drawing.Point(415, 396);
             this.Block__2_4.Name = "Block__2_4";
-            this.Block__2_4.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__2_4.OriginalImage")));
+            this.Block__2_4.OriginalImage = null;
             this.Block__2_4.Size = new System.Drawing.Size(34, 34);
             this.Block__2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__2_4.TabIndex = 86;
@@ -4882,7 +4686,7 @@
             this.Block__3_0.IsMarked = false;
             this.Block__3_0.Location = new System.Drawing.Point(263, 358);
             this.Block__3_0.Name = "Block__3_0";
-            this.Block__3_0.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__3_0.OriginalImage")));
+            this.Block__3_0.OriginalImage = null;
             this.Block__3_0.Size = new System.Drawing.Size(34, 34);
             this.Block__3_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__3_0.TabIndex = 72;
@@ -4897,7 +4701,7 @@
             this.Block__4_9.IsMarked = false;
             this.Block__4_9.Location = new System.Drawing.Point(605, 320);
             this.Block__4_9.Name = "Block__4_9";
-            this.Block__4_9.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__4_9.OriginalImage")));
+            this.Block__4_9.OriginalImage = null;
             this.Block__4_9.Size = new System.Drawing.Size(34, 34);
             this.Block__4_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__4_9.TabIndex = 71;
@@ -4996,7 +4800,7 @@
             this.Block__4_2.IsMarked = false;
             this.Block__4_2.Location = new System.Drawing.Point(339, 320);
             this.Block__4_2.Name = "Block__4_2";
-            this.Block__4_2.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__4_2.OriginalImage")));
+            this.Block__4_2.OriginalImage = null;
             this.Block__4_2.Size = new System.Drawing.Size(34, 34);
             this.Block__4_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__4_2.TabIndex = 64;
@@ -5292,7 +5096,7 @@
             this.Block__6_1.IsMarked = false;
             this.Block__6_1.Location = new System.Drawing.Point(301, 244);
             this.Block__6_1.Name = "Block__6_1";
-            this.Block__6_1.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__6_1.OriginalImage")));
+            this.Block__6_1.OriginalImage = null;
             this.Block__6_1.Size = new System.Drawing.Size(34, 34);
             this.Block__6_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__6_1.TabIndex = 43;
@@ -5349,7 +5153,7 @@
             this.Block__7_7.IsMarked = false;
             this.Block__7_7.Location = new System.Drawing.Point(529, 206);
             this.Block__7_7.Name = "Block__7_7";
-            this.Block__7_7.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__7_7.OriginalImage")));
+            this.Block__7_7.OriginalImage = null;
             this.Block__7_7.Size = new System.Drawing.Size(34, 34);
             this.Block__7_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__7_7.TabIndex = 39;
@@ -5539,14 +5343,14 @@
             // 
             // Block__8_3
             // 
-            this.Block__8_3.BackgroundImage = global::sharpbrikks.Properties.Resources.peach_square;
+            this.Block__8_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Block__8_3.BackgroundImage")));
             this.Block__8_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Block__8_3.Image = global::sharpbrikks.Properties.Resources.circle_black_small;
             this.Block__8_3.IsFixed = false;
             this.Block__8_3.IsMarked = false;
             this.Block__8_3.Location = new System.Drawing.Point(377, 168);
             this.Block__8_3.Name = "Block__8_3";
-            this.Block__8_3.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__8_3.OriginalImage")));
+            this.Block__8_3.OriginalImage = null;
             this.Block__8_3.Size = new System.Drawing.Size(34, 34);
             this.Block__8_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__8_3.TabIndex = 25;
@@ -5610,14 +5414,14 @@
             // 
             // Block__9_8
             // 
-            this.Block__9_8.BackgroundImage = global::sharpbrikks.Properties.Resources.peach_square;
+            this.Block__9_8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Block__9_8.BackgroundImage")));
             this.Block__9_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Block__9_8.Image = global::sharpbrikks.Properties.Resources.circle_blue_small;
             this.Block__9_8.IsFixed = false;
             this.Block__9_8.IsMarked = false;
             this.Block__9_8.Location = new System.Drawing.Point(567, 130);
             this.Block__9_8.Name = "Block__9_8";
-            this.Block__9_8.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__9_8.OriginalImage")));
+            this.Block__9_8.OriginalImage = null;
             this.Block__9_8.Size = new System.Drawing.Size(34, 34);
             this.Block__9_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__9_8.TabIndex = 20;
@@ -5723,7 +5527,7 @@
             // 
             // Block__9_0
             // 
-            this.Block__9_0.BackgroundImage = global::sharpbrikks.Properties.Resources.peach_square;
+            this.Block__9_0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Block__9_0.BackgroundImage")));
             this.Block__9_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Block__9_0.Image = global::sharpbrikks.Properties.Resources.circle_red_small;
             this.Block__9_0.IsFixed = false;
@@ -5780,7 +5584,7 @@
             // 
             // Block__10_6
             // 
-            this.Block__10_6.BackgroundImage = global::sharpbrikks.Properties.Resources.orange_square;
+            this.Block__10_6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Block__10_6.BackgroundImage")));
             this.Block__10_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Block__10_6.Image = global::sharpbrikks.Properties.Resources.circle_green_small;
             this.Block__10_6.IsFixed = false;
@@ -5878,7 +5682,7 @@
             this.Block__10_0.TabIndex = 2;
             this.Block__10_0.TabStop = false;
             // 
-            // SharpBrikksMainForm
+            // SharpBrikksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -6128,9 +5932,8 @@
             this.Controls.Add(this.Block__10_1);
             this.Controls.Add(this.Block__10_0);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "SharpBrikksMainForm";
+            this.Name = "SharpBrikksForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SharpBrikks v1.0 by RetroLotti ([c] by Wolfgang Warsch @ Schmidt Spiele)";
             this.Load += new System.EventHandler(this.Form1_Load);

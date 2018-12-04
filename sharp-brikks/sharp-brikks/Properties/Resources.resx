@@ -118,154 +118,160 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ball_glow_earned_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ball_glow_earned_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ball_glow_earned_small_bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ball_glow_earned_small_bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ball_glow_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ball_glow_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ball_glow_small_bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ball_glow_small_bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bgg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blue_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blue_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_black_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_black_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_blue_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_blue_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_green_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_green_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_red_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_red_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_white_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_white_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circle_yellow_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_yellow_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross_mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross-mark (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross_mark_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross-mark (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cursed_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cursed-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="green_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="green_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="green_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="green_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\green_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="orange_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\orange_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="peach_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\peach_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plain-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plain-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rolling_bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rolling-bomb (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rolling_dices" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rolling-dices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rolling_dices_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rolling-dices2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="white_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\white_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="white_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\white_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="white_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\white_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cross_mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-mark (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ball_glow_small_bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ball_glow_small_bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross_mark_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-mark (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yellow_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellow_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_black_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_black_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cursed_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cursed-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rolling_dices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rolling-dices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peach_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peach_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rolling_dices_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rolling-dices2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plain-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plain-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roll_the_dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roll_the_dice.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="circle_yellow_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_yellow_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ball_glow_earned_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ball_glow_earned_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ball_glow_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ball_glow_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yellow_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yellow_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rolling_bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rolling-bomb (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="yellow_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yellow_three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yellow_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellow_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="circle_green_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_green_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_blue_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_blue_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_white_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_white_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_red_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_red_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plain-square1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plain-square1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

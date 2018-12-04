@@ -16,7 +16,7 @@ namespace sharpbrikks
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SharpBrikksMainForm());
+            Application.Run(new SharpBrikksForm());
         }
     }
 }

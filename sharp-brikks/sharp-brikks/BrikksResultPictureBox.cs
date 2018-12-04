@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpBrikks
+namespace sharpbrikks
 {
     public class BrikksResultPictureBox : BrikksPictureBox
     {

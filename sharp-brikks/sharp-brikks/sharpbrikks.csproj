@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E6D1C57E-8377-46A6-902F-44FDC3569AE4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>sharp_brikks</RootNamespace>
+    <RootNamespace>sharpbrikks</RootNamespace>
     <AssemblyName>sharp-brikks</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -65,12 +68,17 @@
     </Compile>
     <Compile Include="Die.cs" />
     <Compile Include="DieSide.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SharpBrikksMainForm.cs">
+    <Compile Include="SharpBrikksForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SharpBrikksMainForm.Designer.cs" />
+    <Compile Include="SharpBrikksForm.Designer.cs">
+      <DependentUpon>SharpBrikksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="SharpBrikksForm.resx">
+      <DependentUpon>SharpBrikksForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -81,7 +89,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SharpBrikksMainForm.resx" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -244,6 +252,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\yellow_two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roll_the_dice.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

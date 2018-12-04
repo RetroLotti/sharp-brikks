@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace sharp_brikks.Properties {
+namespace sharpbrikks.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace sharp_brikks.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("sharp_brikks.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("sharpbrikks.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -353,6 +353,16 @@ namespace sharp_brikks.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plain_square1 {
+            get {
+                object obj = ResourceManager.GetObject("plain-square1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red_four {
             get {
                 object obj = ResourceManager.GetObject("red_four", resourceCulture);
@@ -387,6 +397,15 @@ namespace sharp_brikks.Properties {
             get {
                 object obj = ResourceManager.GetObject("red_two", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream roll_the_dice {
+            get {
+                return ResourceManager.GetStream("roll_the_dice", resourceCulture);
             }
         }
         

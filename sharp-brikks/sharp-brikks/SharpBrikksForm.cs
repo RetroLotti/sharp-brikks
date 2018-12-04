@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 namespace sharpbrikks
 {
-    public partial class SharpBrikksMainForm : Form
+    public partial class SharpBrikksForm : Form
     {
         [Obsolete]
         Die ColorDie = null;
@@ -26,7 +26,7 @@ namespace sharpbrikks
 
         public Brikks BrikksTheGame { get; set; }
 
-        public SharpBrikksMainForm()
+        public SharpBrikksForm()
         {
             InitializeComponent();
 
@@ -131,7 +131,7 @@ namespace sharpbrikks
                 if (item.GetType() == typeof(BrikksPictureBox))
                 {
                     BrikksPictureBox box = (BrikksPictureBox)item;
-                    if(box.Name.StartsWith("Block__") && box.IsMarked && !box.IsFixed)
+                    if (box.Name.StartsWith("Block__") && box.IsMarked && !box.IsFixed)
                     {
                         box.IsFixed = true;
                     }
@@ -174,9 +174,9 @@ namespace sharpbrikks
         {
             var box = (BrikksPictureBox)sender;
 
-            if(!box.IsFixed)
+            if (!box.IsFixed)
             {
-                if(box.IsMarked)
+                if (box.IsMarked)
                 {
                     box.IsMarked = false;
                     box.Image = null;
@@ -189,7 +189,7 @@ namespace sharpbrikks
             }
 
             // calculate score on the fly
-            int line = int.Parse(box.Name.Substring(box.Name.IndexOf("__")+2, box.Name.LastIndexOf('_') - box.Name.IndexOf("__") - 2));
+            int line = int.Parse(box.Name.Substring(box.Name.IndexOf("__") + 2, box.Name.LastIndexOf('_') - box.Name.IndexOf("__") - 2));
             ((BrikksScoreLineLabel)this.Controls.Find($"Score__Line_{line}", false)[0]).Text = CalcScoreLine(line).ToString().PadLeft(2, ' ');
         }
 
@@ -229,7 +229,7 @@ namespace sharpbrikks
                 }
             }
 
-            
+
 
 
             DiceResult.Image = null;
@@ -237,7 +237,7 @@ namespace sharpbrikks
 
         private void UseBomb(BrikksBombButton button)
         {
-            if(!button.BombUsed)
+            if (!button.BombUsed)
             {
                 button.BombUsed = true;
                 button.Image = Properties.Resources.cross_mark_small;
@@ -271,7 +271,7 @@ namespace sharpbrikks
             if (marks > 8) { points++; }
             if (marks > 9) { points += 3; }
 
-            return points*multi;
+            return points * multi;
         }
 
         private void UploadPlayButton_Click(object sender, EventArgs e)
