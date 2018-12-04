@@ -16,15 +16,6 @@ namespace sharpbrikks
 {
     public partial class SharpBrikksForm : Form
     {
-        [Obsolete]
-        Die ColorDie = null;
-
-        [Obsolete]
-        Die NumberDie = null;
-
-        [Obsolete]
-        public BrikksRandom RandoloManolo { get; set; }
-
         public Brikks BrikksTheGame { get; set; }
 
         public SharpBrikksForm()
@@ -32,7 +23,6 @@ namespace sharpbrikks
             InitializeComponent();
 
             BrikksTheGame = new Brikks();
-            BrikksTheGame.GetRoll();
         }
 
         private void RollDiceButton_Click(object sender, EventArgs e)
@@ -40,80 +30,10 @@ namespace sharpbrikks
             RollDiceButton.Enabled = false;
             FixAllMarkedBoxes();
             PlaySound();
-            RollDice();
-            //ShowChoices();
+            DiceResultPictureBox.DiceRoll = this.BrikksTheGame.GetRoll();
             RollDiceButton.Enabled = true;
         }
-
-        //private void ShowChoices()
-        //{
-        //    /*
-        //     * Tetromino__1__2_0    Tetromino__1__2_1    Tetromino__1__2_2
-        //     * Tetromino__1__1_0    Tetromino__1__1_1    Tetromino__1__1_2
-        //     * Tetromino__1__0_0    Tetromino__1__0_1    Tetromino__1__0_2
-        //     */
-
-        //    List<BrikksPictureBox> boxes = new List<BrikksPictureBox>();
-
-        //    // clean all
-        //    foreach (var item in this.Controls)
-        //    {
-        //        if (item.GetType() == typeof(BrikksPictureBox))
-        //        {
-        //            BrikksPictureBox box = (BrikksPictureBox)item;
-        //            if (box.Name.StartsWith("Tetromino__"))
-        //            {
-        //                box.BackColor = Color.Gray;
-        //            }
-        //        }
-        //    }
-
-        //    if (DiceResultPictureBox.D4Result == Side.one)
-        //    {
-        //        switch (DiceResultPictureBox.D6Result)
-        //        {
-        //            case Side.white:
-        //                break;
-        //            default:
-        //                break;
-        //        }
-        //    }
-
-        //    foreach (var item in boxes)
-        //    {
-        //        var color = Color.Gray;
-
-        //        switch (DiceResultPictureBox.D6Result)
-        //        {
-        //            case Side.red:
-        //                color = Color.Red;
-        //                break;
-        //            case Side.blue:
-        //                color = Color.Blue;
-        //                break;
-        //            case Side.black:
-        //                color = Color.Black;
-        //                break;
-        //            case Side.white:
-        //                color = Color.White;
-        //                break;
-        //            case Side.yellow:
-        //                color = Color.Yellow;
-        //                break;
-        //            case Side.green:
-        //                color = Color.Green;
-        //                break;
-        //        }
-
-        //        item.BackColor = color;
-        //    }
-        //}
-
-        private void RollDice()
-        {
-            DiceResultPictureBox.DiceRoll = BrikksTheGame.GetRoll();
-        }
-
+        
         private void PlaySound()
         {
             SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.roll_the_dice);
@@ -138,7 +58,6 @@ namespace sharpbrikks
         private void Form1_Load(object sender, EventArgs e)
         {
             CreateBlockEvents();
-            CreateDice();
         }
 
         private void CreateBlockEvents()
@@ -154,14 +73,6 @@ namespace sharpbrikks
                     ((BrikksBombButton)item).Click += UseBombClick;
                 }
             }
-        }
-
-        private void CreateDice()
-        {
-            // color die
-            this.ColorDie = (new Die(new DieSide(SideType.color, Side.red), new DieSide(SideType.color, Side.black), new DieSide(SideType.color, Side.yellow), new DieSide(SideType.color, Side.blue), new DieSide(SideType.color, Side.green), new DieSide(SideType.color, Side.white)));
-            // d4
-            this.NumberDie = (new Die(new DieSide(SideType.color, Side.one), new DieSide(SideType.color, Side.two), new DieSide(SideType.color, Side.three), new DieSide(SideType.color, Side.four)));
         }
 
         private void MarkBlockClick(object sender, EventArgs e)
@@ -223,9 +134,6 @@ namespace sharpbrikks
                 }
             }
 
-
-
-
             DiceResultPictureBox.Image = null;
         }
 
@@ -267,11 +175,6 @@ namespace sharpbrikks
 
             return points * multi;
         }
-
-        private void UploadPlayButton_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
     public static class ThreadSafeRandom
@@ -281,22 +184,6 @@ namespace sharpbrikks
         public static System.Random ThisThreadsRandom
         {
             get { return Local ?? (Local = new System.Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
-        }
-    }
-
-    static class MyExtensions
-    {
-        public static void Shuffle<T>(this IList<T> list)
-        {
-            int n = list.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = ThreadSafeRandom.ThisThreadsRandom.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
-            }
         }
     }
 }

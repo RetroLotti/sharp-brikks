@@ -32,7 +32,6 @@
             this.ResetBoardButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.RollDiceButton = new System.Windows.Forms.Button();
-            this.DiceResultPictureBox = new sharpbrikks.BrikksResultPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,81 +42,20 @@
             this.CalculateScoreButton = new System.Windows.Forms.Button();
             this.ShowLeaderboardButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.brikksPictureBox83 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox84 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox85 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox86 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox75 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox77 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox80 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox82 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox68 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox71 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox72 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox74 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox59 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox62 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox65 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox67 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox54 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox56 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox57 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox58 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox47 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox50 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox51 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox53 = new sharpbrikks.BrikksPictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.brikksPictureBox99 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox100 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox101 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox102 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox103 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox104 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox105 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox106 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox107 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox108 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox109 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox110 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox111 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox112 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox113 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox114 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox119 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox120 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox121 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox125 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox126 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox128 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox130 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox131 = new sharpbrikks.BrikksPictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.brikksPictureBox133 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox134 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox135 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox136 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox137 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox142 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox143 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox144 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox145 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox148 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox149 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox153 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox154 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox156 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox157 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox160 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox161 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox162 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox163 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox164 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox165 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox170 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox171 = new sharpbrikks.BrikksPictureBox();
-            this.brikksPictureBox172 = new sharpbrikks.BrikksPictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.UploadPlayButton = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.brikksPictureBox173 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox174 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox175 = new sharpbrikks.BrikksPictureBox();
@@ -142,18 +80,54 @@
             this.brikksPictureBox194 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox195 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox196 = new sharpbrikks.BrikksPictureBox();
-            this.Score__Line_0 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_1 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_2 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_3 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_4 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_5 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_6 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_7 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_8 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_9 = new sharpbrikks.BrikksScoreLineLabel();
-            this.Score__Line_10 = new sharpbrikks.BrikksScoreLineLabel();
-            this.UploadPlayButton = new System.Windows.Forms.Button();
+            this.brikksPictureBox133 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox134 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox135 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox136 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox137 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox142 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox143 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox144 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox145 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox148 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox149 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox153 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox154 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox156 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox157 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox160 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox161 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox162 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox163 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox164 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox165 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox170 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox171 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox172 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox99 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox100 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox101 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox102 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox103 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox104 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox105 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox106 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox107 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox108 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox109 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox110 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox111 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox112 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox113 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox114 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox119 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox120 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox121 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox125 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox126 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox128 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox130 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox131 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox98 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox78 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox79 = new sharpbrikks.BrikksPictureBox();
@@ -182,9 +156,45 @@
             this.brikksPictureBox93 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox92 = new sharpbrikks.BrikksPictureBox();
             this.brikksPictureBox89 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox83 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox84 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox85 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox86 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox75 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox77 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox80 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox82 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox68 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox71 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox72 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox74 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox59 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox62 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox65 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox67 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox54 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox56 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox57 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox58 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox47 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox50 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox51 = new sharpbrikks.BrikksPictureBox();
+            this.brikksPictureBox53 = new sharpbrikks.BrikksPictureBox();
+            this.Score__Line_0 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_1 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_2 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_3 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_4 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_5 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_6 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_7 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_8 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_9 = new sharpbrikks.BrikksScoreLineLabel();
+            this.Score__Line_10 = new sharpbrikks.BrikksScoreLineLabel();
             this.UseBombThreeButton = new sharpbrikks.BrikksBombButton();
             this.UseBombTwoButton = new sharpbrikks.BrikksBombButton();
             this.UseBombOneButton = new sharpbrikks.BrikksBombButton();
+            this.DiceResultPictureBox = new sharpbrikks.BrikksResultPictureBox();
             this.Block__0_9 = new sharpbrikks.BrikksPictureBox();
             this.Block__0_8 = new sharpbrikks.BrikksPictureBox();
             this.Block__0_7 = new sharpbrikks.BrikksPictureBox();
@@ -295,93 +305,15 @@
             this.Block__10_2 = new sharpbrikks.BrikksPictureBox();
             this.Block__10_1 = new sharpbrikks.BrikksPictureBox();
             this.Block__10_0 = new sharpbrikks.BrikksPictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox85)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox86)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox80)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox53)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox99)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox100)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox101)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox102)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox103)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox104)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox105)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox106)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox107)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox108)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox109)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox110)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox111)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox112)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox113)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox114)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox119)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox120)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox121)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox125)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox126)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox128)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox130)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox131)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox133)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox134)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox135)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox136)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox137)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox142)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox143)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox144)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox145)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox148)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox149)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox153)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox154)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox156)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox157)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox160)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox161)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox162)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox163)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox164)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox165)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox170)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox171)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox172)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox173)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox174)).BeginInit();
@@ -407,6 +339,54 @@
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox194)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox195)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox196)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox133)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox134)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox135)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox136)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox137)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox142)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox143)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox144)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox145)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox148)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox149)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox153)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox154)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox156)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox157)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox160)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox161)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox162)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox163)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox164)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox165)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox170)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox171)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox172)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox99)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox100)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox101)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox102)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox103)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox104)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox105)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox106)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox107)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox108)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox109)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox111)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox112)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox113)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox114)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox119)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox120)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox121)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox125)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox126)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox128)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox130)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox131)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox98)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox78)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox79)).BeginInit();
@@ -435,6 +415,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox93)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox92)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox89)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox85)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox82)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_7)).BeginInit();
@@ -580,18 +585,6 @@
             this.RollDiceButton.UseVisualStyleBackColor = true;
             this.RollDiceButton.Click += new System.EventHandler(this.RollDiceButton_Click);
             // 
-            // DiceResultPictureBox
-            // 
-            this.DiceResultPictureBox.DiceRoll = null;
-            this.DiceResultPictureBox.IsFixed = false;
-            this.DiceResultPictureBox.IsMarked = false;
-            this.DiceResultPictureBox.Location = new System.Drawing.Point(84, 22);
-            this.DiceResultPictureBox.Name = "DiceResultPictureBox";
-            this.DiceResultPictureBox.OriginalImage = null;
-            this.DiceResultPictureBox.Size = new System.Drawing.Size(72, 72);
-            this.DiceResultPictureBox.TabIndex = 126;
-            this.DiceResultPictureBox.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -733,366 +726,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "1";
             // 
-            // brikksPictureBox83
-            // 
-            this.brikksPictureBox83.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox83.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox83.Image")));
-            this.brikksPictureBox83.IsFixed = false;
-            this.brikksPictureBox83.IsMarked = false;
-            this.brikksPictureBox83.Location = new System.Drawing.Point(28, 323);
-            this.brikksPictureBox83.Name = "brikksPictureBox83";
-            this.brikksPictureBox83.OriginalImage = null;
-            this.brikksPictureBox83.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox83.TabIndex = 247;
-            this.brikksPictureBox83.TabStop = false;
-            // 
-            // brikksPictureBox84
-            // 
-            this.brikksPictureBox84.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox84.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox84.Image")));
-            this.brikksPictureBox84.IsFixed = false;
-            this.brikksPictureBox84.IsMarked = false;
-            this.brikksPictureBox84.Location = new System.Drawing.Point(11, 306);
-            this.brikksPictureBox84.Name = "brikksPictureBox84";
-            this.brikksPictureBox84.OriginalImage = null;
-            this.brikksPictureBox84.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox84.TabIndex = 244;
-            this.brikksPictureBox84.TabStop = false;
-            // 
-            // brikksPictureBox85
-            // 
-            this.brikksPictureBox85.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox85.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox85.Image")));
-            this.brikksPictureBox85.IsFixed = false;
-            this.brikksPictureBox85.IsMarked = false;
-            this.brikksPictureBox85.Location = new System.Drawing.Point(28, 306);
-            this.brikksPictureBox85.Name = "brikksPictureBox85";
-            this.brikksPictureBox85.OriginalImage = null;
-            this.brikksPictureBox85.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox85.TabIndex = 245;
-            this.brikksPictureBox85.TabStop = false;
-            // 
-            // brikksPictureBox86
-            // 
-            this.brikksPictureBox86.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox86.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox86.Image")));
-            this.brikksPictureBox86.IsFixed = false;
-            this.brikksPictureBox86.IsMarked = false;
-            this.brikksPictureBox86.Location = new System.Drawing.Point(11, 323);
-            this.brikksPictureBox86.Name = "brikksPictureBox86";
-            this.brikksPictureBox86.OriginalImage = null;
-            this.brikksPictureBox86.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox86.TabIndex = 246;
-            this.brikksPictureBox86.TabStop = false;
-            // 
-            // brikksPictureBox75
-            // 
-            this.brikksPictureBox75.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox75.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox75.Image")));
-            this.brikksPictureBox75.IsFixed = false;
-            this.brikksPictureBox75.IsMarked = false;
-            this.brikksPictureBox75.Location = new System.Drawing.Point(11, 248);
-            this.brikksPictureBox75.Name = "brikksPictureBox75";
-            this.brikksPictureBox75.OriginalImage = null;
-            this.brikksPictureBox75.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox75.TabIndex = 238;
-            this.brikksPictureBox75.TabStop = false;
-            // 
-            // brikksPictureBox77
-            // 
-            this.brikksPictureBox77.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox77.Image")));
-            this.brikksPictureBox77.IsFixed = false;
-            this.brikksPictureBox77.IsMarked = false;
-            this.brikksPictureBox77.Location = new System.Drawing.Point(11, 265);
-            this.brikksPictureBox77.Name = "brikksPictureBox77";
-            this.brikksPictureBox77.OriginalImage = null;
-            this.brikksPictureBox77.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox77.TabIndex = 239;
-            this.brikksPictureBox77.TabStop = false;
-            // 
-            // brikksPictureBox80
-            // 
-            this.brikksPictureBox80.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox80.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox80.Image")));
-            this.brikksPictureBox80.IsFixed = false;
-            this.brikksPictureBox80.IsMarked = false;
-            this.brikksPictureBox80.Location = new System.Drawing.Point(28, 265);
-            this.brikksPictureBox80.Name = "brikksPictureBox80";
-            this.brikksPictureBox80.OriginalImage = null;
-            this.brikksPictureBox80.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox80.TabIndex = 240;
-            this.brikksPictureBox80.TabStop = false;
-            // 
-            // brikksPictureBox82
-            // 
-            this.brikksPictureBox82.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox82.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox82.Image")));
-            this.brikksPictureBox82.IsFixed = false;
-            this.brikksPictureBox82.IsMarked = false;
-            this.brikksPictureBox82.Location = new System.Drawing.Point(28, 282);
-            this.brikksPictureBox82.Name = "brikksPictureBox82";
-            this.brikksPictureBox82.OriginalImage = null;
-            this.brikksPictureBox82.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox82.TabIndex = 241;
-            this.brikksPictureBox82.TabStop = false;
-            // 
-            // brikksPictureBox68
-            // 
-            this.brikksPictureBox68.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox68.Image")));
-            this.brikksPictureBox68.IsFixed = false;
-            this.brikksPictureBox68.IsMarked = false;
-            this.brikksPictureBox68.Location = new System.Drawing.Point(28, 190);
-            this.brikksPictureBox68.Name = "brikksPictureBox68";
-            this.brikksPictureBox68.OriginalImage = null;
-            this.brikksPictureBox68.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox68.TabIndex = 228;
-            this.brikksPictureBox68.TabStop = false;
-            // 
-            // brikksPictureBox71
-            // 
-            this.brikksPictureBox71.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox71.Image")));
-            this.brikksPictureBox71.IsFixed = false;
-            this.brikksPictureBox71.IsMarked = false;
-            this.brikksPictureBox71.Location = new System.Drawing.Point(11, 207);
-            this.brikksPictureBox71.Name = "brikksPictureBox71";
-            this.brikksPictureBox71.OriginalImage = null;
-            this.brikksPictureBox71.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox71.TabIndex = 229;
-            this.brikksPictureBox71.TabStop = false;
-            // 
-            // brikksPictureBox72
-            // 
-            this.brikksPictureBox72.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox72.Image")));
-            this.brikksPictureBox72.IsFixed = false;
-            this.brikksPictureBox72.IsMarked = false;
-            this.brikksPictureBox72.Location = new System.Drawing.Point(28, 207);
-            this.brikksPictureBox72.Name = "brikksPictureBox72";
-            this.brikksPictureBox72.OriginalImage = null;
-            this.brikksPictureBox72.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox72.TabIndex = 230;
-            this.brikksPictureBox72.TabStop = false;
-            // 
-            // brikksPictureBox74
-            // 
-            this.brikksPictureBox74.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox74.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox74.Image")));
-            this.brikksPictureBox74.IsFixed = false;
-            this.brikksPictureBox74.IsMarked = false;
-            this.brikksPictureBox74.Location = new System.Drawing.Point(11, 224);
-            this.brikksPictureBox74.Name = "brikksPictureBox74";
-            this.brikksPictureBox74.OriginalImage = null;
-            this.brikksPictureBox74.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox74.TabIndex = 231;
-            this.brikksPictureBox74.TabStop = false;
-            // 
-            // brikksPictureBox59
-            // 
-            this.brikksPictureBox59.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox59.Image")));
-            this.brikksPictureBox59.IsFixed = false;
-            this.brikksPictureBox59.IsMarked = false;
-            this.brikksPictureBox59.Location = new System.Drawing.Point(11, 132);
-            this.brikksPictureBox59.Name = "brikksPictureBox59";
-            this.brikksPictureBox59.OriginalImage = null;
-            this.brikksPictureBox59.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox59.TabIndex = 220;
-            this.brikksPictureBox59.TabStop = false;
-            // 
-            // brikksPictureBox62
-            // 
-            this.brikksPictureBox62.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox62.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox62.Image")));
-            this.brikksPictureBox62.IsFixed = false;
-            this.brikksPictureBox62.IsMarked = false;
-            this.brikksPictureBox62.Location = new System.Drawing.Point(11, 149);
-            this.brikksPictureBox62.Name = "brikksPictureBox62";
-            this.brikksPictureBox62.OriginalImage = null;
-            this.brikksPictureBox62.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox62.TabIndex = 221;
-            this.brikksPictureBox62.TabStop = false;
-            // 
-            // brikksPictureBox65
-            // 
-            this.brikksPictureBox65.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox65.Image")));
-            this.brikksPictureBox65.IsFixed = false;
-            this.brikksPictureBox65.IsMarked = false;
-            this.brikksPictureBox65.Location = new System.Drawing.Point(11, 166);
-            this.brikksPictureBox65.Name = "brikksPictureBox65";
-            this.brikksPictureBox65.OriginalImage = null;
-            this.brikksPictureBox65.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox65.TabIndex = 222;
-            this.brikksPictureBox65.TabStop = false;
-            // 
-            // brikksPictureBox67
-            // 
-            this.brikksPictureBox67.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox67.Image")));
-            this.brikksPictureBox67.IsFixed = false;
-            this.brikksPictureBox67.IsMarked = false;
-            this.brikksPictureBox67.Location = new System.Drawing.Point(28, 166);
-            this.brikksPictureBox67.Name = "brikksPictureBox67";
-            this.brikksPictureBox67.OriginalImage = null;
-            this.brikksPictureBox67.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox67.TabIndex = 223;
-            this.brikksPictureBox67.TabStop = false;
-            // 
-            // brikksPictureBox54
-            // 
-            this.brikksPictureBox54.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox54.Image")));
-            this.brikksPictureBox54.IsFixed = false;
-            this.brikksPictureBox54.IsMarked = false;
-            this.brikksPictureBox54.Location = new System.Drawing.Point(28, 74);
-            this.brikksPictureBox54.Name = "brikksPictureBox54";
-            this.brikksPictureBox54.OriginalImage = null;
-            this.brikksPictureBox54.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox54.TabIndex = 212;
-            this.brikksPictureBox54.TabStop = false;
-            // 
-            // brikksPictureBox56
-            // 
-            this.brikksPictureBox56.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox56.Image")));
-            this.brikksPictureBox56.IsFixed = false;
-            this.brikksPictureBox56.IsMarked = false;
-            this.brikksPictureBox56.Location = new System.Drawing.Point(28, 91);
-            this.brikksPictureBox56.Name = "brikksPictureBox56";
-            this.brikksPictureBox56.OriginalImage = null;
-            this.brikksPictureBox56.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox56.TabIndex = 213;
-            this.brikksPictureBox56.TabStop = false;
-            // 
-            // brikksPictureBox57
-            // 
-            this.brikksPictureBox57.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox57.Image")));
-            this.brikksPictureBox57.IsFixed = false;
-            this.brikksPictureBox57.IsMarked = false;
-            this.brikksPictureBox57.Location = new System.Drawing.Point(11, 108);
-            this.brikksPictureBox57.Name = "brikksPictureBox57";
-            this.brikksPictureBox57.OriginalImage = null;
-            this.brikksPictureBox57.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox57.TabIndex = 214;
-            this.brikksPictureBox57.TabStop = false;
-            // 
-            // brikksPictureBox58
-            // 
-            this.brikksPictureBox58.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox58.Image")));
-            this.brikksPictureBox58.IsFixed = false;
-            this.brikksPictureBox58.IsMarked = false;
-            this.brikksPictureBox58.Location = new System.Drawing.Point(28, 108);
-            this.brikksPictureBox58.Name = "brikksPictureBox58";
-            this.brikksPictureBox58.OriginalImage = null;
-            this.brikksPictureBox58.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox58.TabIndex = 215;
-            this.brikksPictureBox58.TabStop = false;
-            // 
-            // brikksPictureBox47
-            // 
-            this.brikksPictureBox47.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox47.Image")));
-            this.brikksPictureBox47.IsFixed = false;
-            this.brikksPictureBox47.IsMarked = false;
-            this.brikksPictureBox47.Location = new System.Drawing.Point(28, 33);
-            this.brikksPictureBox47.Name = "brikksPictureBox47";
-            this.brikksPictureBox47.OriginalImage = null;
-            this.brikksPictureBox47.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox47.TabIndex = 162;
-            this.brikksPictureBox47.TabStop = false;
-            // 
-            // brikksPictureBox50
-            // 
-            this.brikksPictureBox50.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox50.Image")));
-            this.brikksPictureBox50.IsFixed = false;
-            this.brikksPictureBox50.IsMarked = false;
-            this.brikksPictureBox50.Location = new System.Drawing.Point(11, 50);
-            this.brikksPictureBox50.Name = "brikksPictureBox50";
-            this.brikksPictureBox50.OriginalImage = null;
-            this.brikksPictureBox50.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox50.TabIndex = 163;
-            this.brikksPictureBox50.TabStop = false;
-            // 
-            // brikksPictureBox51
-            // 
-            this.brikksPictureBox51.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox51.Image")));
-            this.brikksPictureBox51.IsFixed = false;
-            this.brikksPictureBox51.IsMarked = false;
-            this.brikksPictureBox51.Location = new System.Drawing.Point(28, 50);
-            this.brikksPictureBox51.Name = "brikksPictureBox51";
-            this.brikksPictureBox51.OriginalImage = null;
-            this.brikksPictureBox51.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox51.TabIndex = 164;
-            this.brikksPictureBox51.TabStop = false;
-            // 
-            // brikksPictureBox53
-            // 
-            this.brikksPictureBox53.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox53.Image")));
-            this.brikksPictureBox53.IsFixed = false;
-            this.brikksPictureBox53.IsMarked = false;
-            this.brikksPictureBox53.Location = new System.Drawing.Point(45, 50);
-            this.brikksPictureBox53.Name = "brikksPictureBox53";
-            this.brikksPictureBox53.OriginalImage = null;
-            this.brikksPictureBox53.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox53.TabIndex = 165;
-            this.brikksPictureBox53.TabStop = false;
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.brikksPictureBox99);
@@ -1126,366 +759,6 @@
             this.groupBox3.TabIndex = 393;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "2";
-            // 
-            // brikksPictureBox99
-            // 
-            this.brikksPictureBox99.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox99.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox99.Image")));
-            this.brikksPictureBox99.IsFixed = false;
-            this.brikksPictureBox99.IsMarked = false;
-            this.brikksPictureBox99.Location = new System.Drawing.Point(28, 323);
-            this.brikksPictureBox99.Name = "brikksPictureBox99";
-            this.brikksPictureBox99.OriginalImage = null;
-            this.brikksPictureBox99.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox99.TabIndex = 247;
-            this.brikksPictureBox99.TabStop = false;
-            // 
-            // brikksPictureBox100
-            // 
-            this.brikksPictureBox100.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox100.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox100.Image")));
-            this.brikksPictureBox100.IsFixed = false;
-            this.brikksPictureBox100.IsMarked = false;
-            this.brikksPictureBox100.Location = new System.Drawing.Point(11, 306);
-            this.brikksPictureBox100.Name = "brikksPictureBox100";
-            this.brikksPictureBox100.OriginalImage = null;
-            this.brikksPictureBox100.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox100.TabIndex = 244;
-            this.brikksPictureBox100.TabStop = false;
-            // 
-            // brikksPictureBox101
-            // 
-            this.brikksPictureBox101.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox101.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox101.Image")));
-            this.brikksPictureBox101.IsFixed = false;
-            this.brikksPictureBox101.IsMarked = false;
-            this.brikksPictureBox101.Location = new System.Drawing.Point(28, 306);
-            this.brikksPictureBox101.Name = "brikksPictureBox101";
-            this.brikksPictureBox101.OriginalImage = null;
-            this.brikksPictureBox101.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox101.TabIndex = 245;
-            this.brikksPictureBox101.TabStop = false;
-            // 
-            // brikksPictureBox102
-            // 
-            this.brikksPictureBox102.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox102.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox102.Image")));
-            this.brikksPictureBox102.IsFixed = false;
-            this.brikksPictureBox102.IsMarked = false;
-            this.brikksPictureBox102.Location = new System.Drawing.Point(11, 323);
-            this.brikksPictureBox102.Name = "brikksPictureBox102";
-            this.brikksPictureBox102.OriginalImage = null;
-            this.brikksPictureBox102.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox102.TabIndex = 246;
-            this.brikksPictureBox102.TabStop = false;
-            // 
-            // brikksPictureBox103
-            // 
-            this.brikksPictureBox103.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox103.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox103.Image")));
-            this.brikksPictureBox103.IsFixed = false;
-            this.brikksPictureBox103.IsMarked = false;
-            this.brikksPictureBox103.Location = new System.Drawing.Point(11, 248);
-            this.brikksPictureBox103.Name = "brikksPictureBox103";
-            this.brikksPictureBox103.OriginalImage = null;
-            this.brikksPictureBox103.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox103.TabIndex = 238;
-            this.brikksPictureBox103.TabStop = false;
-            // 
-            // brikksPictureBox104
-            // 
-            this.brikksPictureBox104.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox104.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox104.Image")));
-            this.brikksPictureBox104.IsFixed = false;
-            this.brikksPictureBox104.IsMarked = false;
-            this.brikksPictureBox104.Location = new System.Drawing.Point(11, 265);
-            this.brikksPictureBox104.Name = "brikksPictureBox104";
-            this.brikksPictureBox104.OriginalImage = null;
-            this.brikksPictureBox104.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox104.TabIndex = 239;
-            this.brikksPictureBox104.TabStop = false;
-            // 
-            // brikksPictureBox105
-            // 
-            this.brikksPictureBox105.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox105.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox105.Image")));
-            this.brikksPictureBox105.IsFixed = false;
-            this.brikksPictureBox105.IsMarked = false;
-            this.brikksPictureBox105.Location = new System.Drawing.Point(28, 265);
-            this.brikksPictureBox105.Name = "brikksPictureBox105";
-            this.brikksPictureBox105.OriginalImage = null;
-            this.brikksPictureBox105.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox105.TabIndex = 240;
-            this.brikksPictureBox105.TabStop = false;
-            // 
-            // brikksPictureBox106
-            // 
-            this.brikksPictureBox106.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox106.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox106.Image")));
-            this.brikksPictureBox106.IsFixed = false;
-            this.brikksPictureBox106.IsMarked = false;
-            this.brikksPictureBox106.Location = new System.Drawing.Point(28, 282);
-            this.brikksPictureBox106.Name = "brikksPictureBox106";
-            this.brikksPictureBox106.OriginalImage = null;
-            this.brikksPictureBox106.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox106.TabIndex = 241;
-            this.brikksPictureBox106.TabStop = false;
-            // 
-            // brikksPictureBox107
-            // 
-            this.brikksPictureBox107.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox107.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox107.Image")));
-            this.brikksPictureBox107.IsFixed = false;
-            this.brikksPictureBox107.IsMarked = false;
-            this.brikksPictureBox107.Location = new System.Drawing.Point(28, 190);
-            this.brikksPictureBox107.Name = "brikksPictureBox107";
-            this.brikksPictureBox107.OriginalImage = null;
-            this.brikksPictureBox107.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox107.TabIndex = 228;
-            this.brikksPictureBox107.TabStop = false;
-            // 
-            // brikksPictureBox108
-            // 
-            this.brikksPictureBox108.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox108.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox108.Image")));
-            this.brikksPictureBox108.IsFixed = false;
-            this.brikksPictureBox108.IsMarked = false;
-            this.brikksPictureBox108.Location = new System.Drawing.Point(11, 207);
-            this.brikksPictureBox108.Name = "brikksPictureBox108";
-            this.brikksPictureBox108.OriginalImage = null;
-            this.brikksPictureBox108.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox108.TabIndex = 229;
-            this.brikksPictureBox108.TabStop = false;
-            // 
-            // brikksPictureBox109
-            // 
-            this.brikksPictureBox109.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox109.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox109.Image")));
-            this.brikksPictureBox109.IsFixed = false;
-            this.brikksPictureBox109.IsMarked = false;
-            this.brikksPictureBox109.Location = new System.Drawing.Point(28, 207);
-            this.brikksPictureBox109.Name = "brikksPictureBox109";
-            this.brikksPictureBox109.OriginalImage = null;
-            this.brikksPictureBox109.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox109.TabIndex = 230;
-            this.brikksPictureBox109.TabStop = false;
-            // 
-            // brikksPictureBox110
-            // 
-            this.brikksPictureBox110.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox110.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox110.Image")));
-            this.brikksPictureBox110.IsFixed = false;
-            this.brikksPictureBox110.IsMarked = false;
-            this.brikksPictureBox110.Location = new System.Drawing.Point(11, 224);
-            this.brikksPictureBox110.Name = "brikksPictureBox110";
-            this.brikksPictureBox110.OriginalImage = null;
-            this.brikksPictureBox110.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox110.TabIndex = 231;
-            this.brikksPictureBox110.TabStop = false;
-            // 
-            // brikksPictureBox111
-            // 
-            this.brikksPictureBox111.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox111.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox111.Image")));
-            this.brikksPictureBox111.IsFixed = false;
-            this.brikksPictureBox111.IsMarked = false;
-            this.brikksPictureBox111.Location = new System.Drawing.Point(11, 132);
-            this.brikksPictureBox111.Name = "brikksPictureBox111";
-            this.brikksPictureBox111.OriginalImage = null;
-            this.brikksPictureBox111.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox111.TabIndex = 220;
-            this.brikksPictureBox111.TabStop = false;
-            // 
-            // brikksPictureBox112
-            // 
-            this.brikksPictureBox112.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox112.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox112.Image")));
-            this.brikksPictureBox112.IsFixed = false;
-            this.brikksPictureBox112.IsMarked = false;
-            this.brikksPictureBox112.Location = new System.Drawing.Point(11, 149);
-            this.brikksPictureBox112.Name = "brikksPictureBox112";
-            this.brikksPictureBox112.OriginalImage = null;
-            this.brikksPictureBox112.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox112.TabIndex = 221;
-            this.brikksPictureBox112.TabStop = false;
-            // 
-            // brikksPictureBox113
-            // 
-            this.brikksPictureBox113.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox113.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox113.Image")));
-            this.brikksPictureBox113.IsFixed = false;
-            this.brikksPictureBox113.IsMarked = false;
-            this.brikksPictureBox113.Location = new System.Drawing.Point(45, 132);
-            this.brikksPictureBox113.Name = "brikksPictureBox113";
-            this.brikksPictureBox113.OriginalImage = null;
-            this.brikksPictureBox113.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox113.TabIndex = 222;
-            this.brikksPictureBox113.TabStop = false;
-            // 
-            // brikksPictureBox114
-            // 
-            this.brikksPictureBox114.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox114.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox114.Image")));
-            this.brikksPictureBox114.IsFixed = false;
-            this.brikksPictureBox114.IsMarked = false;
-            this.brikksPictureBox114.Location = new System.Drawing.Point(28, 132);
-            this.brikksPictureBox114.Name = "brikksPictureBox114";
-            this.brikksPictureBox114.OriginalImage = null;
-            this.brikksPictureBox114.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox114.TabIndex = 223;
-            this.brikksPictureBox114.TabStop = false;
-            // 
-            // brikksPictureBox119
-            // 
-            this.brikksPictureBox119.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox119.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox119.Image")));
-            this.brikksPictureBox119.IsFixed = false;
-            this.brikksPictureBox119.IsMarked = false;
-            this.brikksPictureBox119.Location = new System.Drawing.Point(45, 108);
-            this.brikksPictureBox119.Name = "brikksPictureBox119";
-            this.brikksPictureBox119.OriginalImage = null;
-            this.brikksPictureBox119.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox119.TabIndex = 212;
-            this.brikksPictureBox119.TabStop = false;
-            // 
-            // brikksPictureBox120
-            // 
-            this.brikksPictureBox120.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox120.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox120.Image")));
-            this.brikksPictureBox120.IsFixed = false;
-            this.brikksPictureBox120.IsMarked = false;
-            this.brikksPictureBox120.Location = new System.Drawing.Point(11, 91);
-            this.brikksPictureBox120.Name = "brikksPictureBox120";
-            this.brikksPictureBox120.OriginalImage = null;
-            this.brikksPictureBox120.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox120.TabIndex = 213;
-            this.brikksPictureBox120.TabStop = false;
-            // 
-            // brikksPictureBox121
-            // 
-            this.brikksPictureBox121.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox121.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox121.Image")));
-            this.brikksPictureBox121.IsFixed = false;
-            this.brikksPictureBox121.IsMarked = false;
-            this.brikksPictureBox121.Location = new System.Drawing.Point(11, 108);
-            this.brikksPictureBox121.Name = "brikksPictureBox121";
-            this.brikksPictureBox121.OriginalImage = null;
-            this.brikksPictureBox121.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox121.TabIndex = 214;
-            this.brikksPictureBox121.TabStop = false;
-            // 
-            // brikksPictureBox125
-            // 
-            this.brikksPictureBox125.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox125.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox125.Image")));
-            this.brikksPictureBox125.IsFixed = false;
-            this.brikksPictureBox125.IsMarked = false;
-            this.brikksPictureBox125.Location = new System.Drawing.Point(28, 108);
-            this.brikksPictureBox125.Name = "brikksPictureBox125";
-            this.brikksPictureBox125.OriginalImage = null;
-            this.brikksPictureBox125.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox125.TabIndex = 215;
-            this.brikksPictureBox125.TabStop = false;
-            // 
-            // brikksPictureBox126
-            // 
-            this.brikksPictureBox126.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox126.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox126.Image")));
-            this.brikksPictureBox126.IsFixed = false;
-            this.brikksPictureBox126.IsMarked = false;
-            this.brikksPictureBox126.Location = new System.Drawing.Point(11, 33);
-            this.brikksPictureBox126.Name = "brikksPictureBox126";
-            this.brikksPictureBox126.OriginalImage = null;
-            this.brikksPictureBox126.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox126.TabIndex = 162;
-            this.brikksPictureBox126.TabStop = false;
-            // 
-            // brikksPictureBox128
-            // 
-            this.brikksPictureBox128.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox128.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox128.Image")));
-            this.brikksPictureBox128.IsFixed = false;
-            this.brikksPictureBox128.IsMarked = false;
-            this.brikksPictureBox128.Location = new System.Drawing.Point(11, 50);
-            this.brikksPictureBox128.Name = "brikksPictureBox128";
-            this.brikksPictureBox128.OriginalImage = null;
-            this.brikksPictureBox128.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox128.TabIndex = 163;
-            this.brikksPictureBox128.TabStop = false;
-            // 
-            // brikksPictureBox130
-            // 
-            this.brikksPictureBox130.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox130.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox130.Image")));
-            this.brikksPictureBox130.IsFixed = false;
-            this.brikksPictureBox130.IsMarked = false;
-            this.brikksPictureBox130.Location = new System.Drawing.Point(28, 50);
-            this.brikksPictureBox130.Name = "brikksPictureBox130";
-            this.brikksPictureBox130.OriginalImage = null;
-            this.brikksPictureBox130.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox130.TabIndex = 164;
-            this.brikksPictureBox130.TabStop = false;
-            // 
-            // brikksPictureBox131
-            // 
-            this.brikksPictureBox131.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox131.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox131.Image")));
-            this.brikksPictureBox131.IsFixed = false;
-            this.brikksPictureBox131.IsMarked = false;
-            this.brikksPictureBox131.Location = new System.Drawing.Point(11, 67);
-            this.brikksPictureBox131.Name = "brikksPictureBox131";
-            this.brikksPictureBox131.OriginalImage = null;
-            this.brikksPictureBox131.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox131.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox131.TabIndex = 165;
-            this.brikksPictureBox131.TabStop = false;
             // 
             // groupBox4
             // 
@@ -1521,366 +794,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "3";
             // 
-            // brikksPictureBox133
-            // 
-            this.brikksPictureBox133.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox133.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox133.Image")));
-            this.brikksPictureBox133.IsFixed = false;
-            this.brikksPictureBox133.IsMarked = false;
-            this.brikksPictureBox133.Location = new System.Drawing.Point(11, 340);
-            this.brikksPictureBox133.Name = "brikksPictureBox133";
-            this.brikksPictureBox133.OriginalImage = null;
-            this.brikksPictureBox133.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox133.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox133.TabIndex = 247;
-            this.brikksPictureBox133.TabStop = false;
-            // 
-            // brikksPictureBox134
-            // 
-            this.brikksPictureBox134.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox134.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox134.Image")));
-            this.brikksPictureBox134.IsFixed = false;
-            this.brikksPictureBox134.IsMarked = false;
-            this.brikksPictureBox134.Location = new System.Drawing.Point(11, 306);
-            this.brikksPictureBox134.Name = "brikksPictureBox134";
-            this.brikksPictureBox134.OriginalImage = null;
-            this.brikksPictureBox134.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox134.TabIndex = 244;
-            this.brikksPictureBox134.TabStop = false;
-            // 
-            // brikksPictureBox135
-            // 
-            this.brikksPictureBox135.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox135.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox135.Image")));
-            this.brikksPictureBox135.IsFixed = false;
-            this.brikksPictureBox135.IsMarked = false;
-            this.brikksPictureBox135.Location = new System.Drawing.Point(11, 357);
-            this.brikksPictureBox135.Name = "brikksPictureBox135";
-            this.brikksPictureBox135.OriginalImage = null;
-            this.brikksPictureBox135.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox135.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox135.TabIndex = 245;
-            this.brikksPictureBox135.TabStop = false;
-            // 
-            // brikksPictureBox136
-            // 
-            this.brikksPictureBox136.BackColor = System.Drawing.Color.Black;
-            this.brikksPictureBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox136.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox136.Image")));
-            this.brikksPictureBox136.IsFixed = false;
-            this.brikksPictureBox136.IsMarked = false;
-            this.brikksPictureBox136.Location = new System.Drawing.Point(11, 323);
-            this.brikksPictureBox136.Name = "brikksPictureBox136";
-            this.brikksPictureBox136.OriginalImage = null;
-            this.brikksPictureBox136.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox136.TabIndex = 246;
-            this.brikksPictureBox136.TabStop = false;
-            // 
-            // brikksPictureBox137
-            // 
-            this.brikksPictureBox137.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox137.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox137.Image")));
-            this.brikksPictureBox137.IsFixed = false;
-            this.brikksPictureBox137.IsMarked = false;
-            this.brikksPictureBox137.Location = new System.Drawing.Point(44, 265);
-            this.brikksPictureBox137.Name = "brikksPictureBox137";
-            this.brikksPictureBox137.OriginalImage = null;
-            this.brikksPictureBox137.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox137.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox137.TabIndex = 238;
-            this.brikksPictureBox137.TabStop = false;
-            // 
-            // brikksPictureBox142
-            // 
-            this.brikksPictureBox142.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox142.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox142.Image")));
-            this.brikksPictureBox142.IsFixed = false;
-            this.brikksPictureBox142.IsMarked = false;
-            this.brikksPictureBox142.Location = new System.Drawing.Point(11, 282);
-            this.brikksPictureBox142.Name = "brikksPictureBox142";
-            this.brikksPictureBox142.OriginalImage = null;
-            this.brikksPictureBox142.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox142.TabIndex = 239;
-            this.brikksPictureBox142.TabStop = false;
-            // 
-            // brikksPictureBox143
-            // 
-            this.brikksPictureBox143.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox143.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox143.Image")));
-            this.brikksPictureBox143.IsFixed = false;
-            this.brikksPictureBox143.IsMarked = false;
-            this.brikksPictureBox143.Location = new System.Drawing.Point(28, 265);
-            this.brikksPictureBox143.Name = "brikksPictureBox143";
-            this.brikksPictureBox143.OriginalImage = null;
-            this.brikksPictureBox143.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox143.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox143.TabIndex = 240;
-            this.brikksPictureBox143.TabStop = false;
-            // 
-            // brikksPictureBox144
-            // 
-            this.brikksPictureBox144.BackColor = System.Drawing.Color.DarkBlue;
-            this.brikksPictureBox144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox144.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox144.Image")));
-            this.brikksPictureBox144.IsFixed = false;
-            this.brikksPictureBox144.IsMarked = false;
-            this.brikksPictureBox144.Location = new System.Drawing.Point(28, 282);
-            this.brikksPictureBox144.Name = "brikksPictureBox144";
-            this.brikksPictureBox144.OriginalImage = null;
-            this.brikksPictureBox144.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox144.TabIndex = 241;
-            this.brikksPictureBox144.TabStop = false;
-            // 
-            // brikksPictureBox145
-            // 
-            this.brikksPictureBox145.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox145.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox145.Image")));
-            this.brikksPictureBox145.IsFixed = false;
-            this.brikksPictureBox145.IsMarked = false;
-            this.brikksPictureBox145.Location = new System.Drawing.Point(28, 224);
-            this.brikksPictureBox145.Name = "brikksPictureBox145";
-            this.brikksPictureBox145.OriginalImage = null;
-            this.brikksPictureBox145.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox145.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox145.TabIndex = 228;
-            this.brikksPictureBox145.TabStop = false;
-            // 
-            // brikksPictureBox148
-            // 
-            this.brikksPictureBox148.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox148.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox148.Image")));
-            this.brikksPictureBox148.IsFixed = false;
-            this.brikksPictureBox148.IsMarked = false;
-            this.brikksPictureBox148.Location = new System.Drawing.Point(11, 207);
-            this.brikksPictureBox148.Name = "brikksPictureBox148";
-            this.brikksPictureBox148.OriginalImage = null;
-            this.brikksPictureBox148.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox148.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox148.TabIndex = 229;
-            this.brikksPictureBox148.TabStop = false;
-            // 
-            // brikksPictureBox149
-            // 
-            this.brikksPictureBox149.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox149.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox149.Image")));
-            this.brikksPictureBox149.IsFixed = false;
-            this.brikksPictureBox149.IsMarked = false;
-            this.brikksPictureBox149.Location = new System.Drawing.Point(28, 207);
-            this.brikksPictureBox149.Name = "brikksPictureBox149";
-            this.brikksPictureBox149.OriginalImage = null;
-            this.brikksPictureBox149.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox149.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox149.TabIndex = 230;
-            this.brikksPictureBox149.TabStop = false;
-            // 
-            // brikksPictureBox153
-            // 
-            this.brikksPictureBox153.BackColor = System.Drawing.Color.Red;
-            this.brikksPictureBox153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox153.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox153.Image")));
-            this.brikksPictureBox153.IsFixed = false;
-            this.brikksPictureBox153.IsMarked = false;
-            this.brikksPictureBox153.Location = new System.Drawing.Point(44, 224);
-            this.brikksPictureBox153.Name = "brikksPictureBox153";
-            this.brikksPictureBox153.OriginalImage = null;
-            this.brikksPictureBox153.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox153.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox153.TabIndex = 231;
-            this.brikksPictureBox153.TabStop = false;
-            // 
-            // brikksPictureBox154
-            // 
-            this.brikksPictureBox154.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox154.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox154.Image")));
-            this.brikksPictureBox154.IsFixed = false;
-            this.brikksPictureBox154.IsMarked = false;
-            this.brikksPictureBox154.Location = new System.Drawing.Point(11, 132);
-            this.brikksPictureBox154.Name = "brikksPictureBox154";
-            this.brikksPictureBox154.OriginalImage = null;
-            this.brikksPictureBox154.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox154.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox154.TabIndex = 220;
-            this.brikksPictureBox154.TabStop = false;
-            // 
-            // brikksPictureBox156
-            // 
-            this.brikksPictureBox156.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox156.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox156.Image")));
-            this.brikksPictureBox156.IsFixed = false;
-            this.brikksPictureBox156.IsMarked = false;
-            this.brikksPictureBox156.Location = new System.Drawing.Point(28, 150);
-            this.brikksPictureBox156.Name = "brikksPictureBox156";
-            this.brikksPictureBox156.OriginalImage = null;
-            this.brikksPictureBox156.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox156.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox156.TabIndex = 221;
-            this.brikksPictureBox156.TabStop = false;
-            // 
-            // brikksPictureBox157
-            // 
-            this.brikksPictureBox157.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox157.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox157.Image")));
-            this.brikksPictureBox157.IsFixed = false;
-            this.brikksPictureBox157.IsMarked = false;
-            this.brikksPictureBox157.Location = new System.Drawing.Point(28, 166);
-            this.brikksPictureBox157.Name = "brikksPictureBox157";
-            this.brikksPictureBox157.OriginalImage = null;
-            this.brikksPictureBox157.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox157.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox157.TabIndex = 222;
-            this.brikksPictureBox157.TabStop = false;
-            // 
-            // brikksPictureBox160
-            // 
-            this.brikksPictureBox160.BackColor = System.Drawing.Color.ForestGreen;
-            this.brikksPictureBox160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox160.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox160.Image")));
-            this.brikksPictureBox160.IsFixed = false;
-            this.brikksPictureBox160.IsMarked = false;
-            this.brikksPictureBox160.Location = new System.Drawing.Point(28, 132);
-            this.brikksPictureBox160.Name = "brikksPictureBox160";
-            this.brikksPictureBox160.OriginalImage = null;
-            this.brikksPictureBox160.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox160.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox160.TabIndex = 223;
-            this.brikksPictureBox160.TabStop = false;
-            // 
-            // brikksPictureBox161
-            // 
-            this.brikksPictureBox161.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox161.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox161.Image")));
-            this.brikksPictureBox161.IsFixed = false;
-            this.brikksPictureBox161.IsMarked = false;
-            this.brikksPictureBox161.Location = new System.Drawing.Point(28, 74);
-            this.brikksPictureBox161.Name = "brikksPictureBox161";
-            this.brikksPictureBox161.OriginalImage = null;
-            this.brikksPictureBox161.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox161.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox161.TabIndex = 212;
-            this.brikksPictureBox161.TabStop = false;
-            // 
-            // brikksPictureBox162
-            // 
-            this.brikksPictureBox162.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox162.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox162.Image")));
-            this.brikksPictureBox162.IsFixed = false;
-            this.brikksPictureBox162.IsMarked = false;
-            this.brikksPictureBox162.Location = new System.Drawing.Point(11, 91);
-            this.brikksPictureBox162.Name = "brikksPictureBox162";
-            this.brikksPictureBox162.OriginalImage = null;
-            this.brikksPictureBox162.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox162.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox162.TabIndex = 213;
-            this.brikksPictureBox162.TabStop = false;
-            // 
-            // brikksPictureBox163
-            // 
-            this.brikksPictureBox163.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox163.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox163.Image")));
-            this.brikksPictureBox163.IsFixed = false;
-            this.brikksPictureBox163.IsMarked = false;
-            this.brikksPictureBox163.Location = new System.Drawing.Point(11, 74);
-            this.brikksPictureBox163.Name = "brikksPictureBox163";
-            this.brikksPictureBox163.OriginalImage = null;
-            this.brikksPictureBox163.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox163.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox163.TabIndex = 214;
-            this.brikksPictureBox163.TabStop = false;
-            // 
-            // brikksPictureBox164
-            // 
-            this.brikksPictureBox164.BackColor = System.Drawing.Color.Yellow;
-            this.brikksPictureBox164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox164.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox164.Image")));
-            this.brikksPictureBox164.IsFixed = false;
-            this.brikksPictureBox164.IsMarked = false;
-            this.brikksPictureBox164.Location = new System.Drawing.Point(11, 108);
-            this.brikksPictureBox164.Name = "brikksPictureBox164";
-            this.brikksPictureBox164.OriginalImage = null;
-            this.brikksPictureBox164.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox164.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox164.TabIndex = 215;
-            this.brikksPictureBox164.TabStop = false;
-            // 
-            // brikksPictureBox165
-            // 
-            this.brikksPictureBox165.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox165.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox165.Image")));
-            this.brikksPictureBox165.IsFixed = false;
-            this.brikksPictureBox165.IsMarked = false;
-            this.brikksPictureBox165.Location = new System.Drawing.Point(28, 33);
-            this.brikksPictureBox165.Name = "brikksPictureBox165";
-            this.brikksPictureBox165.OriginalImage = null;
-            this.brikksPictureBox165.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox165.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox165.TabIndex = 162;
-            this.brikksPictureBox165.TabStop = false;
-            // 
-            // brikksPictureBox170
-            // 
-            this.brikksPictureBox170.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox170.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox170.Image")));
-            this.brikksPictureBox170.IsFixed = false;
-            this.brikksPictureBox170.IsMarked = false;
-            this.brikksPictureBox170.Location = new System.Drawing.Point(11, 33);
-            this.brikksPictureBox170.Name = "brikksPictureBox170";
-            this.brikksPictureBox170.OriginalImage = null;
-            this.brikksPictureBox170.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox170.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox170.TabIndex = 163;
-            this.brikksPictureBox170.TabStop = false;
-            // 
-            // brikksPictureBox171
-            // 
-            this.brikksPictureBox171.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox171.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox171.Image")));
-            this.brikksPictureBox171.IsFixed = false;
-            this.brikksPictureBox171.IsMarked = false;
-            this.brikksPictureBox171.Location = new System.Drawing.Point(28, 50);
-            this.brikksPictureBox171.Name = "brikksPictureBox171";
-            this.brikksPictureBox171.OriginalImage = null;
-            this.brikksPictureBox171.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox171.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox171.TabIndex = 164;
-            this.brikksPictureBox171.TabStop = false;
-            // 
-            // brikksPictureBox172
-            // 
-            this.brikksPictureBox172.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.brikksPictureBox172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brikksPictureBox172.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox172.Image")));
-            this.brikksPictureBox172.IsFixed = false;
-            this.brikksPictureBox172.IsMarked = false;
-            this.brikksPictureBox172.Location = new System.Drawing.Point(44, 33);
-            this.brikksPictureBox172.Name = "brikksPictureBox172";
-            this.brikksPictureBox172.OriginalImage = null;
-            this.brikksPictureBox172.Size = new System.Drawing.Size(18, 18);
-            this.brikksPictureBox172.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.brikksPictureBox172.TabIndex = 165;
-            this.brikksPictureBox172.TabStop = false;
-            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.brikksPictureBox173);
@@ -1914,6 +827,142 @@
             this.groupBox5.TabIndex = 395;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "4";
+            // 
+            // UploadPlayButton
+            // 
+            this.UploadPlayButton.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.UploadPlayButton.Font = new System.Drawing.Font("Karmatic Arcade", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UploadPlayButton.ForeColor = System.Drawing.Color.White;
+            this.UploadPlayButton.Image = global::sharpbrikks.Properties.Resources.bgg;
+            this.UploadPlayButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UploadPlayButton.Location = new System.Drawing.Point(18, 264);
+            this.UploadPlayButton.Name = "UploadPlayButton";
+            this.UploadPlayButton.Size = new System.Drawing.Size(156, 46);
+            this.UploadPlayButton.TabIndex = 397;
+            this.UploadPlayButton.Text = "Upload Play";
+            this.UploadPlayButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.UploadPlayButton.UseVisualStyleBackColor = false;
+            this.UploadPlayButton.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(263, 509);
+            this.label8.Name = "label8";
+            this.label8.Padding = new System.Windows.Forms.Padding(2);
+            this.label8.Size = new System.Drawing.Size(21, 18);
+            this.label8.TabIndex = 398;
+            this.label8.Text = "0";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label9.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(285, 509);
+            this.label9.Name = "label9";
+            this.label9.Padding = new System.Windows.Forms.Padding(2);
+            this.label9.Size = new System.Drawing.Size(20, 18);
+            this.label9.TabIndex = 399;
+            this.label9.Text = "1";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label10.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(306, 509);
+            this.label10.Name = "label10";
+            this.label10.Padding = new System.Windows.Forms.Padding(2);
+            this.label10.Size = new System.Drawing.Size(21, 18);
+            this.label10.TabIndex = 400;
+            this.label10.Text = "3";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label11.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(328, 509);
+            this.label11.Name = "label11";
+            this.label11.Padding = new System.Windows.Forms.Padding(2);
+            this.label11.Size = new System.Drawing.Size(21, 18);
+            this.label11.TabIndex = 401;
+            this.label11.Text = "6";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(350, 509);
+            this.label12.Name = "label12";
+            this.label12.Padding = new System.Windows.Forms.Padding(2);
+            this.label12.Size = new System.Drawing.Size(30, 18);
+            this.label12.TabIndex = 402;
+            this.label12.Text = "10";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(381, 509);
+            this.label13.Name = "label13";
+            this.label13.Padding = new System.Windows.Forms.Padding(2);
+            this.label13.Size = new System.Drawing.Size(30, 18);
+            this.label13.TabIndex = 403;
+            this.label13.Text = "15";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label14.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(412, 509);
+            this.label14.Name = "label14";
+            this.label14.Padding = new System.Windows.Forms.Padding(2);
+            this.label14.Size = new System.Drawing.Size(30, 18);
+            this.label14.TabIndex = 404;
+            this.label14.Text = "21";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label15.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(443, 509);
+            this.label15.Name = "label15";
+            this.label15.Padding = new System.Windows.Forms.Padding(2);
+            this.label15.Size = new System.Drawing.Size(31, 18);
+            this.label15.TabIndex = 405;
+            this.label15.Text = "28";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label16.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(475, 509);
+            this.label16.Name = "label16";
+            this.label16.Padding = new System.Windows.Forms.Padding(2);
+            this.label16.Size = new System.Drawing.Size(31, 18);
+            this.label16.TabIndex = 406;
+            this.label16.Text = "36";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label17.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(507, 509);
+            this.label17.Name = "label17";
+            this.label17.Padding = new System.Windows.Forms.Padding(2);
+            this.label17.Size = new System.Drawing.Size(31, 18);
+            this.label17.TabIndex = 407;
+            this.label17.Text = "44";
             // 
             // brikksPictureBox173
             // 
@@ -2275,153 +1324,725 @@
             this.brikksPictureBox196.TabIndex = 165;
             this.brikksPictureBox196.TabStop = false;
             // 
-            // Score__Line_0
+            // brikksPictureBox133
             // 
-            this.Score__Line_0.AutoSize = true;
-            this.Score__Line_0.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_0.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_0.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_0.Location = new System.Drawing.Point(196, 473);
-            this.Score__Line_0.Name = "Score__Line_0";
-            this.Score__Line_0.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_0.TabIndex = 202;
-            this.Score__Line_0.Text = "__";
+            this.brikksPictureBox133.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox133.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox133.Image")));
+            this.brikksPictureBox133.IsFixed = false;
+            this.brikksPictureBox133.IsMarked = false;
+            this.brikksPictureBox133.Location = new System.Drawing.Point(11, 340);
+            this.brikksPictureBox133.Name = "brikksPictureBox133";
+            this.brikksPictureBox133.OriginalImage = null;
+            this.brikksPictureBox133.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox133.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox133.TabIndex = 247;
+            this.brikksPictureBox133.TabStop = false;
             // 
-            // Score__Line_1
+            // brikksPictureBox134
             // 
-            this.Score__Line_1.AutoSize = true;
-            this.Score__Line_1.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_1.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_1.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_1.Location = new System.Drawing.Point(196, 435);
-            this.Score__Line_1.Name = "Score__Line_1";
-            this.Score__Line_1.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_1.TabIndex = 201;
-            this.Score__Line_1.Text = "__";
+            this.brikksPictureBox134.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox134.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox134.Image")));
+            this.brikksPictureBox134.IsFixed = false;
+            this.brikksPictureBox134.IsMarked = false;
+            this.brikksPictureBox134.Location = new System.Drawing.Point(11, 306);
+            this.brikksPictureBox134.Name = "brikksPictureBox134";
+            this.brikksPictureBox134.OriginalImage = null;
+            this.brikksPictureBox134.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox134.TabIndex = 244;
+            this.brikksPictureBox134.TabStop = false;
             // 
-            // Score__Line_2
+            // brikksPictureBox135
             // 
-            this.Score__Line_2.AutoSize = true;
-            this.Score__Line_2.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_2.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_2.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_2.Location = new System.Drawing.Point(196, 397);
-            this.Score__Line_2.Name = "Score__Line_2";
-            this.Score__Line_2.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_2.TabIndex = 200;
-            this.Score__Line_2.Text = "__";
+            this.brikksPictureBox135.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox135.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox135.Image")));
+            this.brikksPictureBox135.IsFixed = false;
+            this.brikksPictureBox135.IsMarked = false;
+            this.brikksPictureBox135.Location = new System.Drawing.Point(11, 357);
+            this.brikksPictureBox135.Name = "brikksPictureBox135";
+            this.brikksPictureBox135.OriginalImage = null;
+            this.brikksPictureBox135.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox135.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox135.TabIndex = 245;
+            this.brikksPictureBox135.TabStop = false;
             // 
-            // Score__Line_3
+            // brikksPictureBox136
             // 
-            this.Score__Line_3.AutoSize = true;
-            this.Score__Line_3.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_3.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_3.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_3.Location = new System.Drawing.Point(196, 359);
-            this.Score__Line_3.Name = "Score__Line_3";
-            this.Score__Line_3.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_3.TabIndex = 199;
-            this.Score__Line_3.Text = "__";
+            this.brikksPictureBox136.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox136.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox136.Image")));
+            this.brikksPictureBox136.IsFixed = false;
+            this.brikksPictureBox136.IsMarked = false;
+            this.brikksPictureBox136.Location = new System.Drawing.Point(11, 323);
+            this.brikksPictureBox136.Name = "brikksPictureBox136";
+            this.brikksPictureBox136.OriginalImage = null;
+            this.brikksPictureBox136.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox136.TabIndex = 246;
+            this.brikksPictureBox136.TabStop = false;
             // 
-            // Score__Line_4
+            // brikksPictureBox137
             // 
-            this.Score__Line_4.AutoSize = true;
-            this.Score__Line_4.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_4.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_4.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_4.Location = new System.Drawing.Point(196, 321);
-            this.Score__Line_4.Name = "Score__Line_4";
-            this.Score__Line_4.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_4.TabIndex = 198;
-            this.Score__Line_4.Text = "__";
+            this.brikksPictureBox137.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox137.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox137.Image")));
+            this.brikksPictureBox137.IsFixed = false;
+            this.brikksPictureBox137.IsMarked = false;
+            this.brikksPictureBox137.Location = new System.Drawing.Point(44, 265);
+            this.brikksPictureBox137.Name = "brikksPictureBox137";
+            this.brikksPictureBox137.OriginalImage = null;
+            this.brikksPictureBox137.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox137.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox137.TabIndex = 238;
+            this.brikksPictureBox137.TabStop = false;
             // 
-            // Score__Line_5
+            // brikksPictureBox142
             // 
-            this.Score__Line_5.AutoSize = true;
-            this.Score__Line_5.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_5.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_5.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_5.Location = new System.Drawing.Point(196, 283);
-            this.Score__Line_5.Name = "Score__Line_5";
-            this.Score__Line_5.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_5.TabIndex = 197;
-            this.Score__Line_5.Text = "__";
+            this.brikksPictureBox142.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox142.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox142.Image")));
+            this.brikksPictureBox142.IsFixed = false;
+            this.brikksPictureBox142.IsMarked = false;
+            this.brikksPictureBox142.Location = new System.Drawing.Point(11, 282);
+            this.brikksPictureBox142.Name = "brikksPictureBox142";
+            this.brikksPictureBox142.OriginalImage = null;
+            this.brikksPictureBox142.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox142.TabIndex = 239;
+            this.brikksPictureBox142.TabStop = false;
             // 
-            // Score__Line_6
+            // brikksPictureBox143
             // 
-            this.Score__Line_6.AutoSize = true;
-            this.Score__Line_6.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_6.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_6.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_6.Location = new System.Drawing.Point(196, 245);
-            this.Score__Line_6.Name = "Score__Line_6";
-            this.Score__Line_6.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_6.TabIndex = 196;
-            this.Score__Line_6.Text = "__";
+            this.brikksPictureBox143.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox143.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox143.Image")));
+            this.brikksPictureBox143.IsFixed = false;
+            this.brikksPictureBox143.IsMarked = false;
+            this.brikksPictureBox143.Location = new System.Drawing.Point(28, 265);
+            this.brikksPictureBox143.Name = "brikksPictureBox143";
+            this.brikksPictureBox143.OriginalImage = null;
+            this.brikksPictureBox143.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox143.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox143.TabIndex = 240;
+            this.brikksPictureBox143.TabStop = false;
             // 
-            // Score__Line_7
+            // brikksPictureBox144
             // 
-            this.Score__Line_7.AutoSize = true;
-            this.Score__Line_7.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_7.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_7.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_7.Location = new System.Drawing.Point(196, 207);
-            this.Score__Line_7.Name = "Score__Line_7";
-            this.Score__Line_7.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_7.TabIndex = 195;
-            this.Score__Line_7.Text = "__";
+            this.brikksPictureBox144.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox144.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox144.Image")));
+            this.brikksPictureBox144.IsFixed = false;
+            this.brikksPictureBox144.IsMarked = false;
+            this.brikksPictureBox144.Location = new System.Drawing.Point(28, 282);
+            this.brikksPictureBox144.Name = "brikksPictureBox144";
+            this.brikksPictureBox144.OriginalImage = null;
+            this.brikksPictureBox144.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox144.TabIndex = 241;
+            this.brikksPictureBox144.TabStop = false;
             // 
-            // Score__Line_8
+            // brikksPictureBox145
             // 
-            this.Score__Line_8.AutoSize = true;
-            this.Score__Line_8.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_8.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_8.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_8.Location = new System.Drawing.Point(196, 169);
-            this.Score__Line_8.Name = "Score__Line_8";
-            this.Score__Line_8.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_8.TabIndex = 194;
-            this.Score__Line_8.Text = "__";
+            this.brikksPictureBox145.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox145.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox145.Image")));
+            this.brikksPictureBox145.IsFixed = false;
+            this.brikksPictureBox145.IsMarked = false;
+            this.brikksPictureBox145.Location = new System.Drawing.Point(28, 224);
+            this.brikksPictureBox145.Name = "brikksPictureBox145";
+            this.brikksPictureBox145.OriginalImage = null;
+            this.brikksPictureBox145.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox145.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox145.TabIndex = 228;
+            this.brikksPictureBox145.TabStop = false;
             // 
-            // Score__Line_9
+            // brikksPictureBox148
             // 
-            this.Score__Line_9.AutoSize = true;
-            this.Score__Line_9.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_9.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_9.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_9.Location = new System.Drawing.Point(196, 131);
-            this.Score__Line_9.Name = "Score__Line_9";
-            this.Score__Line_9.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_9.TabIndex = 193;
-            this.Score__Line_9.Text = "__";
+            this.brikksPictureBox148.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox148.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox148.Image")));
+            this.brikksPictureBox148.IsFixed = false;
+            this.brikksPictureBox148.IsMarked = false;
+            this.brikksPictureBox148.Location = new System.Drawing.Point(11, 207);
+            this.brikksPictureBox148.Name = "brikksPictureBox148";
+            this.brikksPictureBox148.OriginalImage = null;
+            this.brikksPictureBox148.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox148.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox148.TabIndex = 229;
+            this.brikksPictureBox148.TabStop = false;
             // 
-            // Score__Line_10
+            // brikksPictureBox149
             // 
-            this.Score__Line_10.AutoSize = true;
-            this.Score__Line_10.BackColor = System.Drawing.SystemColors.Control;
-            this.Score__Line_10.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Score__Line_10.ForeColor = System.Drawing.Color.Black;
-            this.Score__Line_10.Location = new System.Drawing.Point(196, 93);
-            this.Score__Line_10.Name = "Score__Line_10";
-            this.Score__Line_10.Size = new System.Drawing.Size(61, 30);
-            this.Score__Line_10.TabIndex = 192;
-            this.Score__Line_10.Text = "__";
+            this.brikksPictureBox149.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox149.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox149.Image")));
+            this.brikksPictureBox149.IsFixed = false;
+            this.brikksPictureBox149.IsMarked = false;
+            this.brikksPictureBox149.Location = new System.Drawing.Point(28, 207);
+            this.brikksPictureBox149.Name = "brikksPictureBox149";
+            this.brikksPictureBox149.OriginalImage = null;
+            this.brikksPictureBox149.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox149.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox149.TabIndex = 230;
+            this.brikksPictureBox149.TabStop = false;
             // 
-            // UploadPlayButton
+            // brikksPictureBox153
             // 
-            this.UploadPlayButton.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.UploadPlayButton.Font = new System.Drawing.Font("Karmatic Arcade", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UploadPlayButton.ForeColor = System.Drawing.Color.White;
-            this.UploadPlayButton.Image = global::sharpbrikks.Properties.Resources.bgg;
-            this.UploadPlayButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.UploadPlayButton.Location = new System.Drawing.Point(18, 264);
-            this.UploadPlayButton.Name = "UploadPlayButton";
-            this.UploadPlayButton.Size = new System.Drawing.Size(156, 46);
-            this.UploadPlayButton.TabIndex = 397;
-            this.UploadPlayButton.Text = "Upload Play";
-            this.UploadPlayButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.UploadPlayButton.UseVisualStyleBackColor = false;
-            this.UploadPlayButton.Click += new System.EventHandler(this.UploadPlayButton_Click);
+            this.brikksPictureBox153.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox153.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox153.Image")));
+            this.brikksPictureBox153.IsFixed = false;
+            this.brikksPictureBox153.IsMarked = false;
+            this.brikksPictureBox153.Location = new System.Drawing.Point(44, 224);
+            this.brikksPictureBox153.Name = "brikksPictureBox153";
+            this.brikksPictureBox153.OriginalImage = null;
+            this.brikksPictureBox153.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox153.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox153.TabIndex = 231;
+            this.brikksPictureBox153.TabStop = false;
+            // 
+            // brikksPictureBox154
+            // 
+            this.brikksPictureBox154.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox154.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox154.Image")));
+            this.brikksPictureBox154.IsFixed = false;
+            this.brikksPictureBox154.IsMarked = false;
+            this.brikksPictureBox154.Location = new System.Drawing.Point(11, 132);
+            this.brikksPictureBox154.Name = "brikksPictureBox154";
+            this.brikksPictureBox154.OriginalImage = null;
+            this.brikksPictureBox154.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox154.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox154.TabIndex = 220;
+            this.brikksPictureBox154.TabStop = false;
+            // 
+            // brikksPictureBox156
+            // 
+            this.brikksPictureBox156.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox156.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox156.Image")));
+            this.brikksPictureBox156.IsFixed = false;
+            this.brikksPictureBox156.IsMarked = false;
+            this.brikksPictureBox156.Location = new System.Drawing.Point(28, 150);
+            this.brikksPictureBox156.Name = "brikksPictureBox156";
+            this.brikksPictureBox156.OriginalImage = null;
+            this.brikksPictureBox156.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox156.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox156.TabIndex = 221;
+            this.brikksPictureBox156.TabStop = false;
+            // 
+            // brikksPictureBox157
+            // 
+            this.brikksPictureBox157.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox157.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox157.Image")));
+            this.brikksPictureBox157.IsFixed = false;
+            this.brikksPictureBox157.IsMarked = false;
+            this.brikksPictureBox157.Location = new System.Drawing.Point(28, 166);
+            this.brikksPictureBox157.Name = "brikksPictureBox157";
+            this.brikksPictureBox157.OriginalImage = null;
+            this.brikksPictureBox157.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox157.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox157.TabIndex = 222;
+            this.brikksPictureBox157.TabStop = false;
+            // 
+            // brikksPictureBox160
+            // 
+            this.brikksPictureBox160.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox160.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox160.Image")));
+            this.brikksPictureBox160.IsFixed = false;
+            this.brikksPictureBox160.IsMarked = false;
+            this.brikksPictureBox160.Location = new System.Drawing.Point(28, 132);
+            this.brikksPictureBox160.Name = "brikksPictureBox160";
+            this.brikksPictureBox160.OriginalImage = null;
+            this.brikksPictureBox160.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox160.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox160.TabIndex = 223;
+            this.brikksPictureBox160.TabStop = false;
+            // 
+            // brikksPictureBox161
+            // 
+            this.brikksPictureBox161.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox161.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox161.Image")));
+            this.brikksPictureBox161.IsFixed = false;
+            this.brikksPictureBox161.IsMarked = false;
+            this.brikksPictureBox161.Location = new System.Drawing.Point(28, 74);
+            this.brikksPictureBox161.Name = "brikksPictureBox161";
+            this.brikksPictureBox161.OriginalImage = null;
+            this.brikksPictureBox161.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox161.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox161.TabIndex = 212;
+            this.brikksPictureBox161.TabStop = false;
+            // 
+            // brikksPictureBox162
+            // 
+            this.brikksPictureBox162.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox162.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox162.Image")));
+            this.brikksPictureBox162.IsFixed = false;
+            this.brikksPictureBox162.IsMarked = false;
+            this.brikksPictureBox162.Location = new System.Drawing.Point(11, 91);
+            this.brikksPictureBox162.Name = "brikksPictureBox162";
+            this.brikksPictureBox162.OriginalImage = null;
+            this.brikksPictureBox162.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox162.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox162.TabIndex = 213;
+            this.brikksPictureBox162.TabStop = false;
+            // 
+            // brikksPictureBox163
+            // 
+            this.brikksPictureBox163.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox163.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox163.Image")));
+            this.brikksPictureBox163.IsFixed = false;
+            this.brikksPictureBox163.IsMarked = false;
+            this.brikksPictureBox163.Location = new System.Drawing.Point(11, 74);
+            this.brikksPictureBox163.Name = "brikksPictureBox163";
+            this.brikksPictureBox163.OriginalImage = null;
+            this.brikksPictureBox163.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox163.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox163.TabIndex = 214;
+            this.brikksPictureBox163.TabStop = false;
+            // 
+            // brikksPictureBox164
+            // 
+            this.brikksPictureBox164.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox164.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox164.Image")));
+            this.brikksPictureBox164.IsFixed = false;
+            this.brikksPictureBox164.IsMarked = false;
+            this.brikksPictureBox164.Location = new System.Drawing.Point(11, 108);
+            this.brikksPictureBox164.Name = "brikksPictureBox164";
+            this.brikksPictureBox164.OriginalImage = null;
+            this.brikksPictureBox164.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox164.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox164.TabIndex = 215;
+            this.brikksPictureBox164.TabStop = false;
+            // 
+            // brikksPictureBox165
+            // 
+            this.brikksPictureBox165.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox165.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox165.Image")));
+            this.brikksPictureBox165.IsFixed = false;
+            this.brikksPictureBox165.IsMarked = false;
+            this.brikksPictureBox165.Location = new System.Drawing.Point(28, 33);
+            this.brikksPictureBox165.Name = "brikksPictureBox165";
+            this.brikksPictureBox165.OriginalImage = null;
+            this.brikksPictureBox165.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox165.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox165.TabIndex = 162;
+            this.brikksPictureBox165.TabStop = false;
+            // 
+            // brikksPictureBox170
+            // 
+            this.brikksPictureBox170.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox170.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox170.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox170.Image")));
+            this.brikksPictureBox170.IsFixed = false;
+            this.brikksPictureBox170.IsMarked = false;
+            this.brikksPictureBox170.Location = new System.Drawing.Point(11, 33);
+            this.brikksPictureBox170.Name = "brikksPictureBox170";
+            this.brikksPictureBox170.OriginalImage = null;
+            this.brikksPictureBox170.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox170.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox170.TabIndex = 163;
+            this.brikksPictureBox170.TabStop = false;
+            // 
+            // brikksPictureBox171
+            // 
+            this.brikksPictureBox171.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox171.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox171.Image")));
+            this.brikksPictureBox171.IsFixed = false;
+            this.brikksPictureBox171.IsMarked = false;
+            this.brikksPictureBox171.Location = new System.Drawing.Point(28, 50);
+            this.brikksPictureBox171.Name = "brikksPictureBox171";
+            this.brikksPictureBox171.OriginalImage = null;
+            this.brikksPictureBox171.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox171.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox171.TabIndex = 164;
+            this.brikksPictureBox171.TabStop = false;
+            // 
+            // brikksPictureBox172
+            // 
+            this.brikksPictureBox172.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox172.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox172.Image")));
+            this.brikksPictureBox172.IsFixed = false;
+            this.brikksPictureBox172.IsMarked = false;
+            this.brikksPictureBox172.Location = new System.Drawing.Point(44, 33);
+            this.brikksPictureBox172.Name = "brikksPictureBox172";
+            this.brikksPictureBox172.OriginalImage = null;
+            this.brikksPictureBox172.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox172.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox172.TabIndex = 165;
+            this.brikksPictureBox172.TabStop = false;
+            // 
+            // brikksPictureBox99
+            // 
+            this.brikksPictureBox99.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox99.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox99.Image")));
+            this.brikksPictureBox99.IsFixed = false;
+            this.brikksPictureBox99.IsMarked = false;
+            this.brikksPictureBox99.Location = new System.Drawing.Point(28, 323);
+            this.brikksPictureBox99.Name = "brikksPictureBox99";
+            this.brikksPictureBox99.OriginalImage = null;
+            this.brikksPictureBox99.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox99.TabIndex = 247;
+            this.brikksPictureBox99.TabStop = false;
+            // 
+            // brikksPictureBox100
+            // 
+            this.brikksPictureBox100.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox100.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox100.Image")));
+            this.brikksPictureBox100.IsFixed = false;
+            this.brikksPictureBox100.IsMarked = false;
+            this.brikksPictureBox100.Location = new System.Drawing.Point(11, 306);
+            this.brikksPictureBox100.Name = "brikksPictureBox100";
+            this.brikksPictureBox100.OriginalImage = null;
+            this.brikksPictureBox100.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox100.TabIndex = 244;
+            this.brikksPictureBox100.TabStop = false;
+            // 
+            // brikksPictureBox101
+            // 
+            this.brikksPictureBox101.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox101.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox101.Image")));
+            this.brikksPictureBox101.IsFixed = false;
+            this.brikksPictureBox101.IsMarked = false;
+            this.brikksPictureBox101.Location = new System.Drawing.Point(28, 306);
+            this.brikksPictureBox101.Name = "brikksPictureBox101";
+            this.brikksPictureBox101.OriginalImage = null;
+            this.brikksPictureBox101.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox101.TabIndex = 245;
+            this.brikksPictureBox101.TabStop = false;
+            // 
+            // brikksPictureBox102
+            // 
+            this.brikksPictureBox102.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox102.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox102.Image")));
+            this.brikksPictureBox102.IsFixed = false;
+            this.brikksPictureBox102.IsMarked = false;
+            this.brikksPictureBox102.Location = new System.Drawing.Point(11, 323);
+            this.brikksPictureBox102.Name = "brikksPictureBox102";
+            this.brikksPictureBox102.OriginalImage = null;
+            this.brikksPictureBox102.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox102.TabIndex = 246;
+            this.brikksPictureBox102.TabStop = false;
+            // 
+            // brikksPictureBox103
+            // 
+            this.brikksPictureBox103.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox103.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox103.Image")));
+            this.brikksPictureBox103.IsFixed = false;
+            this.brikksPictureBox103.IsMarked = false;
+            this.brikksPictureBox103.Location = new System.Drawing.Point(11, 248);
+            this.brikksPictureBox103.Name = "brikksPictureBox103";
+            this.brikksPictureBox103.OriginalImage = null;
+            this.brikksPictureBox103.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox103.TabIndex = 238;
+            this.brikksPictureBox103.TabStop = false;
+            // 
+            // brikksPictureBox104
+            // 
+            this.brikksPictureBox104.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox104.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox104.Image")));
+            this.brikksPictureBox104.IsFixed = false;
+            this.brikksPictureBox104.IsMarked = false;
+            this.brikksPictureBox104.Location = new System.Drawing.Point(11, 265);
+            this.brikksPictureBox104.Name = "brikksPictureBox104";
+            this.brikksPictureBox104.OriginalImage = null;
+            this.brikksPictureBox104.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox104.TabIndex = 239;
+            this.brikksPictureBox104.TabStop = false;
+            // 
+            // brikksPictureBox105
+            // 
+            this.brikksPictureBox105.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox105.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox105.Image")));
+            this.brikksPictureBox105.IsFixed = false;
+            this.brikksPictureBox105.IsMarked = false;
+            this.brikksPictureBox105.Location = new System.Drawing.Point(28, 265);
+            this.brikksPictureBox105.Name = "brikksPictureBox105";
+            this.brikksPictureBox105.OriginalImage = null;
+            this.brikksPictureBox105.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox105.TabIndex = 240;
+            this.brikksPictureBox105.TabStop = false;
+            // 
+            // brikksPictureBox106
+            // 
+            this.brikksPictureBox106.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox106.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox106.Image")));
+            this.brikksPictureBox106.IsFixed = false;
+            this.brikksPictureBox106.IsMarked = false;
+            this.brikksPictureBox106.Location = new System.Drawing.Point(28, 282);
+            this.brikksPictureBox106.Name = "brikksPictureBox106";
+            this.brikksPictureBox106.OriginalImage = null;
+            this.brikksPictureBox106.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox106.TabIndex = 241;
+            this.brikksPictureBox106.TabStop = false;
+            // 
+            // brikksPictureBox107
+            // 
+            this.brikksPictureBox107.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox107.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox107.Image")));
+            this.brikksPictureBox107.IsFixed = false;
+            this.brikksPictureBox107.IsMarked = false;
+            this.brikksPictureBox107.Location = new System.Drawing.Point(28, 190);
+            this.brikksPictureBox107.Name = "brikksPictureBox107";
+            this.brikksPictureBox107.OriginalImage = null;
+            this.brikksPictureBox107.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox107.TabIndex = 228;
+            this.brikksPictureBox107.TabStop = false;
+            // 
+            // brikksPictureBox108
+            // 
+            this.brikksPictureBox108.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox108.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox108.Image")));
+            this.brikksPictureBox108.IsFixed = false;
+            this.brikksPictureBox108.IsMarked = false;
+            this.brikksPictureBox108.Location = new System.Drawing.Point(11, 207);
+            this.brikksPictureBox108.Name = "brikksPictureBox108";
+            this.brikksPictureBox108.OriginalImage = null;
+            this.brikksPictureBox108.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox108.TabIndex = 229;
+            this.brikksPictureBox108.TabStop = false;
+            // 
+            // brikksPictureBox109
+            // 
+            this.brikksPictureBox109.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox109.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox109.Image")));
+            this.brikksPictureBox109.IsFixed = false;
+            this.brikksPictureBox109.IsMarked = false;
+            this.brikksPictureBox109.Location = new System.Drawing.Point(28, 207);
+            this.brikksPictureBox109.Name = "brikksPictureBox109";
+            this.brikksPictureBox109.OriginalImage = null;
+            this.brikksPictureBox109.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox109.TabIndex = 230;
+            this.brikksPictureBox109.TabStop = false;
+            // 
+            // brikksPictureBox110
+            // 
+            this.brikksPictureBox110.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox110.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox110.Image")));
+            this.brikksPictureBox110.IsFixed = false;
+            this.brikksPictureBox110.IsMarked = false;
+            this.brikksPictureBox110.Location = new System.Drawing.Point(11, 224);
+            this.brikksPictureBox110.Name = "brikksPictureBox110";
+            this.brikksPictureBox110.OriginalImage = null;
+            this.brikksPictureBox110.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox110.TabIndex = 231;
+            this.brikksPictureBox110.TabStop = false;
+            // 
+            // brikksPictureBox111
+            // 
+            this.brikksPictureBox111.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox111.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox111.Image")));
+            this.brikksPictureBox111.IsFixed = false;
+            this.brikksPictureBox111.IsMarked = false;
+            this.brikksPictureBox111.Location = new System.Drawing.Point(11, 132);
+            this.brikksPictureBox111.Name = "brikksPictureBox111";
+            this.brikksPictureBox111.OriginalImage = null;
+            this.brikksPictureBox111.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox111.TabIndex = 220;
+            this.brikksPictureBox111.TabStop = false;
+            // 
+            // brikksPictureBox112
+            // 
+            this.brikksPictureBox112.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox112.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox112.Image")));
+            this.brikksPictureBox112.IsFixed = false;
+            this.brikksPictureBox112.IsMarked = false;
+            this.brikksPictureBox112.Location = new System.Drawing.Point(11, 149);
+            this.brikksPictureBox112.Name = "brikksPictureBox112";
+            this.brikksPictureBox112.OriginalImage = null;
+            this.brikksPictureBox112.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox112.TabIndex = 221;
+            this.brikksPictureBox112.TabStop = false;
+            // 
+            // brikksPictureBox113
+            // 
+            this.brikksPictureBox113.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox113.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox113.Image")));
+            this.brikksPictureBox113.IsFixed = false;
+            this.brikksPictureBox113.IsMarked = false;
+            this.brikksPictureBox113.Location = new System.Drawing.Point(45, 132);
+            this.brikksPictureBox113.Name = "brikksPictureBox113";
+            this.brikksPictureBox113.OriginalImage = null;
+            this.brikksPictureBox113.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox113.TabIndex = 222;
+            this.brikksPictureBox113.TabStop = false;
+            // 
+            // brikksPictureBox114
+            // 
+            this.brikksPictureBox114.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox114.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox114.Image")));
+            this.brikksPictureBox114.IsFixed = false;
+            this.brikksPictureBox114.IsMarked = false;
+            this.brikksPictureBox114.Location = new System.Drawing.Point(28, 132);
+            this.brikksPictureBox114.Name = "brikksPictureBox114";
+            this.brikksPictureBox114.OriginalImage = null;
+            this.brikksPictureBox114.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox114.TabIndex = 223;
+            this.brikksPictureBox114.TabStop = false;
+            // 
+            // brikksPictureBox119
+            // 
+            this.brikksPictureBox119.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox119.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox119.Image")));
+            this.brikksPictureBox119.IsFixed = false;
+            this.brikksPictureBox119.IsMarked = false;
+            this.brikksPictureBox119.Location = new System.Drawing.Point(45, 108);
+            this.brikksPictureBox119.Name = "brikksPictureBox119";
+            this.brikksPictureBox119.OriginalImage = null;
+            this.brikksPictureBox119.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox119.TabIndex = 212;
+            this.brikksPictureBox119.TabStop = false;
+            // 
+            // brikksPictureBox120
+            // 
+            this.brikksPictureBox120.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox120.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox120.Image")));
+            this.brikksPictureBox120.IsFixed = false;
+            this.brikksPictureBox120.IsMarked = false;
+            this.brikksPictureBox120.Location = new System.Drawing.Point(11, 91);
+            this.brikksPictureBox120.Name = "brikksPictureBox120";
+            this.brikksPictureBox120.OriginalImage = null;
+            this.brikksPictureBox120.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox120.TabIndex = 213;
+            this.brikksPictureBox120.TabStop = false;
+            // 
+            // brikksPictureBox121
+            // 
+            this.brikksPictureBox121.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox121.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox121.Image")));
+            this.brikksPictureBox121.IsFixed = false;
+            this.brikksPictureBox121.IsMarked = false;
+            this.brikksPictureBox121.Location = new System.Drawing.Point(11, 108);
+            this.brikksPictureBox121.Name = "brikksPictureBox121";
+            this.brikksPictureBox121.OriginalImage = null;
+            this.brikksPictureBox121.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox121.TabIndex = 214;
+            this.brikksPictureBox121.TabStop = false;
+            // 
+            // brikksPictureBox125
+            // 
+            this.brikksPictureBox125.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox125.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox125.Image")));
+            this.brikksPictureBox125.IsFixed = false;
+            this.brikksPictureBox125.IsMarked = false;
+            this.brikksPictureBox125.Location = new System.Drawing.Point(28, 108);
+            this.brikksPictureBox125.Name = "brikksPictureBox125";
+            this.brikksPictureBox125.OriginalImage = null;
+            this.brikksPictureBox125.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox125.TabIndex = 215;
+            this.brikksPictureBox125.TabStop = false;
+            // 
+            // brikksPictureBox126
+            // 
+            this.brikksPictureBox126.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox126.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox126.Image")));
+            this.brikksPictureBox126.IsFixed = false;
+            this.brikksPictureBox126.IsMarked = false;
+            this.brikksPictureBox126.Location = new System.Drawing.Point(11, 33);
+            this.brikksPictureBox126.Name = "brikksPictureBox126";
+            this.brikksPictureBox126.OriginalImage = null;
+            this.brikksPictureBox126.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox126.TabIndex = 162;
+            this.brikksPictureBox126.TabStop = false;
+            // 
+            // brikksPictureBox128
+            // 
+            this.brikksPictureBox128.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox128.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox128.Image")));
+            this.brikksPictureBox128.IsFixed = false;
+            this.brikksPictureBox128.IsMarked = false;
+            this.brikksPictureBox128.Location = new System.Drawing.Point(11, 50);
+            this.brikksPictureBox128.Name = "brikksPictureBox128";
+            this.brikksPictureBox128.OriginalImage = null;
+            this.brikksPictureBox128.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox128.TabIndex = 163;
+            this.brikksPictureBox128.TabStop = false;
+            // 
+            // brikksPictureBox130
+            // 
+            this.brikksPictureBox130.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox130.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox130.Image")));
+            this.brikksPictureBox130.IsFixed = false;
+            this.brikksPictureBox130.IsMarked = false;
+            this.brikksPictureBox130.Location = new System.Drawing.Point(28, 50);
+            this.brikksPictureBox130.Name = "brikksPictureBox130";
+            this.brikksPictureBox130.OriginalImage = null;
+            this.brikksPictureBox130.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox130.TabIndex = 164;
+            this.brikksPictureBox130.TabStop = false;
+            // 
+            // brikksPictureBox131
+            // 
+            this.brikksPictureBox131.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox131.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox131.Image")));
+            this.brikksPictureBox131.IsFixed = false;
+            this.brikksPictureBox131.IsMarked = false;
+            this.brikksPictureBox131.Location = new System.Drawing.Point(11, 67);
+            this.brikksPictureBox131.Name = "brikksPictureBox131";
+            this.brikksPictureBox131.OriginalImage = null;
+            this.brikksPictureBox131.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox131.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox131.TabIndex = 165;
+            this.brikksPictureBox131.TabStop = false;
             // 
             // brikksPictureBox98
             // 
@@ -2843,6 +2464,498 @@
             this.brikksPictureBox89.TabIndex = 366;
             this.brikksPictureBox89.TabStop = false;
             // 
+            // brikksPictureBox83
+            // 
+            this.brikksPictureBox83.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox83.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox83.Image")));
+            this.brikksPictureBox83.IsFixed = false;
+            this.brikksPictureBox83.IsMarked = false;
+            this.brikksPictureBox83.Location = new System.Drawing.Point(28, 323);
+            this.brikksPictureBox83.Name = "brikksPictureBox83";
+            this.brikksPictureBox83.OriginalImage = null;
+            this.brikksPictureBox83.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox83.TabIndex = 247;
+            this.brikksPictureBox83.TabStop = false;
+            // 
+            // brikksPictureBox84
+            // 
+            this.brikksPictureBox84.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox84.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox84.Image")));
+            this.brikksPictureBox84.IsFixed = false;
+            this.brikksPictureBox84.IsMarked = false;
+            this.brikksPictureBox84.Location = new System.Drawing.Point(11, 306);
+            this.brikksPictureBox84.Name = "brikksPictureBox84";
+            this.brikksPictureBox84.OriginalImage = null;
+            this.brikksPictureBox84.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox84.TabIndex = 244;
+            this.brikksPictureBox84.TabStop = false;
+            // 
+            // brikksPictureBox85
+            // 
+            this.brikksPictureBox85.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox85.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox85.Image")));
+            this.brikksPictureBox85.IsFixed = false;
+            this.brikksPictureBox85.IsMarked = false;
+            this.brikksPictureBox85.Location = new System.Drawing.Point(28, 306);
+            this.brikksPictureBox85.Name = "brikksPictureBox85";
+            this.brikksPictureBox85.OriginalImage = null;
+            this.brikksPictureBox85.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox85.TabIndex = 245;
+            this.brikksPictureBox85.TabStop = false;
+            // 
+            // brikksPictureBox86
+            // 
+            this.brikksPictureBox86.BackColor = System.Drawing.Color.Black;
+            this.brikksPictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox86.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox86.Image")));
+            this.brikksPictureBox86.IsFixed = false;
+            this.brikksPictureBox86.IsMarked = false;
+            this.brikksPictureBox86.Location = new System.Drawing.Point(11, 323);
+            this.brikksPictureBox86.Name = "brikksPictureBox86";
+            this.brikksPictureBox86.OriginalImage = null;
+            this.brikksPictureBox86.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox86.TabIndex = 246;
+            this.brikksPictureBox86.TabStop = false;
+            // 
+            // brikksPictureBox75
+            // 
+            this.brikksPictureBox75.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox75.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox75.Image")));
+            this.brikksPictureBox75.IsFixed = false;
+            this.brikksPictureBox75.IsMarked = false;
+            this.brikksPictureBox75.Location = new System.Drawing.Point(11, 248);
+            this.brikksPictureBox75.Name = "brikksPictureBox75";
+            this.brikksPictureBox75.OriginalImage = null;
+            this.brikksPictureBox75.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox75.TabIndex = 238;
+            this.brikksPictureBox75.TabStop = false;
+            // 
+            // brikksPictureBox77
+            // 
+            this.brikksPictureBox77.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox77.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox77.Image")));
+            this.brikksPictureBox77.IsFixed = false;
+            this.brikksPictureBox77.IsMarked = false;
+            this.brikksPictureBox77.Location = new System.Drawing.Point(11, 265);
+            this.brikksPictureBox77.Name = "brikksPictureBox77";
+            this.brikksPictureBox77.OriginalImage = null;
+            this.brikksPictureBox77.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox77.TabIndex = 239;
+            this.brikksPictureBox77.TabStop = false;
+            // 
+            // brikksPictureBox80
+            // 
+            this.brikksPictureBox80.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox80.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox80.Image")));
+            this.brikksPictureBox80.IsFixed = false;
+            this.brikksPictureBox80.IsMarked = false;
+            this.brikksPictureBox80.Location = new System.Drawing.Point(28, 265);
+            this.brikksPictureBox80.Name = "brikksPictureBox80";
+            this.brikksPictureBox80.OriginalImage = null;
+            this.brikksPictureBox80.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox80.TabIndex = 240;
+            this.brikksPictureBox80.TabStop = false;
+            // 
+            // brikksPictureBox82
+            // 
+            this.brikksPictureBox82.BackColor = System.Drawing.Color.DarkBlue;
+            this.brikksPictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox82.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox82.Image")));
+            this.brikksPictureBox82.IsFixed = false;
+            this.brikksPictureBox82.IsMarked = false;
+            this.brikksPictureBox82.Location = new System.Drawing.Point(28, 282);
+            this.brikksPictureBox82.Name = "brikksPictureBox82";
+            this.brikksPictureBox82.OriginalImage = null;
+            this.brikksPictureBox82.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox82.TabIndex = 241;
+            this.brikksPictureBox82.TabStop = false;
+            // 
+            // brikksPictureBox68
+            // 
+            this.brikksPictureBox68.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox68.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox68.Image")));
+            this.brikksPictureBox68.IsFixed = false;
+            this.brikksPictureBox68.IsMarked = false;
+            this.brikksPictureBox68.Location = new System.Drawing.Point(28, 190);
+            this.brikksPictureBox68.Name = "brikksPictureBox68";
+            this.brikksPictureBox68.OriginalImage = null;
+            this.brikksPictureBox68.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox68.TabIndex = 228;
+            this.brikksPictureBox68.TabStop = false;
+            // 
+            // brikksPictureBox71
+            // 
+            this.brikksPictureBox71.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox71.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox71.Image")));
+            this.brikksPictureBox71.IsFixed = false;
+            this.brikksPictureBox71.IsMarked = false;
+            this.brikksPictureBox71.Location = new System.Drawing.Point(11, 207);
+            this.brikksPictureBox71.Name = "brikksPictureBox71";
+            this.brikksPictureBox71.OriginalImage = null;
+            this.brikksPictureBox71.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox71.TabIndex = 229;
+            this.brikksPictureBox71.TabStop = false;
+            // 
+            // brikksPictureBox72
+            // 
+            this.brikksPictureBox72.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox72.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox72.Image")));
+            this.brikksPictureBox72.IsFixed = false;
+            this.brikksPictureBox72.IsMarked = false;
+            this.brikksPictureBox72.Location = new System.Drawing.Point(28, 207);
+            this.brikksPictureBox72.Name = "brikksPictureBox72";
+            this.brikksPictureBox72.OriginalImage = null;
+            this.brikksPictureBox72.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox72.TabIndex = 230;
+            this.brikksPictureBox72.TabStop = false;
+            // 
+            // brikksPictureBox74
+            // 
+            this.brikksPictureBox74.BackColor = System.Drawing.Color.Red;
+            this.brikksPictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox74.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox74.Image")));
+            this.brikksPictureBox74.IsFixed = false;
+            this.brikksPictureBox74.IsMarked = false;
+            this.brikksPictureBox74.Location = new System.Drawing.Point(11, 224);
+            this.brikksPictureBox74.Name = "brikksPictureBox74";
+            this.brikksPictureBox74.OriginalImage = null;
+            this.brikksPictureBox74.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox74.TabIndex = 231;
+            this.brikksPictureBox74.TabStop = false;
+            // 
+            // brikksPictureBox59
+            // 
+            this.brikksPictureBox59.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox59.Image")));
+            this.brikksPictureBox59.IsFixed = false;
+            this.brikksPictureBox59.IsMarked = false;
+            this.brikksPictureBox59.Location = new System.Drawing.Point(11, 132);
+            this.brikksPictureBox59.Name = "brikksPictureBox59";
+            this.brikksPictureBox59.OriginalImage = null;
+            this.brikksPictureBox59.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox59.TabIndex = 220;
+            this.brikksPictureBox59.TabStop = false;
+            // 
+            // brikksPictureBox62
+            // 
+            this.brikksPictureBox62.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox62.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox62.Image")));
+            this.brikksPictureBox62.IsFixed = false;
+            this.brikksPictureBox62.IsMarked = false;
+            this.brikksPictureBox62.Location = new System.Drawing.Point(11, 149);
+            this.brikksPictureBox62.Name = "brikksPictureBox62";
+            this.brikksPictureBox62.OriginalImage = null;
+            this.brikksPictureBox62.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox62.TabIndex = 221;
+            this.brikksPictureBox62.TabStop = false;
+            // 
+            // brikksPictureBox65
+            // 
+            this.brikksPictureBox65.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox65.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox65.Image")));
+            this.brikksPictureBox65.IsFixed = false;
+            this.brikksPictureBox65.IsMarked = false;
+            this.brikksPictureBox65.Location = new System.Drawing.Point(11, 166);
+            this.brikksPictureBox65.Name = "brikksPictureBox65";
+            this.brikksPictureBox65.OriginalImage = null;
+            this.brikksPictureBox65.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox65.TabIndex = 222;
+            this.brikksPictureBox65.TabStop = false;
+            // 
+            // brikksPictureBox67
+            // 
+            this.brikksPictureBox67.BackColor = System.Drawing.Color.ForestGreen;
+            this.brikksPictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox67.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox67.Image")));
+            this.brikksPictureBox67.IsFixed = false;
+            this.brikksPictureBox67.IsMarked = false;
+            this.brikksPictureBox67.Location = new System.Drawing.Point(28, 166);
+            this.brikksPictureBox67.Name = "brikksPictureBox67";
+            this.brikksPictureBox67.OriginalImage = null;
+            this.brikksPictureBox67.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox67.TabIndex = 223;
+            this.brikksPictureBox67.TabStop = false;
+            // 
+            // brikksPictureBox54
+            // 
+            this.brikksPictureBox54.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox54.Image")));
+            this.brikksPictureBox54.IsFixed = false;
+            this.brikksPictureBox54.IsMarked = false;
+            this.brikksPictureBox54.Location = new System.Drawing.Point(28, 74);
+            this.brikksPictureBox54.Name = "brikksPictureBox54";
+            this.brikksPictureBox54.OriginalImage = null;
+            this.brikksPictureBox54.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox54.TabIndex = 212;
+            this.brikksPictureBox54.TabStop = false;
+            // 
+            // brikksPictureBox56
+            // 
+            this.brikksPictureBox56.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox56.Image")));
+            this.brikksPictureBox56.IsFixed = false;
+            this.brikksPictureBox56.IsMarked = false;
+            this.brikksPictureBox56.Location = new System.Drawing.Point(28, 91);
+            this.brikksPictureBox56.Name = "brikksPictureBox56";
+            this.brikksPictureBox56.OriginalImage = null;
+            this.brikksPictureBox56.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox56.TabIndex = 213;
+            this.brikksPictureBox56.TabStop = false;
+            // 
+            // brikksPictureBox57
+            // 
+            this.brikksPictureBox57.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox57.Image")));
+            this.brikksPictureBox57.IsFixed = false;
+            this.brikksPictureBox57.IsMarked = false;
+            this.brikksPictureBox57.Location = new System.Drawing.Point(11, 108);
+            this.brikksPictureBox57.Name = "brikksPictureBox57";
+            this.brikksPictureBox57.OriginalImage = null;
+            this.brikksPictureBox57.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox57.TabIndex = 214;
+            this.brikksPictureBox57.TabStop = false;
+            // 
+            // brikksPictureBox58
+            // 
+            this.brikksPictureBox58.BackColor = System.Drawing.Color.Yellow;
+            this.brikksPictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox58.Image")));
+            this.brikksPictureBox58.IsFixed = false;
+            this.brikksPictureBox58.IsMarked = false;
+            this.brikksPictureBox58.Location = new System.Drawing.Point(28, 108);
+            this.brikksPictureBox58.Name = "brikksPictureBox58";
+            this.brikksPictureBox58.OriginalImage = null;
+            this.brikksPictureBox58.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox58.TabIndex = 215;
+            this.brikksPictureBox58.TabStop = false;
+            // 
+            // brikksPictureBox47
+            // 
+            this.brikksPictureBox47.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox47.Image")));
+            this.brikksPictureBox47.IsFixed = false;
+            this.brikksPictureBox47.IsMarked = false;
+            this.brikksPictureBox47.Location = new System.Drawing.Point(28, 33);
+            this.brikksPictureBox47.Name = "brikksPictureBox47";
+            this.brikksPictureBox47.OriginalImage = null;
+            this.brikksPictureBox47.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox47.TabIndex = 162;
+            this.brikksPictureBox47.TabStop = false;
+            // 
+            // brikksPictureBox50
+            // 
+            this.brikksPictureBox50.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox50.Image")));
+            this.brikksPictureBox50.IsFixed = false;
+            this.brikksPictureBox50.IsMarked = false;
+            this.brikksPictureBox50.Location = new System.Drawing.Point(11, 50);
+            this.brikksPictureBox50.Name = "brikksPictureBox50";
+            this.brikksPictureBox50.OriginalImage = null;
+            this.brikksPictureBox50.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox50.TabIndex = 163;
+            this.brikksPictureBox50.TabStop = false;
+            // 
+            // brikksPictureBox51
+            // 
+            this.brikksPictureBox51.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox51.Image")));
+            this.brikksPictureBox51.IsFixed = false;
+            this.brikksPictureBox51.IsMarked = false;
+            this.brikksPictureBox51.Location = new System.Drawing.Point(28, 50);
+            this.brikksPictureBox51.Name = "brikksPictureBox51";
+            this.brikksPictureBox51.OriginalImage = null;
+            this.brikksPictureBox51.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox51.TabIndex = 164;
+            this.brikksPictureBox51.TabStop = false;
+            // 
+            // brikksPictureBox53
+            // 
+            this.brikksPictureBox53.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.brikksPictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brikksPictureBox53.Image = ((System.Drawing.Image)(resources.GetObject("brikksPictureBox53.Image")));
+            this.brikksPictureBox53.IsFixed = false;
+            this.brikksPictureBox53.IsMarked = false;
+            this.brikksPictureBox53.Location = new System.Drawing.Point(45, 50);
+            this.brikksPictureBox53.Name = "brikksPictureBox53";
+            this.brikksPictureBox53.OriginalImage = null;
+            this.brikksPictureBox53.Size = new System.Drawing.Size(18, 18);
+            this.brikksPictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.brikksPictureBox53.TabIndex = 165;
+            this.brikksPictureBox53.TabStop = false;
+            // 
+            // Score__Line_0
+            // 
+            this.Score__Line_0.AutoSize = true;
+            this.Score__Line_0.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_0.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_0.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_0.Location = new System.Drawing.Point(196, 473);
+            this.Score__Line_0.Name = "Score__Line_0";
+            this.Score__Line_0.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_0.TabIndex = 202;
+            this.Score__Line_0.Text = "__";
+            // 
+            // Score__Line_1
+            // 
+            this.Score__Line_1.AutoSize = true;
+            this.Score__Line_1.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_1.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_1.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_1.Location = new System.Drawing.Point(196, 435);
+            this.Score__Line_1.Name = "Score__Line_1";
+            this.Score__Line_1.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_1.TabIndex = 201;
+            this.Score__Line_1.Text = "__";
+            // 
+            // Score__Line_2
+            // 
+            this.Score__Line_2.AutoSize = true;
+            this.Score__Line_2.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_2.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_2.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_2.Location = new System.Drawing.Point(196, 397);
+            this.Score__Line_2.Name = "Score__Line_2";
+            this.Score__Line_2.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_2.TabIndex = 200;
+            this.Score__Line_2.Text = "__";
+            // 
+            // Score__Line_3
+            // 
+            this.Score__Line_3.AutoSize = true;
+            this.Score__Line_3.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_3.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_3.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_3.Location = new System.Drawing.Point(196, 359);
+            this.Score__Line_3.Name = "Score__Line_3";
+            this.Score__Line_3.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_3.TabIndex = 199;
+            this.Score__Line_3.Text = "__";
+            // 
+            // Score__Line_4
+            // 
+            this.Score__Line_4.AutoSize = true;
+            this.Score__Line_4.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_4.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_4.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_4.Location = new System.Drawing.Point(196, 321);
+            this.Score__Line_4.Name = "Score__Line_4";
+            this.Score__Line_4.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_4.TabIndex = 198;
+            this.Score__Line_4.Text = "__";
+            // 
+            // Score__Line_5
+            // 
+            this.Score__Line_5.AutoSize = true;
+            this.Score__Line_5.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_5.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_5.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_5.Location = new System.Drawing.Point(196, 283);
+            this.Score__Line_5.Name = "Score__Line_5";
+            this.Score__Line_5.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_5.TabIndex = 197;
+            this.Score__Line_5.Text = "__";
+            // 
+            // Score__Line_6
+            // 
+            this.Score__Line_6.AutoSize = true;
+            this.Score__Line_6.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_6.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_6.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_6.Location = new System.Drawing.Point(196, 245);
+            this.Score__Line_6.Name = "Score__Line_6";
+            this.Score__Line_6.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_6.TabIndex = 196;
+            this.Score__Line_6.Text = "__";
+            // 
+            // Score__Line_7
+            // 
+            this.Score__Line_7.AutoSize = true;
+            this.Score__Line_7.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_7.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_7.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_7.Location = new System.Drawing.Point(196, 207);
+            this.Score__Line_7.Name = "Score__Line_7";
+            this.Score__Line_7.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_7.TabIndex = 195;
+            this.Score__Line_7.Text = "__";
+            // 
+            // Score__Line_8
+            // 
+            this.Score__Line_8.AutoSize = true;
+            this.Score__Line_8.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_8.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_8.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_8.Location = new System.Drawing.Point(196, 169);
+            this.Score__Line_8.Name = "Score__Line_8";
+            this.Score__Line_8.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_8.TabIndex = 194;
+            this.Score__Line_8.Text = "__";
+            // 
+            // Score__Line_9
+            // 
+            this.Score__Line_9.AutoSize = true;
+            this.Score__Line_9.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_9.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_9.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_9.Location = new System.Drawing.Point(196, 131);
+            this.Score__Line_9.Name = "Score__Line_9";
+            this.Score__Line_9.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_9.TabIndex = 193;
+            this.Score__Line_9.Text = "__";
+            // 
+            // Score__Line_10
+            // 
+            this.Score__Line_10.AutoSize = true;
+            this.Score__Line_10.BackColor = System.Drawing.SystemColors.Control;
+            this.Score__Line_10.Font = new System.Drawing.Font("Karmatic Arcade", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score__Line_10.ForeColor = System.Drawing.Color.Black;
+            this.Score__Line_10.Location = new System.Drawing.Point(196, 93);
+            this.Score__Line_10.Name = "Score__Line_10";
+            this.Score__Line_10.Size = new System.Drawing.Size(61, 30);
+            this.Score__Line_10.TabIndex = 192;
+            this.Score__Line_10.Text = "__";
+            // 
             // UseBombThreeButton
             // 
             this.UseBombThreeButton.BackColor = System.Drawing.Color.Plum;
@@ -2887,6 +3000,18 @@
             this.UseBombOneButton.TabIndex = 130;
             this.UseBombOneButton.Text = "1";
             this.UseBombOneButton.UseVisualStyleBackColor = false;
+            // 
+            // DiceResultPictureBox
+            // 
+            this.DiceResultPictureBox.DiceRoll = null;
+            this.DiceResultPictureBox.IsFixed = false;
+            this.DiceResultPictureBox.IsMarked = false;
+            this.DiceResultPictureBox.Location = new System.Drawing.Point(84, 22);
+            this.DiceResultPictureBox.Name = "DiceResultPictureBox";
+            this.DiceResultPictureBox.OriginalImage = null;
+            this.DiceResultPictureBox.Size = new System.Drawing.Size(72, 72);
+            this.DiceResultPictureBox.TabIndex = 126;
+            this.DiceResultPictureBox.TabStop = false;
             // 
             // Block__0_9
             // 
@@ -4442,131 +4567,76 @@
             this.Block__10_0.TabIndex = 2;
             this.Block__10_0.TabStop = false;
             // 
-            // label8
+            // label18
             // 
-            this.label8.AutoSize = true;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(263, 518);
-            this.label8.Name = "label8";
-            this.label8.Padding = new System.Windows.Forms.Padding(2);
-            this.label8.Size = new System.Drawing.Size(21, 18);
-            this.label8.TabIndex = 398;
-            this.label8.Text = "0";
+            this.label18.AutoSize = true;
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label18.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(539, 509);
+            this.label18.Name = "label18";
+            this.label18.Padding = new System.Windows.Forms.Padding(2);
+            this.label18.Size = new System.Drawing.Size(30, 18);
+            this.label18.TabIndex = 408;
+            this.label18.Text = "51";
             // 
-            // label9
+            // label19
             // 
-            this.label9.AutoSize = true;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(301, 518);
-            this.label9.Name = "label9";
-            this.label9.Padding = new System.Windows.Forms.Padding(2);
-            this.label9.Size = new System.Drawing.Size(20, 18);
-            this.label9.TabIndex = 399;
-            this.label9.Text = "1";
+            this.label19.AutoSize = true;
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label19.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(570, 509);
+            this.label19.Name = "label19";
+            this.label19.Padding = new System.Windows.Forms.Padding(2);
+            this.label19.Size = new System.Drawing.Size(31, 18);
+            this.label19.TabIndex = 409;
+            this.label19.Text = "58";
             // 
-            // label10
+            // label20
             // 
-            this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(340, 518);
-            this.label10.Name = "label10";
-            this.label10.Padding = new System.Windows.Forms.Padding(2);
-            this.label10.Size = new System.Drawing.Size(21, 18);
-            this.label10.TabIndex = 400;
-            this.label10.Text = "3";
+            this.label20.AutoSize = true;
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label20.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(602, 509);
+            this.label20.Name = "label20";
+            this.label20.Padding = new System.Windows.Forms.Padding(2);
+            this.label20.Size = new System.Drawing.Size(31, 18);
+            this.label20.TabIndex = 410;
+            this.label20.Text = "64";
             // 
-            // label11
+            // label21
             // 
-            this.label11.AutoSize = true;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(379, 518);
-            this.label11.Name = "label11";
-            this.label11.Padding = new System.Windows.Forms.Padding(2);
-            this.label11.Size = new System.Drawing.Size(20, 18);
-            this.label11.TabIndex = 401;
-            this.label11.Text = "1";
+            this.label21.AutoSize = true;
+            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label21.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(634, 509);
+            this.label21.Name = "label21";
+            this.label21.Padding = new System.Windows.Forms.Padding(2);
+            this.label21.Size = new System.Drawing.Size(31, 18);
+            this.label21.TabIndex = 411;
+            this.label21.Text = "70";
             // 
-            // label12
+            // label22
             // 
-            this.label12.AutoSize = true;
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label12.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(418, 518);
-            this.label12.Name = "label12";
-            this.label12.Padding = new System.Windows.Forms.Padding(2);
-            this.label12.Size = new System.Drawing.Size(20, 18);
-            this.label12.TabIndex = 402;
-            this.label12.Text = "1";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(457, 518);
-            this.label13.Name = "label13";
-            this.label13.Padding = new System.Windows.Forms.Padding(2);
-            this.label13.Size = new System.Drawing.Size(20, 18);
-            this.label13.TabIndex = 403;
-            this.label13.Text = "1";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(496, 518);
-            this.label14.Name = "label14";
-            this.label14.Padding = new System.Windows.Forms.Padding(2);
-            this.label14.Size = new System.Drawing.Size(20, 18);
-            this.label14.TabIndex = 404;
-            this.label14.Text = "1";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(535, 518);
-            this.label15.Name = "label15";
-            this.label15.Padding = new System.Windows.Forms.Padding(2);
-            this.label15.Size = new System.Drawing.Size(20, 18);
-            this.label15.TabIndex = 405;
-            this.label15.Text = "1";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(574, 518);
-            this.label16.Name = "label16";
-            this.label16.Padding = new System.Windows.Forms.Padding(2);
-            this.label16.Size = new System.Drawing.Size(20, 18);
-            this.label16.TabIndex = 406;
-            this.label16.Text = "1";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(613, 518);
-            this.label17.Name = "label17";
-            this.label17.Padding = new System.Windows.Forms.Padding(2);
-            this.label17.Size = new System.Drawing.Size(20, 18);
-            this.label17.TabIndex = 407;
-            this.label17.Text = "1";
+            this.label22.AutoSize = true;
+            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label22.Font = new System.Drawing.Font("Karmatic Arcade", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(666, 509);
+            this.label22.Name = "label22";
+            this.label22.Padding = new System.Windows.Forms.Padding(2);
+            this.label22.Size = new System.Drawing.Size(31, 18);
+            this.label22.TabIndex = 412;
+            this.label22.Text = "75";
             // 
             // SharpBrikksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1073, 570);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -4752,82 +4822,9 @@
             this.Text = "SharpBrikks v1.0 by RetroLotti ([c] by Wolfgang Warsch @ Schmidt Spiele)";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox85)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox86)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox80)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox53)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox99)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox100)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox101)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox102)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox103)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox104)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox105)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox106)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox107)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox108)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox109)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox110)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox111)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox112)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox113)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox114)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox119)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox120)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox121)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox125)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox126)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox128)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox130)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox131)).EndInit();
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox133)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox134)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox135)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox136)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox137)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox142)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox143)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox144)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox145)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox148)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox149)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox153)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox154)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox156)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox157)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox160)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox161)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox162)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox163)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox164)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox165)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox170)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox171)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox172)).EndInit();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox173)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox174)).EndInit();
@@ -4853,6 +4850,54 @@
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox194)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox195)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox196)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox133)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox134)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox135)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox136)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox137)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox142)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox143)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox144)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox145)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox148)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox149)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox153)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox154)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox156)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox157)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox160)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox161)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox162)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox163)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox164)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox165)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox170)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox171)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox172)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox99)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox100)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox101)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox102)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox103)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox104)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox105)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox106)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox107)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox108)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox109)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox111)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox112)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox113)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox114)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox119)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox120)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox121)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox125)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox126)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox128)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox130)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox131)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox98)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox78)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox79)).EndInit();
@@ -4881,6 +4926,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox93)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox92)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox89)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox85)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox82)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Block__0_7)).EndInit();
@@ -5273,6 +5343,11 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
     }
 }
 
