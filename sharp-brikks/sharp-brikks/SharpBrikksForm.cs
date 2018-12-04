@@ -22,6 +22,7 @@ namespace sharpbrikks
         [Obsolete]
         Die NumberDie = null;
 
+        [Obsolete]
         public BrikksRandom RandoloManolo { get; set; }
 
         public Brikks BrikksTheGame { get; set; }
@@ -30,11 +31,8 @@ namespace sharpbrikks
         {
             InitializeComponent();
 
-            Console.WriteLine(DateTime.Now);
             BrikksTheGame = new Brikks();
-            Console.WriteLine(DateTime.Now);
             BrikksTheGame.GetRoll();
-            Console.WriteLine(DateTime.Now);
         }
 
         private void RollDiceButton_Click(object sender, EventArgs e)
@@ -43,79 +41,77 @@ namespace sharpbrikks
             FixAllMarkedBoxes();
             PlaySound();
             RollDice();
-            ShowChoices();
+            //ShowChoices();
             RollDiceButton.Enabled = true;
         }
 
-        private void ShowChoices()
-        {
-            /*
-             * Tetromino__1__2_0    Tetromino__1__2_1    Tetromino__1__2_2
-             * Tetromino__1__1_0    Tetromino__1__1_1    Tetromino__1__1_2
-             * Tetromino__1__0_0    Tetromino__1__0_1    Tetromino__1__0_2
-             */
+        //private void ShowChoices()
+        //{
+        //    /*
+        //     * Tetromino__1__2_0    Tetromino__1__2_1    Tetromino__1__2_2
+        //     * Tetromino__1__1_0    Tetromino__1__1_1    Tetromino__1__1_2
+        //     * Tetromino__1__0_0    Tetromino__1__0_1    Tetromino__1__0_2
+        //     */
 
-            List<BrikksPictureBox> boxes = new List<BrikksPictureBox>();
+        //    List<BrikksPictureBox> boxes = new List<BrikksPictureBox>();
 
-            // clean all
-            foreach (var item in this.Controls)
-            {
-                if (item.GetType() == typeof(BrikksPictureBox))
-                {
-                    BrikksPictureBox box = (BrikksPictureBox)item;
-                    if (box.Name.StartsWith("Tetromino__"))
-                    {
-                        box.BackColor = Color.Gray;
-                    }
-                }
-            }
+        //    // clean all
+        //    foreach (var item in this.Controls)
+        //    {
+        //        if (item.GetType() == typeof(BrikksPictureBox))
+        //        {
+        //            BrikksPictureBox box = (BrikksPictureBox)item;
+        //            if (box.Name.StartsWith("Tetromino__"))
+        //            {
+        //                box.BackColor = Color.Gray;
+        //            }
+        //        }
+        //    }
 
-            if (DiceResult.D4Result == Side.one)
-            {
-                switch (DiceResult.D6Result)
-                {
-                    case Side.white:
-                        break;
-                    default:
-                        break;
-                }
-            }
+        //    if (DiceResultPictureBox.D4Result == Side.one)
+        //    {
+        //        switch (DiceResultPictureBox.D6Result)
+        //        {
+        //            case Side.white:
+        //                break;
+        //            default:
+        //                break;
+        //        }
+        //    }
 
-            foreach (var item in boxes)
-            {
-                var color = Color.Gray;
+        //    foreach (var item in boxes)
+        //    {
+        //        var color = Color.Gray;
 
-                switch (DiceResult.D6Result)
-                {
-                    case Side.red:
-                        color = Color.Red;
-                        break;
-                    case Side.blue:
-                        color = Color.Blue;
-                        break;
-                    case Side.black:
-                        color = Color.Black;
-                        break;
-                    case Side.white:
-                        color = Color.White;
-                        break;
-                    case Side.yellow:
-                        color = Color.Yellow;
-                        break;
-                    case Side.green:
-                        color = Color.Green;
-                        break;
-                }
+        //        switch (DiceResultPictureBox.D6Result)
+        //        {
+        //            case Side.red:
+        //                color = Color.Red;
+        //                break;
+        //            case Side.blue:
+        //                color = Color.Blue;
+        //                break;
+        //            case Side.black:
+        //                color = Color.Black;
+        //                break;
+        //            case Side.white:
+        //                color = Color.White;
+        //                break;
+        //            case Side.yellow:
+        //                color = Color.Yellow;
+        //                break;
+        //            case Side.green:
+        //                color = Color.Green;
+        //                break;
+        //        }
 
-                item.BackColor = color;
-            }
-        }
+        //        item.BackColor = color;
+        //    }
+        //}
 
         private void RollDice()
         {
-            DiceResult.D6Result = ColorDie.Roll(this.RandoloManolo).Side;
-            DiceResult.D4Result = NumberDie.Roll(this.RandoloManolo).Side;
-            DiceResult.Image = (Image)Properties.Resources.ResourceManager.GetObject($"{DiceResult.D6Result.ToString()}_{DiceResult.D4Result.ToString()}");
+            DiceResultPictureBox.DiceRoll = BrikksTheGame.GetRoll();
         }
 
         private void PlaySound()
@@ -143,8 +139,6 @@ namespace sharpbrikks
         {
             CreateBlockEvents();
             CreateDice();
-
-            //RandoloManolo = new BrikksRandom(Properties.Settings.Default.RandomOrgApiKey);
         }
 
         private void CreateBlockEvents()
@@ -232,7 +226,7 @@ namespace sharpbrikks
 
 
 
-            DiceResult.Image = null;
+            DiceResultPictureBox.Image = null;
         }
 
         private void UseBomb(BrikksBombButton button)

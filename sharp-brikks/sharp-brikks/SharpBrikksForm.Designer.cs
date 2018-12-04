@@ -32,7 +32,7 @@
             this.ResetBoardButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.RollDiceButton = new System.Windows.Forms.Button();
-            this.DiceResult = new sharpbrikks.BrikksResultPictureBox();
+            this.DiceResultPictureBox = new sharpbrikks.BrikksResultPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -372,7 +372,7 @@
             this.Block__10_1 = new sharpbrikks.BrikksPictureBox();
             this.Block__10_0 = new sharpbrikks.BrikksPictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DiceResult)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).BeginInit();
@@ -699,7 +699,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.RollDiceButton);
-            this.groupBox1.Controls.Add(this.DiceResult);
+            this.groupBox1.Controls.Add(this.DiceResultPictureBox);
             this.groupBox1.Location = new System.Drawing.Point(12, 131);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(170, 111);
@@ -717,18 +717,16 @@
             this.RollDiceButton.UseVisualStyleBackColor = true;
             this.RollDiceButton.Click += new System.EventHandler(this.RollDiceButton_Click);
             // 
-            // DiceResult
+            // DiceResultPictureBox
             // 
-            this.DiceResult.D4Result = sharpbrikks.Side.none;
-            this.DiceResult.D6Result = sharpbrikks.Side.none;
-            this.DiceResult.IsFixed = false;
-            this.DiceResult.IsMarked = false;
-            this.DiceResult.Location = new System.Drawing.Point(84, 22);
-            this.DiceResult.Name = "DiceResult";
-            this.DiceResult.OriginalImage = null;
-            this.DiceResult.Size = new System.Drawing.Size(72, 72);
-            this.DiceResult.TabIndex = 126;
-            this.DiceResult.TabStop = false;
+            this.DiceResultPictureBox.IsFixed = false;
+            this.DiceResultPictureBox.IsMarked = false;
+            this.DiceResultPictureBox.Location = new System.Drawing.Point(84, 22);
+            this.DiceResultPictureBox.Name = "DiceResultPictureBox";
+            this.DiceResultPictureBox.OriginalImage = null;
+            this.DiceResultPictureBox.Size = new System.Drawing.Size(72, 72);
+            this.DiceResultPictureBox.TabIndex = 126;
+            this.DiceResultPictureBox.TabStop = false;
             // 
             // label1
             // 
@@ -4488,7 +4486,7 @@
             this.Block__2_4.IsMarked = false;
             this.Block__2_4.Location = new System.Drawing.Point(415, 396);
             this.Block__2_4.Name = "Block__2_4";
-            this.Block__2_4.OriginalImage = null;
+            this.Block__2_4.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__2_4.OriginalImage")));
             this.Block__2_4.Size = new System.Drawing.Size(34, 34);
             this.Block__2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__2_4.TabIndex = 86;
@@ -4686,7 +4684,7 @@
             this.Block__3_0.IsMarked = false;
             this.Block__3_0.Location = new System.Drawing.Point(263, 358);
             this.Block__3_0.Name = "Block__3_0";
-            this.Block__3_0.OriginalImage = null;
+            this.Block__3_0.OriginalImage = global::sharpbrikks.Properties.Resources.circle_black_small;
             this.Block__3_0.Size = new System.Drawing.Size(34, 34);
             this.Block__3_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__3_0.TabIndex = 72;
@@ -4701,7 +4699,7 @@
             this.Block__4_9.IsMarked = false;
             this.Block__4_9.Location = new System.Drawing.Point(605, 320);
             this.Block__4_9.Name = "Block__4_9";
-            this.Block__4_9.OriginalImage = null;
+            this.Block__4_9.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__4_9.OriginalImage")));
             this.Block__4_9.Size = new System.Drawing.Size(34, 34);
             this.Block__4_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__4_9.TabIndex = 71;
@@ -4800,7 +4798,7 @@
             this.Block__4_2.IsMarked = false;
             this.Block__4_2.Location = new System.Drawing.Point(339, 320);
             this.Block__4_2.Name = "Block__4_2";
-            this.Block__4_2.OriginalImage = null;
+            this.Block__4_2.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__4_2.OriginalImage")));
             this.Block__4_2.Size = new System.Drawing.Size(34, 34);
             this.Block__4_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__4_2.TabIndex = 64;
@@ -5096,7 +5094,7 @@
             this.Block__6_1.IsMarked = false;
             this.Block__6_1.Location = new System.Drawing.Point(301, 244);
             this.Block__6_1.Name = "Block__6_1";
-            this.Block__6_1.OriginalImage = null;
+            this.Block__6_1.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__6_1.OriginalImage")));
             this.Block__6_1.Size = new System.Drawing.Size(34, 34);
             this.Block__6_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__6_1.TabIndex = 43;
@@ -5153,7 +5151,7 @@
             this.Block__7_7.IsMarked = false;
             this.Block__7_7.Location = new System.Drawing.Point(529, 206);
             this.Block__7_7.Name = "Block__7_7";
-            this.Block__7_7.OriginalImage = null;
+            this.Block__7_7.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__7_7.OriginalImage")));
             this.Block__7_7.Size = new System.Drawing.Size(34, 34);
             this.Block__7_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__7_7.TabIndex = 39;
@@ -5350,7 +5348,7 @@
             this.Block__8_3.IsMarked = false;
             this.Block__8_3.Location = new System.Drawing.Point(377, 168);
             this.Block__8_3.Name = "Block__8_3";
-            this.Block__8_3.OriginalImage = null;
+            this.Block__8_3.OriginalImage = global::sharpbrikks.Properties.Resources.circle_black_small;
             this.Block__8_3.Size = new System.Drawing.Size(34, 34);
             this.Block__8_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__8_3.TabIndex = 25;
@@ -5421,7 +5419,7 @@
             this.Block__9_8.IsMarked = false;
             this.Block__9_8.Location = new System.Drawing.Point(567, 130);
             this.Block__9_8.Name = "Block__9_8";
-            this.Block__9_8.OriginalImage = null;
+            this.Block__9_8.OriginalImage = ((System.Drawing.Image)(resources.GetObject("Block__9_8.OriginalImage")));
             this.Block__9_8.Size = new System.Drawing.Size(34, 34);
             this.Block__9_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.Block__9_8.TabIndex = 20;
@@ -5938,7 +5936,7 @@
             this.Text = "SharpBrikks v1.0 by RetroLotti ([c] by Wolfgang Warsch @ Schmidt Spiele)";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DiceResult)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DiceResultPictureBox)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox83)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brikksPictureBox84)).EndInit();
@@ -6367,7 +6365,7 @@
         private BrikksPictureBox Block__1_1;
         private BrikksPictureBox Block__1_0;
         private System.Windows.Forms.Button ResetBoardButton;
-        private BrikksResultPictureBox DiceResult;
+        private BrikksResultPictureBox DiceResultPictureBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private BrikksBombButton UseBombOneButton;
         private System.Windows.Forms.Label label1;

@@ -22,5 +22,29 @@ namespace sharpbrikks.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string BGGUsername {
+            get {
+                return ((string)(this["BGGUsername"]));
+            }
+            set {
+                this["BGGUsername"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string BGGPassword {
+            get {
+                return ((string)(this["BGGPassword"]));
+            }
+            set {
+                this["BGGPassword"] = value;
+            }
+        }
     }
 }

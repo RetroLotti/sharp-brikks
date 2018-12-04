@@ -14,6 +14,8 @@ namespace sharpbrikks
         public string RandomOrgApiKey { get; set; }
         public BrikksRandomJsonUsageResponse.BrikksRandomJsonResult Usage { get; set; }
 
+        public int TimeToWait { get; private set; }
+
         public BrikksRandom()
         {
         }
@@ -38,11 +40,10 @@ public async Task<string> GetAsync(string uri)
 }
          * */
 
-        public List<int> GenerateIntegers(int num, int min, int max, int col = 10)
+        public bool CheckQuota()
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"https://www.random.org/integers/?num={num}&min={min}&max={max}&col={col}&base=10&format=plain&rnd=new");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"https://www.random.org/quota/?format=plain");
             string result = string.Empty;
-            List<int> numberList = new List<int>();
 
             using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             using (Stream stream = response.GetResponseStream())
@@ -51,15 +52,41 @@ public async Task<string> GetAsync(string uri)
                 result = reader.ReadToEnd();
             }
 
-            foreach (var line in result.Split('\n'))
+            return (int.Parse(result) > 0);
+        }
+
+        public List<int> GenerateIntegers(int num, int min, int max, int col = 10)
+        {
+            List<int> numberList = new List<int>();
+            bool isQuotaLeft = CheckQuota();
+
+            if(isQuotaLeft)
             {
-                if(!string.IsNullOrEmpty(line))
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"https://www.random.org/integers/?num={num}&min={min}&max={max}&col={col}&base=10&format=plain&rnd=new");
+                string result = string.Empty;
+
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                using (Stream stream = response.GetResponseStream())
+                using (StreamReader reader = new StreamReader(stream))
                 {
-                    foreach (var number in line.Split('\t'))
+                    result = reader.ReadToEnd();
+                }
+
+                foreach (var line in result.Split('\n'))
+                {
+                    if (!string.IsNullOrEmpty(line))
                     {
-                        numberList.Add(int.Parse(number));
+                        foreach (var number in line.Split('\t'))
+                        {
+                            numberList.Add(int.Parse(number));
+                        }
                     }
                 }
+            }
+            else
+            {
+                // wait n seconds --> determine this 
+                this.TimeToWait = 3600;
             }
 
             return numberList;
