@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace sharpbrikks
 {
+    /// <summary>
+    /// This class is a side with an according side type to represent a single side of a die.
+    /// </summary>
     public class DieSide
     {
         public SideType SideType { get; set; }
@@ -31,9 +34,13 @@ namespace sharpbrikks
         color = 3
     }
 
+    /// <summary>
+    /// Representation of all possible die sides.
+    /// If more numeric sides are needed the code has to be changed in order to reflect colors starting with a higher number
+    /// </summary>
     public enum Side
     {
-        none = 0,
+        zero = 0,
         one = 1,
         two = 2,
         three = 3,
@@ -44,6 +51,16 @@ namespace sharpbrikks
         eight = 8,
         nine = 9,
         ten = 10,
+        eleven = 11,
+        twelve = 12,
+        thirteen = 13,
+        fourteen = 14,
+        fiveteen = 15,
+        sixteen = 16,
+        seventeen = 17,
+        eightteen = 18,
+        nightteen = 19,
+        twenty = 20,
         red = 21,
         blue = 22,
         black = 23,

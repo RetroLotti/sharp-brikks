@@ -25,7 +25,7 @@ namespace sharpbrikks
                 if (value != this.diceRoll)
                 {
                     this.diceRoll = value;
-                    this.Image = (Image)Properties.Resources.ResourceManager.GetObject($"{this.diceRoll.D6.Side.ToString()}_{this.diceRoll.D4.Side.ToString()}");
+                    this.Image = (Image)Properties.Resources.ResourceManager.GetObject($"{this.diceRoll.D6.ToString()}_{this.diceRoll.D4.ToString()}");
                 }
             }
         }

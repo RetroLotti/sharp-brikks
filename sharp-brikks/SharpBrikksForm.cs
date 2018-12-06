@@ -30,7 +30,7 @@ namespace sharpbrikks
             RollDiceButton.Enabled = false;
             FixAllMarkedBoxes();
             PlaySound();
-            DiceResultPictureBox.DiceRoll = this.BrikksTheGame.GetRoll();
+            DiceResultPictureBox.DiceRoll = this.BrikksTheGame.Roll();
             RollDiceButton.Enabled = true;
         }
         

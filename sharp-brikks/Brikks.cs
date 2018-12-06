@@ -23,7 +23,8 @@ namespace sharpbrikks
         }
 
         /// <summary>
-        /// Loads 1000 new D6 rolls into the queue
+        /// Loads 1000 new D6 rolls into the queue. In case your IP ran out of random.org 
+        /// quota we just create 50 new rolls using .NET random.
         /// </summary>
         private void LoadNewD6Rolls()
         {
@@ -45,7 +46,8 @@ namespace sharpbrikks
         }
 
         /// <summary>
-        /// Loads 1000 new D4 rolls into the queue
+        /// Loads 1000 new D4 rolls into the queue. In case your IP ran out of random.org 
+        /// quota we just create 50 new rolls using .NET random.
         /// </summary>
         private void LoadNewD4Rolls()
         {
@@ -71,7 +73,7 @@ namespace sharpbrikks
         /// If no more rolls are available we just get more!
         /// </summary>
         /// <returns><seealso cref="BrikksDiceRoll"/></returns>
-        public BrikksDiceRoll GetRoll()
+        public BrikksDiceRoll Roll()
         {
             if(D6Rolls.Count == 0)
             {
