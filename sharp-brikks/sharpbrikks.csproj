@@ -182,6 +182,8 @@
     <None Include="Resources\green_two.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\karmatic-arcade.zip" />
+    <None Include="Resources\karmatic-arcade1.zip" />
     <None Include="Resources\orange_square.png" />
   </ItemGroup>
   <ItemGroup>

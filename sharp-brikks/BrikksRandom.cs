@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace sharpbrikks
 {
+    /// <summary>
+    /// This class consists of all methods regarding randomness in Brikks
+    /// </summary>
     public class BrikksRandom
     {
         public string RandomOrgApiKey { get; set; }
@@ -25,6 +28,11 @@ namespace sharpbrikks
             this.Usage = this.GetUsage();
         }
 
+        /// <summary>
+        /// Check random.org quota using current IP.
+        /// If no quota is left return false .
+        /// </summary>
+        /// <returns><see cref="bool"/></returns>
         public bool CheckQuota()
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"https://www.random.org/quota/?format=plain");
@@ -71,20 +79,11 @@ namespace sharpbrikks
             else
             {
                 // wait n seconds --> determine this 
+                // exponential backoff
                 this.TimeToWait = 3600;
             }
 
             return numberList;
-
-
-            // delay?
-
-            // check quota
-
-            // time waited
-
-
-            // 
         }
 
         /// <summary>
@@ -93,7 +92,7 @@ namespace sharpbrikks
         /// <param name="min">min random value</param>
         /// <param name="max">max random value</param>
         /// <returns>single int (-1 of error)</returns>
-        public int GenerateSingleInteger(int min, int max)
+        private int GenerateSingleInteger(int min, int max)
         {
             if(this.Usage.Status == "running")
             {
@@ -136,7 +135,7 @@ namespace sharpbrikks
             }
         }
 
-        public BrikksRandomJsonUsageResponse.BrikksRandomJsonResult GetUsage()
+        private BrikksRandomJsonUsageResponse.BrikksRandomJsonResult GetUsage()
         {
             // Random.org API documentation
             // https://api.random.org/json-rpc/1/

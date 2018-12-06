@@ -12,13 +12,16 @@ namespace sharpbrikks
     /// </summary>
     public class BrikksDiceRoll
     {
-        public DieSide D4 { get; private set; }
-        public DieSide D6 { get; private set; }
+        //public DieSide D4 { get; private set; }
+        //public DieSide D6 { get; private set; }
+
+        public Side D4 { get; private set; }
+        public Side D6 { get; private set; }
 
         public BrikksDiceRoll(int d6, int d4)
         {
-            D4 = new DieSide(d4);
-            D6 = new DieSide(d6+20);
+            D4 = (Side)d4;
+            D6 = (Side)(d6+20);
         }
     }
 }
