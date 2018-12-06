@@ -22,9 +22,9 @@ namespace sharpbrikks
             }
         }
 
-        public DieSide Roll(BrikksRandom rng)
-        {
-            return this.Sides.GetRange(rng.GenerateSingleInteger(0, this.Sides.Count - 1), 1)[0];
-        }
+        //public DieSide Roll(BrikksRandom rng)
+        //{
+        //    return this.Sides.GetRange(rng.GenerateSingleInteger(0, this.Sides.Count - 1), 1)[0];
+        //}
     }
 }

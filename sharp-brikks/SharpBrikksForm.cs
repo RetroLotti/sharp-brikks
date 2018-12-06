@@ -94,8 +94,8 @@ namespace sharpbrikks
             }
 
             // calculate score on the fly
-            int line = int.Parse(box.Name.Substring(box.Name.IndexOf("__") + 2, box.Name.LastIndexOf('_') - box.Name.IndexOf("__") - 2));
-            ((BrikksScoreLineLabel)this.Controls.Find($"Score__Line_{line}", false)[0]).Text = CalcScoreLine(line).ToString().PadLeft(2, ' ');
+            //int line = int.Parse(box.Name.Substring(box.Name.IndexOf("__") + 2, box.Name.LastIndexOf('_') - box.Name.IndexOf("__") - 2));
+            //((BrikksScoreLineLabel)this.Controls.Find($"Score__Line_{line}", false)[0]).Text = CalcScoreLine(line).ToString().PadLeft(2, ' ');
         }
 
         private void UseBombClick(object sender, EventArgs e)
