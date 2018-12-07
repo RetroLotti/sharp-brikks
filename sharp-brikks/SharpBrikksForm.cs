@@ -31,32 +31,57 @@ namespace sharpbrikks
             FixAllMarkedBoxes();
             PlaySound();
             DiceResultPictureBox.DiceRoll = this.BrikksTheGame.Roll();
-            HighLightColumn(DiceResultPictureBox.DiceRoll.D4);
+            HighlightTetromino(DiceResultPictureBox.DiceRoll.D4, DiceResultPictureBox.DiceRoll.D6);
             RollDiceButton.Enabled = true;
         }
 
         private void HighLightColumn(Side side)
         {
-            ColumnOne.BackColor = Color.LightGray;
-            ColumnTwo.BackColor = Color.LightGray;
-            ColumnThree.BackColor = Color.LightGray;
-            ColumnFour.BackColor = Color.LightGray;
+            Column__one.BackColor = Color.LightGray;
+            Column__two.BackColor = Color.LightGray;
+            Column__three.BackColor = Color.LightGray;
+            Column__four.BackColor = Color.LightGray;
 
             switch (side)
             {
                 case Side.one:
-                    ColumnOne.BackColor = Color.CornflowerBlue;
+                    Column__one.BackColor = Color.CornflowerBlue;
                     break;
                 case Side.two:
-                    ColumnTwo.BackColor = Color.CornflowerBlue;
+                    Column__two.BackColor = Color.CornflowerBlue;
                     break;
                 case Side.three:
-                    ColumnThree.BackColor = Color.CornflowerBlue;
+                    Column__three.BackColor = Color.CornflowerBlue;
                     break;
                 case Side.four:
-                    ColumnFour.BackColor = Color.CornflowerBlue;
+                    Column__four.BackColor = Color.CornflowerBlue;
                     break;
             }
+        }
+
+        private void HighlightTetromino(Side D4, Side D6)
+        {
+            // highlight column
+            HighLightColumn(D4);
+
+            // set them all back
+            foreach (var item in this.Controls)
+            {
+                if (item.GetType() == typeof(GroupBox) && ((GroupBox)item).Name.StartsWith("Column__"))
+                {
+                    foreach (var boxItem in ((GroupBox)item).Controls)
+                    {
+                        BrikksPictureBox box = (BrikksPictureBox)boxItem;
+                        if (box.Name.StartsWith("HighlightBox__") && box.Visible)
+                        {
+                            box.Visible = false;
+                        }
+                    }                    
+                }
+            }
+        
+            BrikksPictureBox tetrominoBox = (BrikksPictureBox)this.Controls.Find($"HighlightBox__{D4}_{D6}", true)[0];
+            tetrominoBox.Visible = true;
         }
         
         private void PlaySound()
@@ -199,11 +224,6 @@ namespace sharpbrikks
             if (marks > 9) { points += 3; }
 
             return points * multi;
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 
