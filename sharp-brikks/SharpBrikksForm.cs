@@ -31,7 +31,32 @@ namespace sharpbrikks
             FixAllMarkedBoxes();
             PlaySound();
             DiceResultPictureBox.DiceRoll = this.BrikksTheGame.Roll();
+            HighLightColumn(DiceResultPictureBox.DiceRoll.D4);
             RollDiceButton.Enabled = true;
+        }
+
+        private void HighLightColumn(Side side)
+        {
+            ColumnOne.BackColor = Color.LightGray;
+            ColumnTwo.BackColor = Color.LightGray;
+            ColumnThree.BackColor = Color.LightGray;
+            ColumnFour.BackColor = Color.LightGray;
+
+            switch (side)
+            {
+                case Side.one:
+                    ColumnOne.BackColor = Color.CornflowerBlue;
+                    break;
+                case Side.two:
+                    ColumnTwo.BackColor = Color.CornflowerBlue;
+                    break;
+                case Side.three:
+                    ColumnThree.BackColor = Color.CornflowerBlue;
+                    break;
+                case Side.four:
+                    ColumnFour.BackColor = Color.CornflowerBlue;
+                    break;
+            }
         }
         
         private void PlaySound()
@@ -174,6 +199,11 @@ namespace sharpbrikks
             if (marks > 9) { points += 3; }
 
             return points * multi;
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 
